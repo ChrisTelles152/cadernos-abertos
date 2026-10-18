@@ -171,25 +171,27 @@
       svg.setAttribute("height", h);
       svg.setAttribute("viewBox", "0 0 " + w + " " + h);
       svg.replaceChildren();
-      let edges = [];
-      if (state.focus) edges = chain(state.focus);
-      else if (state.showAll) {
+      const chainEdges = state.focus ? chain(state.focus) : [];
+      const hotKeys = new Set(chainEdges.map((e) => e.from + ">" + e.to + ":" + e.kind));
+      let edges = chainEdges;
+      if (state.showAll) {
+        edges = [];
         data.conceitos.forEach((c) => {
           c.exige.forEach((p) => edges.push({ from: p, to: c.id, kind: "exige" }));
           c.apoia.forEach((p) => edges.push({ from: p, to: c.id, kind: "apoia" }));
         });
       }
       const hotNodes = new Set();
-      if (state.focus) {
+      if (state.focus && !state.showAll) {
         hotNodes.add(state.focus);
-        edges.forEach((e) => {
+        chainEdges.forEach((e) => {
           hotNodes.add(e.from);
           hotNodes.add(e.to);
         });
       }
       board.querySelectorAll(".node").forEach((el) => {
         el.classList.toggle("active", el.dataset.id === state.focus);
-        el.classList.toggle("dim", state.focus && !el.hidden && !hotNodes.has(el.dataset.id));
+        el.classList.toggle("dim", Boolean(state.focus) && !state.showAll && !el.hidden && !hotNodes.has(el.dataset.id));
       });
       edges.forEach((e) => {
         if (!visible(e.from) || !visible(e.to)) return;
@@ -201,7 +203,8 @@
           "d",
           "M " + a.x + " " + a.y + " C " + (a.x + dx) + " " + a.y + ", " + (b.x - dx) + " " + b.y + ", " + b.x + " " + b.y
         );
-        path.setAttribute("class", "edge " + e.kind + (state.focus ? " hot" : ""));
+        const hot = hotKeys.has(e.from + ">" + e.to + ":" + e.kind);
+        path.setAttribute("class", "edge " + e.kind + (hot ? " hot" : ""));
         svg.appendChild(path);
       });
     }
