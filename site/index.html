@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cadernos Abertos — Mathematics for the Brazilian curriculum</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,560&family=Nunito:wght@600;800&family=Source+Sans+3:wght@400;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/site.css">
+</head>
+<body data-page="home">
+  <a class="skip" href="#conteudo">Skip to content</a>
+  <header class="topbar">
+    <a class="brand" href="index.html">Cadernos Abertos<small>Matemática</small></a>
+    <nav class="nav">
+      <a href="index.html" data-page="home">Overview</a>
+      <a href="mapa.html" data-page="map">Dependency map</a>
+      <a href="livros.html" data-page="books">The two books</a>
+      <a href="aluno/os-numeros-do-dia.html" data-page="student">Student book</a>
+      <a href="professor/os-numeros-do-dia.html" data-page="teacher">Teacher book</a>
+    </nav>
+  </header>
+  <main id="conteudo">
+    <div class="wrap hero">
+      <p class="eyebrow">A free mathematics textbook for Brazil</p>
+      <h1>Start where the counting starts.</h1>
+      <p class="lede">The Brazilian curriculum names every mathematical idea a student must meet, from preschool through the end of high school. It does not say which idea has to exist before the next one. This site states both: the official requirements, and the dependencies between them. Then it opens the textbook at the root, in the language a six-year-old hears.</p>
+      <div class="actions">
+        <a class="button" href="aluno/os-numeros-do-dia.html">Read the student book</a>
+        <a class="button secondary" href="mapa.html">Open the dependency map</a>
+      </div>
+      <div class="meta-row" id="counts">
+        <div class="stat"><b data-count="ef">247</b><span>elementary skills, 1st to 9th grade</span></div>
+        <div class="stat"><b data-count="em">43</b><span>high-school skills, three years</span></div>
+        <div class="stat"><b data-count="conceitos">82</b><span>concepts in the dependency map</span></div>
+        <div class="stat"><b data-count="exige">138</b><span>prerequisite links, each with a reason</span></div>
+      </div>
+    </div>
+
+    <div class="wrap section">
+      <h2>What the requirement actually is</h2>
+      <p>A Brazilian public-school mathematics book has to satisfy a stack of documents, and they are not the same document.</p>
+      <table>
+        <thead><tr><th>Document</th><th>What it binds</th></tr></thead>
+        <tbody>
+          <tr><td>Lei de Diretrizes e Bases, Lei 9.394/1996, as amended</td><td>The structure of basic education: preschool, nine years of elementary school (<em>ensino fundamental</em>), three years of high school. Minimum annual hours: 800 in elementary school, 1,000 in high school.</td></tr>
+          <tr><td>Base Nacional Comum Curricular, homologated 2018</td><td>The mandatory learning. Ten general competencies for all of basic education. Eight competencies specific to mathematics in elementary school, five in high school. Under those, the skills.</td></tr>
+          <tr><td>Lei 14.945/2024 and Resolução CNE/CEB nº 2/2024</td><td>High school was reorganized. The common core (<em>formação geral básica</em>) went back to at least 2,400 hours across the three years, and mathematics is again a required subject in every year. The 43 BNCC skills were not replaced. Pathways (<em>itinerários</em>) shrank to at least 600 hours. Technical programs have a different split.</td></tr>
+          <tr><td>State and municipal curricula</td><td>They may add, exemplify, or reorder. They may not delete a BNCC skill. A local addition gets a suffix on the code. This map is the national floor, not São Paulo's pacing guide or any other state's.</td></tr>
+          <tr><td>PNLD, the national textbook program</td><td>How a book gets bought and delivered to public schools. Alignment with the BNCC is necessary and not sufficient. A school may use other material tomorrow. Entering the official distribution is a multi-year public call, with a rights-holder who can print.</td></tr>
+        </tbody>
+      </table>
+      <p>Preschool is part of the curriculum and not part of the textbook. The BNCC organizes it as rights and fields of experience, not as subjects. The mathematical root sits in one field, <em>Espaços, tempos, quantidades, relações e transformações</em>. Children count, sort, and talk about before and after. A textbook series that begins at 1st grade is already standing on that. The map includes the twelve objectives that the later skills actually use.</p>
+
+      <h2>How a skill code works</h2>
+      <p><span class="code">EF01MA05</span> reads from the left. <span class="code">EF</span> is elementary school. <span class="code">01</span> is the year. <span class="code">MA</span> is mathematics. <span class="code">05</span> is the fifth mathematics skill written for that year. High school drops the year: <span class="code">EM13MAT303</span> is high school, the skill is tied to specific competency 3, and it is the third skill under that competency. The <span class="code">13</span> means the whole three-year stage, not grade 13. Schools, not the BNCC, decide which year of high school teaches it. That is why the map places high-school concepts in one column.</p>
+      <p>Elementary mathematics has five thematic units, kept visible from the 1st grade on purpose. Algebra in the 1st grade is sorting and patterns. It is not <em>x</em>. Probability in the 1st grade is the words certain, maybe, and impossible. It is not a fraction. Treating the unit names as the content of that year is the usual way to overshoot.</p>
+      <table>
+        <thead><tr><th>Unit</th><th>What it is doing in the early years</th></tr></thead>
+        <tbody>
+          <tr><td>Números</td><td>The jobs of a number, the count, place value, the four operations, then fractions, decimals, integers, rationals, reals.</td></tr>
+          <tr><td>Álgebra</td><td>Pattern first, then equality as sameness, then proportion, then a letter, then equations, then functions.</td></tr>
+          <tr><td>Geometria</td><td>Position from a stated reference, solids in ordinary objects, plane figures, angles, constructions, similarity, Pythagoras.</td></tr>
+          <tr><td>Grandezas e medidas</td><td>Comparison before units. Then the fact that the number changes when the unit changes. Area, volume, time, money, temperature.</td></tr>
+          <tr><td>Probabilidade e estatística</td><td>Chance in words, then a survey and a graph, and only then a probability that is a fraction. Later: mean, sample, and a misleading axis.</td></tr>
+        </tbody>
+      </table>
+      <p>There are <span data-count="ef">247</span> elementary skills and <span data-count="em">43</span> high-school skills. The wording on the map is the official wording, taken from the open dataset <a href="https://github.com/bncc-dev/bncc-dados">bncc-dados</a>, which traces each record to the MEC spreadsheet and to a page of the homologated PDF. I did not re-proof every character against that PDF. A spot check of the skills this argument depends on did match.</p>
+
+      <h2>The year is not the dependency</h2>
+      <p>The BNCC publishes no prerequisite arrows. A skill in the 3rd grade is not, by that fact, built on every skill in the 2nd. Some skills in the same year depend on each other, and the code number hides it. The <span data-count="conceitos">82</span> concepts on the map are a pedagogical inference. Each of the <span data-count="exige">138</span> solid arrows is a gate: the later idea is unfinished without the earlier one. Each dashed arrow is support: the earlier idea helps, and a careful teacher can start without it. Every arrow has a written reason. None of this is a line in the official document, and the map says so on every panel.</p>
+      <div class="callout forest">
+        <p>Four gates that the year number conceals, and that the sample chapter is built to respect.</p>
+      </div>
+      <ol class="spine">
+        <li><strong>Comparing numbers does not require place value.</strong><small>EF01MA05, “which of these two numbers is larger,” can be answered from the count: the later number is the larger one, on a cord or a line. Place value (EF01MA07, then the hundreds in the 2nd grade) is a better tool later. Teaching “more digits means bigger” works for 8 and 15 and fails for 99 and 100.</small></li>
+        <li><strong>A decimal needs place value and it needs fractions.</strong><small>The positions to the right of the ones are the same ten-for-one rule. A tenth is also the fraction 1/10. Without both, 0.1 is two whole numbers and a dot.</small></li>
+        <li><strong>A numerical probability waits for the fraction.</strong><small>From the 1st grade through the 4th, chance stays in words. In the 5th grade the probability is favorable outcomes over possible outcomes. That is a fraction. The words are not a warm-up that can be skipped, and the fraction is not a notation pasted on at the end.</small></li>
+        <li><strong>Irrationals come after Pythagoras, not before.</strong><small>EF09MA01 says that, once a unit is fixed, some segments have no rational length, and it points at diagonals. EF09MA13 asks for a demonstration of Pythagoras by similarity of triangles. The theorem forces the new number. Using the real numbers to justify Pythagoras turns the dependency around.</small></li>
+      </ol>
+      <p>The same discipline runs along the main number thread. This is the spine the first book is cut from. The full graph, including geometry, measure, and statistics, is the map.</p>
+      <ol class="spine">
+        <li>Preschool: say the count out loud and match it to things. <small>EI02ET07, EI03ET07</small></li>
+        <li>A number counts, or it orders, or it is only a name. <small>EF01MA01 — written</small></li>
+        <li>Count each thing once. The last word is the size of the collection. Estimate, then pair. <small>EF01MA02, EF01MA03, EF01MA04 — written through 20</small></li>
+        <li>Who comes later in the count is larger. <small>EF01MA05 — written through 20, without place value</small></li>
+        <li class="cross">Beside that, not under it: break numbers into sums. That is the start of place value. <small>EF01MA07 — next unit, not written</small></li>
+        <li>Basic addition facts, then the actions: join, add on, separate, take away. Compare and complete arrive in the 3rd grade. <small>EF01MA06, EF01MA08, EF03MA06</small></li>
+        <li>Hundreds, and zero as an empty position. Then the same rule through the thousands. <small>2nd to 4th grade</small></li>
+        <li>Multiplication as equal groups, then as an array, then as a rate. Division undoes it, remainder included. <small>2nd to 4th grade</small></li>
+        <li>Fractions, from fair shares and from parts of shapes. Decimals, from place value and from tenths. Percent, as those fractions said per hundred. <small>4th to 6th grade</small></li>
+        <li>Integers, when take-away does not stop at zero. Rationals as one number with two writings. Powers and roots. <small>7th and 8th grade</small></li>
+        <li class="cross">Cross from geometry: similarity, then Pythagoras. <small>9th grade</small></li>
+        <li>Some lengths are not rational. The real line. <small>EF09MA01, EF09MA02</small></li>
+      </ol>
+      <p>High school does not start a new arithmetic. It uses this spine. An affine function is the first-degree equation allowed to vary, drawn on the plane, with direct proportion as the line through the origin. Compound interest is a percent applied again to the new amount, which is why it waits on both percent and the exponential. A misleading graph waits on having read an honest one, and on knowing a sample from a census.</p>
+
+      <h2>What was written, and what was not</h2>
+      <p>The sample is Unit 1 of the 1st-grade student book, <em>Os números do dia</em>, and the teacher book of that same unit. Six lessons. The class is a fictional municipal school. The mathematics stops, on purpose, before place value and before addition facts. Those are the next two concepts up the spine. EF01MA04 asks for counting to 100. This unit builds the count through 20 and says that it continues. Pretending the unit finishes the skill would be a false map.</p>
+      <p>The student pages are in Portuguese, at read-aloud length, because a Brazilian 1st grader is still learning to read. There is an English gloss on each lesson so you can judge the mathematics without guessing. The activities are the exercises: estimate, count each bread once, pair cups, compare two baskets whose spacing lies, write the number including zero, and decide which number is later on a line.</p>
+      <p>Nothing else is written. Not the other eight grades, not high school, not the teacher book beyond this unit. The map is the plan of the rest. A PNLD teacher manual would also reprint every student page with the answers in the margin. These two web books are linked instead of duplicated, and the <a href="livros.html">note on the two books</a> says what the official format would still require.</p>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="wrap">
+      Cadernos Abertos is an original text. The skill statements belong to the BNCC (MEC, 2018). The dependency arrows are an inference, checked by <span class="code">scripts/test_graph.py</span>. Served only on this computer.
+    </div>
+  </footer>
+  <script src="js/site.js"></script>
+</body>
+</html>

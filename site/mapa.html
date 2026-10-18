@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dependency map — Cadernos Abertos</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,560&family=Nunito:wght@600;800&family=Source+Sans+3:wght@400;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/site.css">
+</head>
+<body data-page="map">
+  <a class="skip" href="#board-scroll">Skip to the map</a>
+  <header class="topbar">
+    <a class="brand" href="index.html">Cadernos Abertos<small>Matemática</small></a>
+    <nav class="nav">
+      <a href="index.html" data-page="home">Overview</a>
+      <a href="mapa.html" data-page="map">Dependency map</a>
+      <a href="livros.html" data-page="books">The two books</a>
+      <a href="aluno/os-numeros-do-dia.html" data-page="student">Student book</a>
+      <a href="professor/os-numeros-do-dia.html" data-page="teacher">Teacher book</a>
+    </nav>
+  </header>
+  <main class="wrap">
+    <p class="eyebrow">Requirements and what each one depends on</p>
+    <h1>The map</h1>
+    <p class="lede">Rows are the threads of the curriculum. Columns are the year the idea becomes a requirement. A box holds one or more official skills. Click it. The panel names what it requires, why, and what it unlocks. Boxes with a green tint are the unit written in the student book.</p>
+    <div class="filters" id="filters">
+      <input id="q" type="search" placeholder="Search a concept or a skill code" aria-label="Search the map">
+      <label><input type="checkbox" id="show-all"> Show every dependency</label>
+    </div>
+    <div class="map-layout">
+      <div id="board-scroll" class="board-scroll">
+        <div id="board" class="board"></div>
+      </div>
+      <aside id="panel" class="panel" aria-live="polite">
+        <p>Loading the curriculum…</p>
+      </aside>
+    </div>
+
+    <section class="browser" id="browser">
+      <h2>Every official requirement</h2>
+      <p>The concept boxes are a compression. This list is the BNCC itself: each mathematics skill in elementary school, each mathematics skill in high school, and the preschool objectives the map treats as roots. Click a row to open its concept.</p>
+      <div class="filters">
+        <label>Year <select id="year" aria-label="Filter by year"></select></label>
+        <label>Unit <select id="unit" aria-label="Filter by thematic unit"></select></label>
+        <input id="skill-q" type="search" placeholder="Filter by code or wording" aria-label="Filter skills by text">
+        <span id="skill-n"></span>
+      </div>
+      <div id="skill-list" class="skill-list"></div>
+    </section>
+  </main>
+  <footer class="footer"><div class="wrap">Solid arrows are gates. Dashed arrows are support. The BNCC publishes neither. Wording from the 2018 base, via bncc-dados.</div></footer>
+  <script src="js/site.js"></script>
+  <script src="js/map.js"></script>
+</body>
+</html>
