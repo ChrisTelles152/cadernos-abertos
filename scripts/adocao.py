@@ -132,7 +132,7 @@ def ata(catalog, cobertura, claimed, anos) -> str:
         item = claimed[code]
         lines.append(f"- {code}. {skills[code]['texto']} Limite: {item['nota']}")
     lines.append("")
-    lines.append("Anos em que este material ainda não substitui o livro didático de Matemática:")
+    lines.append("Livro do ano. O ano só substitui o livro comprado quando toda habilidade de Matemática desse ano está integral:")
     for row in anos:
         if row["pode_substituir_o_livro_do_ano"]:
             lines.append(f"- {row['ano']}º ano: pode substituir o livro do ano. Todas as habilidades estão integrais.")

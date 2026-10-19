@@ -76,8 +76,8 @@ CONCEITOS = [
         "nome": "Exact count, estimate, and pairing",
         "nome_pt": "Contagem exata, estimativa e pareamento",
         "resumo": "Count each object once, in a stable order, and let the last word be the size of the whole collection. Estimate first. Pair when you want to compare without numerals. The base asks for this up to about 20 for comparison and up to 100 for the count itself.",
-        "nota": "The written unit takes this through 20 and says, on purpose, that the count continues. The jump to 100 is the next unwritten unit, still inside this same requirement (EF01MA04).",
-        "livro": "aluno/os-numeros-do-dia.html",
+        "nota": "Unit 1 counts through 20. Unit 2, Dez e mais dez, counts collections to 100 and records the result in words and in numerals.",
+        "livro": "aluno/dez-e-dez.html",
         "exige": ["N-SENTIDO"],
         "apoia": [],
         "porque": {
@@ -91,8 +91,8 @@ CONCEITOS = [
         "nome": "Which number is later is larger",
         "nome_pt": "Quem vem depois na contagem é maior",
         "resumo": "Compare numerals up to two orders by the count sequence and by a number line. The later number in the count is the greater one.",
-        "nota": "This does not require place value. 'More digits means bigger' happens to work for 8 and 15 and then fails for 99 and 100. The student book refuses that shortcut.",
-        "livro": "aluno/os-numeros-do-dia.html",
+        "nota": "This does not require place value. Unit 1 compares through 20 and refuses the digit rule. Unit 2 finishes two-digit comparison, on the line and off it. 'More digits means bigger' still fails inside two orders when both numbers have two digits, as in 28 and 31.",
+        "livro": "aluno/dez-e-dez.html",
         "exige": ["N-CONTAGEM"],
         "apoia": [],
         "porque": {
@@ -106,6 +106,7 @@ CONCEITOS = [
         "nome": "Break numbers into sums, up to two orders",
         "nome_pt": "Compor e decompor até duas ordens",
         "resumo": "Build and break numbers up to 99 as sums, with materials in the hands. This is the first sight of the decimal system: groups, not just a long count.",
+        "livro": "aluno/dez-e-dez.html",
         "exige": ["N-CONTAGEM"],
         "apoia": [],
         "porque": {
@@ -119,6 +120,7 @@ CONCEITOS = [
         "nome": "Basic addition and subtraction facts",
         "nome_pt": "Fatos básicos da adição e da subtração",
         "resumo": "Know the small sums and differences well enough to use them, instead of restarting the count from one every time.",
+        "livro": "aluno/fatos.html",
         "exige": ["N-CONTAGEM", "N-COMPOR"],
         "apoia": [],
         "porque": {
@@ -133,6 +135,7 @@ CONCEITOS = [
         "nome": "Addition and subtraction as actions",
         "nome_pt": "Juntar, acrescentar, separar, retirar, comparar, completar",
         "resumo": "Year 1 works four meanings: join, add on, separate, take away. Year 3 adds compare and complete. The algorithms arrive as one strategy among others, not as the definition of the operation.",
+        "livro": "aluno/juntar-retirar.html",
         "exige": ["N-FATOS", "N-COMPARAR"],
         "apoia": ["N-COMPOR"],
         "porque": {
@@ -417,6 +420,7 @@ CONCEITOS = [
         "nome": "Sort by an attribute",
         "nome_pt": "Ordenar por um atributo",
         "resumo": "Organize familiar objects by color, shape, or size. This is the whole of year-1 'algebra'. There is no letter and no equation.",
+        "livro": "aluno/uma-marca.html",
         "exige": ["EI-COMPARAR"],
         "apoia": [],
         "porque": {
@@ -430,6 +434,7 @@ CONCEITOS = [
         "nome": "Patterns and recursive sequences",
         "nome_pt": "Padrões e sequências",
         "resumo": "Say the rule, then fill the gap. Repeating patterns and recursive ones (add 1, add 2, subtract 1). Later: sequences of multiples, equal remainders, and recursive sequences that are no longer only 'add a constant'.",
+        "livro": "aluno/uma-marca.html",
         "exige": ["A-ATRIBUTO", "N-CONTAGEM"],
         "apoia": [],
         "porque": {
@@ -645,6 +650,7 @@ CONCEITOS = [
         "nome": "Position needs a reference",
         "nome_pt": "Localização e referência",
         "resumo": "Right, left, in front, behind, first from one's own body, then from a stated reference. The words change when the reference changes. Then maps, sketches, and routes of familiar places.",
+        "livro": "aluno/de-que-lado.html",
         "exige": ["EI-ESPACO"],
         "apoia": [],
         "porque": {
@@ -658,6 +664,7 @@ CONCEITOS = [
         "nome": "Solids in ordinary objects",
         "nome_pt": "Sólidos do cotidiano",
         "resumo": "Cylinder, cone, sphere, rectangular block, then pyramid and prism. Name them in objects, then relate them to their faces and their nets.",
+        "livro": "aluno/caixa-lata-bola.html",
         "exige": ["EI-COMPARAR"],
         "apoia": [],
         "porque": {
@@ -671,6 +678,7 @@ CONCEITOS = [
         "nome": "Plane figures",
         "nome_pt": "Figuras planas",
         "resumo": "Circle, square, rectangle, triangle, then trapezoid and parallelogram. Sides, vertices, angles. Polygons classified by sides and by angles.",
+        "livro": "aluno/caixa-lata-bola.html",
         "exige": ["EI-COMPARAR"],
         "apoia": ["G-SOLIDO"],
         "porque": {
@@ -913,6 +921,7 @@ CONCEITOS = [
         "nome": "Compare lengths, masses, and capacities directly",
         "nome_pt": "Comparar grandezas sem unidade padrão",
         "resumo": "Longer, shorter, heavier, holds more. Year 2 adds personal and nonstandard units, and the first standard ones (liter, kilogram) as names, still beside the direct comparison.",
+        "livro": "aluno/maior-mais-pesado.html",
         "exige": ["EI-COMPARAR"],
         "apoia": [],
         "porque": {
@@ -940,6 +949,7 @@ CONCEITOS = [
         "nome": "Time, calendar, and clock",
         "nome_pt": "Tempo, calendário e relógio",
         "resumo": "Order the events of a day. Week, month, year. Write a date. Duration between dates. Read a digital clock, then an analog clock, including minutes.",
+        "livro": "aluno/o-dia-inteiro.html",
         "exige": ["EI-ESPACO", "N-SENTIDO"],
         "apoia": [],
         "porque": {
@@ -954,6 +964,7 @@ CONCEITOS = [
         "nome": "Brazilian coins and bills",
         "nome_pt": "Sistema monetário",
         "resumo": "Recognize coins and bills. Then exchange them. Then solve small buying and selling problems, including comparison of amounts of money.",
+        "livro": "aluno/moedas.html",
         "exige": ["N-SENTIDO"],
         "apoia": ["N-ADDSUB", "N-DECIMAL"],
         "porque": {
@@ -1057,6 +1068,7 @@ CONCEITOS = [
         "nome_pt": "Acaso em palavras",
         "resumo": "Certain, maybe, impossible. Then more and less likely. Year 3 lists the possible results of a familiar random event and says which are more likely, still without a fraction.",
         "nota": "Numerical probability waits for fractions. Years 1 to 4 stay in language. Starting with a formula here skips the requirement.",
+        "livro": "aluno/vai-acontecer.html",
         "exige": ["EI-COMPARAR"],
         "apoia": [],
         "porque": {
@@ -1070,6 +1082,7 @@ CONCEITOS = [
         "nome": "Tables, graphs, and a small survey",
         "nome_pt": "Tabelas, gráficos e pesquisa pequena",
         "resumo": "Read a table and a simple column graph. Run a survey of up to 30, then 50, classmates. Two-way tables, bar graphs, and the words greater frequency and lesser frequency. Later: choose a graph that fits the data, including grouped columns and sectors.",
+        "livro": "aluno/a-pesquisa.html",
         "exige": ["N-CONTAGEM"],
         "apoia": ["EI-COMPARAR"],
         "porque": {

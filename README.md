@@ -1,6 +1,6 @@
 # Cadernos Abertos
 
-Free mathematics textbooks for the Brazilian national curriculum. The map covers every BNCC mathematics skill from preschool through high school, with the dependencies between them written out. One unit is written as a book a student can read, and as the companion a teacher would use beside it.
+Free mathematics textbooks for the Brazilian national curriculum. The map covers every BNCC mathematics skill from preschool through high school, with the dependencies between them written out. The 1st grade is written as a student book and a teacher book. Later years are mapped and not written.
 
 The overview pages are in English. The books are in Brazilian Portuguese. Each book page has a control that shows an English gloss.
 
@@ -8,15 +8,17 @@ The overview pages are in English. The books are in Brazilian Portuguese. Each b
 
 Mapped: 247 elementary skills, 43 high-school skills, 12 preschool objectives that the number thread grows out of, and 82 concepts with gate and support links.
 
-Written: 1º ano, Unidade 1, *Os números do dia*. It teaches quantity, order, and code; counting each thing once through 20; and comparing on the number line. It does not teach place value or addition facts. Those are the next units, and they are not written yet.
+Written: the whole 1º ano, twelve units, from *Os números do dia* through the class survey. Years 2 through 9 and high school are not written.
 
-The dependency arrows are a pedagogical inference. The BNCC orders skills by year and does not publish prerequisites. `scripts/test_graph.py` pins the claims the site teaches, including that comparing numbers does not require place value, and that the irrationals wait for Pythagoras.
+The dependency arrows are a pedagogical inference. The BNCC orders skills by year and does not publish prerequisites. `scripts/test_graph.py` pins the concept claims, including that comparing numbers does not require place value. `scripts/test_skill_graph.py` pins the same idea one skill at a time: EF01MA05 depends on the count to 100, and not on composition. The picture of that graph is `site/grafo.html`.
 
 ## Check the graph, the adoption rule, and the diagnostic
 
 ```bash
 python3 scripts/test_graph.py
+python3 scripts/test_skill_graph.py
 python3 scripts/test_adocao.py
+python3 scripts/test_year1.py
 python3 scripts/test_diagnostics.py
 python3 scripts/test_serve.py
 ```
@@ -25,6 +27,7 @@ Rebuilding `site/data/curriculum.json` needs the raw BNCC extract in `data/raw/`
 
 ```bash
 python3 scripts/build_curriculum.py
+python3 scripts/skill_graph.py
 ```
 
 ## Read it in a browser
@@ -39,7 +42,7 @@ Then open <http://127.0.0.1:8741/>. The process binds to this computer only. Stu
 
 ## What a school may adopt
 
-`scripts/adocao.py` builds the minute a school council can paste into the pedagogical proposal. A skill is adoptable when a written book finishes it. A year may replace a textbook only when every mathematics skill of that year is finished. None is, yet. The tests fail if the minute claims more, or if it calls the work a PNLD book.
+`scripts/adocao.py` builds the minute a school council can paste into the pedagogical proposal. A skill is adoptable when a written book finishes it. A year may replace a textbook only when every mathematics skill of that year is finished. The 1º ano may. Years 2 through 9 and high school may not. The tests fail if the minute claims more, or if it calls the work a PNLD book.
 
 ## What a wrong answer means
 

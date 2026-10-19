@@ -46,7 +46,7 @@ def main():
             status, report, _ = request(base, "/api/adocao")
             assert status == 200, status
             year1 = next(row for row in report["anos"] if row["ano"] == 1)
-            assert year1["pode_substituir_o_livro_do_ano"] is False
+            assert year1["pode_substituir_o_livro_do_ano"] is True
             assert serve.adocao.SENTENCE_PNLD in report["ata"]
 
             status, body, cookie = request(base, "/api/setup", {"senha": "curta"})

@@ -17,13 +17,18 @@ def load():
     return relatorio(catalog, cobertura)
 
 
-def test_no_year_can_replace_a_textbook_yet(report):
-    assert all(not row["pode_substituir_o_livro_do_ano"] for row in report["anos"])
+def test_year1_can_replace_a_mathematics_textbook(report):
     year1 = next(row for row in report["anos"] if row["ano"] == 1)
     assert year1["total"] == 22
-    assert year1["integrais"] == ["EF01MA01", "EF01MA02", "EF01MA03"]
-    assert year1["parciais"] == ["EF01MA04", "EF01MA05"]
-    assert "EF01MA07" in year1["faltam"]
+    assert year1["pode_substituir_o_livro_do_ano"] is True
+    assert year1["parciais"] == []
+    assert year1["faltam"] == []
+    assert len(year1["integrais"]) == 22
+    assert "EF01MA07" in year1["integrais"]
+    for row in report["anos"]:
+        if row["ano"] == 1:
+            continue
+        assert row["pode_substituir_o_livro_do_ano"] is False
 
 
 def test_the_minute_does_not_overclaim(report):
@@ -31,15 +36,15 @@ def test_the_minute_does_not_overclaim(report):
     assert SENTENCE_PNLD in ata
     assert "aprovado pelo PNLD" not in ata.lower()
     assert "EF01MA01" in ata
-    assert "não substitui" in ata
-    assert "EF01MA07" not in ata.split("Habilidades para as quais")[1].split("Habilidades começadas")[0]
-    assert "até 100" in ata
+    assert "1º ano: pode substituir o livro do ano." in ata
+    assert "2º ano: não substitui." in ata
+    assert "EF01MA07" in ata.split("Habilidades para as quais")[1].split("Habilidades começadas")[0]
     assert "Não pode ser a razão de guardar o livro do PNLD sem uso" in ata
 
 
 def main():
     report = load()
-    test_no_year_can_replace_a_textbook_yet(report)
+    test_year1_can_replace_a_mathematics_textbook(report)
     test_the_minute_does_not_overclaim(report)
     print("adoption claims hold")
 

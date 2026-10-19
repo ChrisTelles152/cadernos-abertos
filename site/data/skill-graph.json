@@ -1,0 +1,5853 @@
+{
+  "aviso": "Cada círculo é uma habilidade oficial, ou um objetivo da Educação Infantil. A seta sai do pré-requisito e chega na habilidade que depende dele. A BNCC não publica essas setas. Elas vêm do grafo de conceitos, com a regra escrita em scripts/skill_graph.py.",
+  "nos": [
+    {
+      "id": "EI02ET07",
+      "ano": 0,
+      "conceito": "EI-CONTAR",
+      "fio": "infancia",
+      "exige": [],
+      "libera": [
+        "EI02ET08"
+      ]
+    },
+    {
+      "id": "EI02ET08",
+      "ano": 0,
+      "conceito": "EI-CONTAR",
+      "fio": "infancia",
+      "exige": [
+        "EI02ET07"
+      ],
+      "libera": [
+        "EI03ET07"
+      ]
+    },
+    {
+      "id": "EI03ET07",
+      "ano": 0,
+      "conceito": "EI-CONTAR",
+      "fio": "infancia",
+      "exige": [
+        "EI02ET08"
+      ],
+      "libera": [
+        "EF01MA01"
+      ]
+    },
+    {
+      "id": "EI02ET01",
+      "ano": 0,
+      "conceito": "EI-COMPARAR",
+      "fio": "infancia",
+      "exige": [],
+      "libera": [
+        "EI02ET05"
+      ]
+    },
+    {
+      "id": "EI02ET05",
+      "ano": 0,
+      "conceito": "EI-COMPARAR",
+      "fio": "infancia",
+      "exige": [
+        "EI02ET01"
+      ],
+      "libera": [
+        "EI03ET01"
+      ]
+    },
+    {
+      "id": "EI03ET01",
+      "ano": 0,
+      "conceito": "EI-COMPARAR",
+      "fio": "infancia",
+      "exige": [
+        "EI02ET05"
+      ],
+      "libera": [
+        "EI03ET04"
+      ]
+    },
+    {
+      "id": "EI03ET04",
+      "ano": 0,
+      "conceito": "EI-COMPARAR",
+      "fio": "infancia",
+      "exige": [
+        "EI03ET01"
+      ],
+      "libera": [
+        "EI03ET05"
+      ]
+    },
+    {
+      "id": "EI03ET05",
+      "ano": 0,
+      "conceito": "EI-COMPARAR",
+      "fio": "infancia",
+      "exige": [
+        "EI03ET04"
+      ],
+      "libera": [
+        "EI03ET08"
+      ]
+    },
+    {
+      "id": "EI03ET08",
+      "ano": 0,
+      "conceito": "EI-COMPARAR",
+      "fio": "infancia",
+      "exige": [
+        "EI03ET05"
+      ],
+      "libera": [
+        "EF01MA09",
+        "EF01MA13",
+        "EF01MA14",
+        "EF01MA15",
+        "EF01MA20"
+      ]
+    },
+    {
+      "id": "EI01ET04",
+      "ano": 0,
+      "conceito": "EI-ESPACO",
+      "fio": "infancia",
+      "exige": [],
+      "libera": [
+        "EI02ET04"
+      ]
+    },
+    {
+      "id": "EI02ET04",
+      "ano": 0,
+      "conceito": "EI-ESPACO",
+      "fio": "infancia",
+      "exige": [
+        "EI01ET04"
+      ],
+      "libera": [
+        "EI02ET06"
+      ]
+    },
+    {
+      "id": "EI02ET06",
+      "ano": 0,
+      "conceito": "EI-ESPACO",
+      "fio": "infancia",
+      "exige": [
+        "EI02ET04"
+      ],
+      "libera": [
+        "EF01MA11",
+        "EF01MA16"
+      ]
+    },
+    {
+      "id": "EF01MA01",
+      "ano": 1,
+      "conceito": "N-SENTIDO",
+      "fio": "numero",
+      "exige": [
+        "EI03ET07"
+      ],
+      "libera": [
+        "EF01MA02",
+        "EF01MA16",
+        "EF01MA19"
+      ]
+    },
+    {
+      "id": "EF01MA02",
+      "ano": 1,
+      "conceito": "N-CONTAGEM",
+      "fio": "numero",
+      "exige": [
+        "EF01MA01"
+      ],
+      "libera": [
+        "EF01MA03"
+      ]
+    },
+    {
+      "id": "EF01MA03",
+      "ano": 1,
+      "conceito": "N-CONTAGEM",
+      "fio": "numero",
+      "exige": [
+        "EF01MA02"
+      ],
+      "libera": [
+        "EF01MA04"
+      ]
+    },
+    {
+      "id": "EF01MA04",
+      "ano": 1,
+      "conceito": "N-CONTAGEM",
+      "fio": "numero",
+      "exige": [
+        "EF01MA03"
+      ],
+      "libera": [
+        "EF01MA05",
+        "EF01MA07",
+        "EF01MA06",
+        "EF02MA08",
+        "EF01MA10",
+        "EF05MA18",
+        "EF03MA17",
+        "EF01MA21"
+      ]
+    },
+    {
+      "id": "EF01MA05",
+      "ano": 1,
+      "conceito": "N-COMPARAR",
+      "fio": "numero",
+      "exige": [
+        "EF01MA04"
+      ],
+      "libera": [
+        "EF01MA08",
+        "EF02MA01",
+        "EF03MA04",
+        "EF05MA14",
+        "EF04MA23"
+      ]
+    },
+    {
+      "id": "EF01MA07",
+      "ano": 1,
+      "conceito": "N-COMPOR",
+      "fio": "numero",
+      "exige": [
+        "EF01MA04"
+      ],
+      "libera": [
+        "EF01MA06",
+        "EF02MA01"
+      ]
+    },
+    {
+      "id": "EF01MA06",
+      "ano": 1,
+      "conceito": "N-FATOS",
+      "fio": "numero",
+      "exige": [
+        "EF01MA04",
+        "EF01MA07"
+      ],
+      "libera": [
+        "EF02MA05",
+        "EF01MA08"
+      ]
+    },
+    {
+      "id": "EF02MA05",
+      "ano": 2,
+      "conceito": "N-FATOS",
+      "fio": "numero",
+      "exige": [
+        "EF01MA06"
+      ],
+      "libera": []
+    },
+    {
+      "id": "EF01MA08",
+      "ano": 1,
+      "conceito": "N-ADDSUB",
+      "fio": "numero",
+      "exige": [
+        "EF01MA06",
+        "EF01MA05"
+      ],
+      "libera": [
+        "EF02MA03"
+      ]
+    },
+    {
+      "id": "EF02MA03",
+      "ano": 2,
+      "conceito": "N-ADDSUB",
+      "fio": "numero",
+      "exige": [
+        "EF01MA08"
+      ],
+      "libera": [
+        "EF02MA06"
+      ]
+    },
+    {
+      "id": "EF02MA06",
+      "ano": 2,
+      "conceito": "N-ADDSUB",
+      "fio": "numero",
+      "exige": [
+        "EF02MA03"
+      ],
+      "libera": [
+        "EF03MA05",
+        "EF02MA07"
+      ]
+    },
+    {
+      "id": "EF03MA05",
+      "ano": 3,
+      "conceito": "N-ADDSUB",
+      "fio": "numero",
+      "exige": [
+        "EF02MA06"
+      ],
+      "libera": [
+        "EF03MA06"
+      ]
+    },
+    {
+      "id": "EF03MA06",
+      "ano": 3,
+      "conceito": "N-ADDSUB",
+      "fio": "numero",
+      "exige": [
+        "EF03MA05"
+      ],
+      "libera": [
+        "EF04MA03",
+        "EF03MA11"
+      ]
+    },
+    {
+      "id": "EF04MA03",
+      "ano": 4,
+      "conceito": "N-ADDSUB",
+      "fio": "numero",
+      "exige": [
+        "EF03MA06"
+      ],
+      "libera": [
+        "EF04MA04",
+        "EF07MA03"
+      ]
+    },
+    {
+      "id": "EF02MA01",
+      "ano": 2,
+      "conceito": "N-CENTENA",
+      "fio": "numero",
+      "exige": [
+        "EF01MA07",
+        "EF01MA05"
+      ],
+      "libera": [
+        "EF02MA02"
+      ]
+    },
+    {
+      "id": "EF02MA02",
+      "ano": 2,
+      "conceito": "N-CENTENA",
+      "fio": "numero",
+      "exige": [
+        "EF02MA01"
+      ],
+      "libera": [
+        "EF02MA04"
+      ]
+    },
+    {
+      "id": "EF02MA04",
+      "ano": 2,
+      "conceito": "N-CENTENA",
+      "fio": "numero",
+      "exige": [
+        "EF02MA02"
+      ],
+      "libera": [
+        "EF03MA01",
+        "EF03MA04"
+      ]
+    },
+    {
+      "id": "EF03MA01",
+      "ano": 3,
+      "conceito": "N-MILHAR",
+      "fio": "numero",
+      "exige": [
+        "EF02MA04"
+      ],
+      "libera": [
+        "EF03MA02"
+      ]
+    },
+    {
+      "id": "EF03MA02",
+      "ano": 3,
+      "conceito": "N-MILHAR",
+      "fio": "numero",
+      "exige": [
+        "EF03MA01"
+      ],
+      "libera": [
+        "EF04MA01"
+      ]
+    },
+    {
+      "id": "EF04MA01",
+      "ano": 4,
+      "conceito": "N-MILHAR",
+      "fio": "numero",
+      "exige": [
+        "EF03MA02"
+      ],
+      "libera": [
+        "EF04MA02"
+      ]
+    },
+    {
+      "id": "EF04MA02",
+      "ano": 4,
+      "conceito": "N-MILHAR",
+      "fio": "numero",
+      "exige": [
+        "EF04MA01"
+      ],
+      "libera": [
+        "EF04MA10",
+        "EF05MA01"
+      ]
+    },
+    {
+      "id": "EF03MA04",
+      "ano": 3,
+      "conceito": "N-RETA",
+      "fio": "numero",
+      "exige": [
+        "EF01MA05",
+        "EF02MA04"
+      ],
+      "libera": [
+        "EF07MA03"
+      ]
+    },
+    {
+      "id": "EF02MA07",
+      "ano": 2,
+      "conceito": "N-MULT",
+      "fio": "numero",
+      "exige": [
+        "EF02MA06"
+      ],
+      "libera": [
+        "EF03MA03"
+      ]
+    },
+    {
+      "id": "EF03MA03",
+      "ano": 3,
+      "conceito": "N-MULT",
+      "fio": "numero",
+      "exige": [
+        "EF02MA07"
+      ],
+      "libera": [
+        "EF03MA07"
+      ]
+    },
+    {
+      "id": "EF03MA07",
+      "ano": 3,
+      "conceito": "N-MULT",
+      "fio": "numero",
+      "exige": [
+        "EF03MA03"
+      ],
+      "libera": [
+        "EF04MA06",
+        "EF03MA08",
+        "EF03MA21"
+      ]
+    },
+    {
+      "id": "EF04MA06",
+      "ano": 4,
+      "conceito": "N-MULT",
+      "fio": "numero",
+      "exige": [
+        "EF03MA07"
+      ],
+      "libera": [
+        "EF04MA04",
+        "EF04MA08",
+        "EF08MA02",
+        "EF05MA12",
+        "EF07MA19"
+      ]
+    },
+    {
+      "id": "EF02MA08",
+      "ano": 2,
+      "conceito": "N-METADE",
+      "fio": "numero",
+      "exige": [
+        "EF01MA04"
+      ],
+      "libera": []
+    },
+    {
+      "id": "EF03MA08",
+      "ano": 3,
+      "conceito": "N-DIV",
+      "fio": "numero",
+      "exige": [
+        "EF03MA07"
+      ],
+      "libera": [
+        "EF03MA09"
+      ]
+    },
+    {
+      "id": "EF03MA09",
+      "ano": 3,
+      "conceito": "N-DIV",
+      "fio": "numero",
+      "exige": [
+        "EF03MA08"
+      ],
+      "libera": [
+        "EF04MA07"
+      ]
+    },
+    {
+      "id": "EF04MA07",
+      "ano": 4,
+      "conceito": "N-DIV",
+      "fio": "numero",
+      "exige": [
+        "EF03MA09"
+      ],
+      "libera": [
+        "EF04MA04",
+        "EF04MA09",
+        "EF06MA05",
+        "EF06MA04",
+        "EF07MA35"
+      ]
+    },
+    {
+      "id": "EF04MA04",
+      "ano": 4,
+      "conceito": "N-RELACAO",
+      "fio": "numero",
+      "exige": [
+        "EF04MA03",
+        "EF04MA06",
+        "EF04MA07"
+      ],
+      "libera": [
+        "EF04MA05"
+      ]
+    },
+    {
+      "id": "EF04MA05",
+      "ano": 4,
+      "conceito": "N-RELACAO",
+      "fio": "numero",
+      "exige": [
+        "EF04MA04"
+      ],
+      "libera": [
+        "EF04MA13"
+      ]
+    },
+    {
+      "id": "EF04MA13",
+      "ano": 4,
+      "conceito": "N-RELACAO",
+      "fio": "numero",
+      "exige": [
+        "EF04MA05"
+      ],
+      "libera": [
+        "EF06MA03",
+        "EF07MA13"
+      ]
+    },
+    {
+      "id": "EF04MA08",
+      "ano": 4,
+      "conceito": "N-COMBINA",
+      "fio": "numero",
+      "exige": [
+        "EF04MA06"
+      ],
+      "libera": [
+        "EF05MA09"
+      ]
+    },
+    {
+      "id": "EF05MA09",
+      "ano": 5,
+      "conceito": "N-COMBINA",
+      "fio": "numero",
+      "exige": [
+        "EF04MA08"
+      ],
+      "libera": [
+        "EF08MA03"
+      ]
+    },
+    {
+      "id": "EF08MA03",
+      "ano": 8,
+      "conceito": "N-COMBINA",
+      "fio": "numero",
+      "exige": [
+        "EF05MA09"
+      ],
+      "libera": [
+        "EM13MAT310"
+      ]
+    },
+    {
+      "id": "EM13MAT310",
+      "ano": 10,
+      "conceito": "N-COMBINA",
+      "fio": "numero",
+      "exige": [
+        "EF08MA03"
+      ],
+      "libera": []
+    },
+    {
+      "id": "EF04MA09",
+      "ano": 4,
+      "conceito": "N-FRACAO",
+      "fio": "numero",
+      "exige": [
+        "EF04MA07",
+        "EF03MA15"
+      ],
+      "libera": [
+        "EF05MA03",
+        "EF04MA10"
+      ]
+    },
+    {
+      "id": "EF05MA03",
+      "ano": 5,
+      "conceito": "N-FRACAO",
+      "fio": "numero",
+      "exige": [
+        "EF04MA09"
+      ],
+      "libera": [
+        "EF05MA04"
+      ]
+    },
+    {
+      "id": "EF05MA04",
+      "ano": 5,
+      "conceito": "N-FRACAO",
+      "fio": "numero",
+      "exige": [
+        "EF05MA03"
+      ],
+      "libera": [
+        "EF05MA05"
+      ]
+    },
+    {
+      "id": "EF05MA05",
+      "ano": 5,
+      "conceito": "N-FRACAO",
+      "fio": "numero",
+      "exige": [
+        "EF05MA04"
+      ],
+      "libera": [
+        "EF06MA07",
+        "EF05MA06",
+        "EF05MA12",
+        "EF05MA22"
+      ]
+    },
+    {
+      "id": "EF06MA07",
+      "ano": 6,
+      "conceito": "N-FRACAO",
+      "fio": "numero",
+      "exige": [
+        "EF05MA05"
+      ],
+      "libera": [
+        "EF06MA09"
+      ]
+    },
+    {
+      "id": "EF06MA09",
+      "ano": 6,
+      "conceito": "N-FRACAO",
+      "fio": "numero",
+      "exige": [
+        "EF06MA07"
+      ],
+      "libera": [
+        "EF06MA10"
+      ]
+    },
+    {
+      "id": "EF06MA10",
+      "ano": 6,
+      "conceito": "N-FRACAO",
+      "fio": "numero",
+      "exige": [
+        "EF06MA09"
+      ],
+      "libera": [
+        "EF07MA08",
+        "EF06MA15"
+      ]
+    },
+    {
+      "id": "EF07MA08",
+      "ano": 7,
+      "conceito": "N-FRACAO",
+      "fio": "numero",
+      "exige": [
+        "EF06MA10"
+      ],
+      "libera": [
+        "EF07MA10"
+      ]
+    },
+    {
+      "id": "EF04MA10",
+      "ano": 4,
+      "conceito": "N-DECIMAL",
+      "fio": "numero",
+      "exige": [
+        "EF04MA02",
+        "EF04MA09"
+      ],
+      "libera": [
+        "EF05MA02"
+      ]
+    },
+    {
+      "id": "EF05MA02",
+      "ano": 5,
+      "conceito": "N-DECIMAL",
+      "fio": "numero",
+      "exige": [
+        "EF04MA10"
+      ],
+      "libera": [
+        "EF05MA07"
+      ]
+    },
+    {
+      "id": "EF05MA07",
+      "ano": 5,
+      "conceito": "N-DECIMAL",
+      "fio": "numero",
+      "exige": [
+        "EF05MA02"
+      ],
+      "libera": [
+        "EF05MA08"
+      ]
+    },
+    {
+      "id": "EF05MA08",
+      "ano": 5,
+      "conceito": "N-DECIMAL",
+      "fio": "numero",
+      "exige": [
+        "EF05MA07"
+      ],
+      "libera": [
+        "EF06MA08",
+        "EF05MA06"
+      ]
+    },
+    {
+      "id": "EF06MA08",
+      "ano": 6,
+      "conceito": "N-DECIMAL",
+      "fio": "numero",
+      "exige": [
+        "EF05MA08"
+      ],
+      "libera": [
+        "EF06MA11"
+      ]
+    },
+    {
+      "id": "EF06MA11",
+      "ano": 6,
+      "conceito": "N-DECIMAL",
+      "fio": "numero",
+      "exige": [
+        "EF06MA08"
+      ],
+      "libera": [
+        "EF07MA10",
+        "EF08MA01",
+        "EF07MA33"
+      ]
+    },
+    {
+      "id": "EF05MA06",
+      "ano": 5,
+      "conceito": "N-PORCENTO",
+      "fio": "numero",
+      "exige": [
+        "EF05MA05",
+        "EF05MA08"
+      ],
+      "libera": [
+        "EF06MA13"
+      ]
+    },
+    {
+      "id": "EF06MA13",
+      "ano": 6,
+      "conceito": "N-PORCENTO",
+      "fio": "numero",
+      "exige": [
+        "EF05MA06"
+      ],
+      "libera": [
+        "EF07MA02"
+      ]
+    },
+    {
+      "id": "EF07MA02",
+      "ano": 7,
+      "conceito": "N-PORCENTO",
+      "fio": "numero",
+      "exige": [
+        "EF06MA13"
+      ],
+      "libera": [
+        "EF08MA04"
+      ]
+    },
+    {
+      "id": "EF08MA04",
+      "ano": 8,
+      "conceito": "N-PORCENTO",
+      "fio": "numero",
+      "exige": [
+        "EF07MA02"
+      ],
+      "libera": [
+        "EF09MA05"
+      ]
+    },
+    {
+      "id": "EF09MA05",
+      "ano": 9,
+      "conceito": "N-PORCENTO",
+      "fio": "numero",
+      "exige": [
+        "EF08MA04"
+      ],
+      "libera": [
+        "EM13MAT303",
+        "EM13MAT104"
+      ]
+    },
+    {
+      "id": "EF05MA01",
+      "ano": 5,
+      "conceito": "N-GRANDE",
+      "fio": "numero",
+      "exige": [
+        "EF04MA02"
+      ],
+      "libera": [
+        "EF06MA01"
+      ]
+    },
+    {
+      "id": "EF06MA01",
+      "ano": 6,
+      "conceito": "N-GRANDE",
+      "fio": "numero",
+      "exige": [
+        "EF05MA01"
+      ],
+      "libera": [
+        "EF06MA02"
+      ]
+    },
+    {
+      "id": "EF06MA02",
+      "ano": 6,
+      "conceito": "N-GRANDE",
+      "fio": "numero",
+      "exige": [
+        "EF06MA01"
+      ],
+      "libera": [
+        "EF06MA12"
+      ]
+    },
+    {
+      "id": "EF06MA12",
+      "ano": 6,
+      "conceito": "N-GRANDE",
+      "fio": "numero",
+      "exige": [
+        "EF06MA02"
+      ],
+      "libera": [
+        "EF06MA03"
+      ]
+    },
+    {
+      "id": "EF06MA03",
+      "ano": 6,
+      "conceito": "N-OPERAR",
+      "fio": "numero",
+      "exige": [
+        "EF04MA13",
+        "EF06MA12"
+      ],
+      "libera": [
+        "EF08MA02"
+      ]
+    },
+    {
+      "id": "EF06MA05",
+      "ano": 6,
+      "conceito": "N-DIVIS",
+      "fio": "numero",
+      "exige": [
+        "EF04MA07",
+        "EF04MA12"
+      ],
+      "libera": [
+        "EF06MA06"
+      ]
+    },
+    {
+      "id": "EF06MA06",
+      "ano": 6,
+      "conceito": "N-DIVIS",
+      "fio": "numero",
+      "exige": [
+        "EF06MA05"
+      ],
+      "libera": [
+        "EF07MA01"
+      ]
+    },
+    {
+      "id": "EF07MA01",
+      "ano": 7,
+      "conceito": "N-DIVIS",
+      "fio": "numero",
+      "exige": [
+        "EF06MA06"
+      ],
+      "libera": []
+    },
+    {
+      "id": "EF07MA03",
+      "ano": 7,
+      "conceito": "N-INTEIRO",
+      "fio": "numero",
+      "exige": [
+        "EF04MA03",
+        "EF03MA04"
+      ],
+      "libera": [
+        "EF07MA04"
+      ]
+    },
+    {
+      "id": "EF07MA04",
+      "ano": 7,
+      "conceito": "N-INTEIRO",
+      "fio": "numero",
+      "exige": [
+        "EF07MA03"
+      ],
+      "libera": [
+        "EF07MA10",
+        "EF07MA18"
+      ]
+    },
+    {
+      "id": "EF07MA10",
+      "ano": 7,
+      "conceito": "N-RACIONAIS",
+      "fio": "numero",
+      "exige": [
+        "EF06MA11",
+        "EF07MA08",
+        "EF07MA04"
+      ],
+      "libera": [
+        "EF07MA11"
+      ]
+    },
+    {
+      "id": "EF07MA11",
+      "ano": 7,
+      "conceito": "N-RACIONAIS",
+      "fio": "numero",
+      "exige": [
+        "EF07MA10"
+      ],
+      "libera": [
+        "EF07MA12"
+      ]
+    },
+    {
+      "id": "EF07MA12",
+      "ano": 7,
+      "conceito": "N-RACIONAIS",
+      "fio": "numero",
+      "exige": [
+        "EF07MA11"
+      ],
+      "libera": [
+        "EF08MA05"
+      ]
+    },
+    {
+      "id": "EF08MA05",
+      "ano": 8,
+      "conceito": "N-RACIONAIS",
+      "fio": "numero",
+      "exige": [
+        "EF07MA12"
+      ],
+      "libera": [
+        "EF09MA01"
+      ]
+    },
+    {
+      "id": "EF08MA02",
+      "ano": 8,
+      "conceito": "N-POTENCIA",
+      "fio": "numero",
+      "exige": [
+        "EF06MA03",
+        "EF04MA06"
+      ],
+      "libera": [
+        "EF09MA03",
+        "EF08MA01",
+        "EF08MA09"
+      ]
+    },
+    {
+      "id": "EF09MA03",
+      "ano": 9,
+      "conceito": "N-POTENCIA",
+      "fio": "numero",
+      "exige": [
+        "EF08MA02"
+      ],
+      "libera": [
+        "EM13MAT304"
+      ]
+    },
+    {
+      "id": "EF08MA01",
+      "ano": 8,
+      "conceito": "N-CIENCIA",
+      "fio": "numero",
+      "exige": [
+        "EF08MA02",
+        "EF06MA11"
+      ],
+      "libera": [
+        "EF09MA04"
+      ]
+    },
+    {
+      "id": "EF09MA04",
+      "ano": 9,
+      "conceito": "N-CIENCIA",
+      "fio": "numero",
+      "exige": [
+        "EF08MA01"
+      ],
+      "libera": [
+        "EM13MAT313",
+        "EF09MA18"
+      ]
+    },
+    {
+      "id": "EM13MAT313",
+      "ano": 10,
+      "conceito": "N-CIENCIA",
+      "fio": "numero",
+      "exige": [
+        "EF09MA04"
+      ],
+      "libera": []
+    },
+    {
+      "id": "EF09MA01",
+      "ano": 9,
+      "conceito": "N-REAIS",
+      "fio": "numero",
+      "exige": [
+        "EF08MA05",
+        "EF09MA14"
+      ],
+      "libera": [
+        "EF09MA02"
+      ]
+    },
+    {
+      "id": "EF09MA02",
+      "ano": 9,
+      "conceito": "N-REAIS",
+      "fio": "numero",
+      "exige": [
+        "EF09MA01"
+      ],
+      "libera": []
+    },
+    {
+      "id": "EF01MA09",
+      "ano": 1,
+      "conceito": "A-ATRIBUTO",
+      "fio": "algebra",
+      "exige": [
+        "EI03ET08"
+      ],
+      "libera": [
+        "EF01MA10"
+      ]
+    },
+    {
+      "id": "EF01MA10",
+      "ano": 1,
+      "conceito": "A-PADRAO",
+      "fio": "algebra",
+      "exige": [
+        "EF01MA09",
+        "EF01MA04"
+      ],
+      "libera": [
+        "EF02MA09"
+      ]
+    },
+    {
+      "id": "EF02MA09",
+      "ano": 2,
+      "conceito": "A-PADRAO",
+      "fio": "algebra",
+      "exige": [
+        "EF01MA10"
+      ],
+      "libera": [
+        "EF02MA10"
+      ]
+    },
+    {
+      "id": "EF02MA10",
+      "ano": 2,
+      "conceito": "A-PADRAO",
+      "fio": "algebra",
+      "exige": [
+        "EF02MA09"
+      ],
+      "libera": [
+        "EF02MA11"
+      ]
+    },
+    {
+      "id": "EF02MA11",
+      "ano": 2,
+      "conceito": "A-PADRAO",
+      "fio": "algebra",
+      "exige": [
+        "EF02MA10"
+      ],
+      "libera": [
+        "EF03MA10"
+      ]
+    },
+    {
+      "id": "EF03MA10",
+      "ano": 3,
+      "conceito": "A-PADRAO",
+      "fio": "algebra",
+      "exige": [
+        "EF02MA11"
+      ],
+      "libera": [
+        "EF04MA11"
+      ]
+    },
+    {
+      "id": "EF04MA11",
+      "ano": 4,
+      "conceito": "A-PADRAO",
+      "fio": "algebra",
+      "exige": [
+        "EF03MA10"
+      ],
+      "libera": [
+        "EF04MA12"
+      ]
+    },
+    {
+      "id": "EF04MA12",
+      "ano": 4,
+      "conceito": "A-PADRAO",
+      "fio": "algebra",
+      "exige": [
+        "EF04MA11"
+      ],
+      "libera": [
+        "EF06MA05",
+        "EF08MA10"
+      ]
+    },
+    {
+      "id": "EF08MA10",
+      "ano": 8,
+      "conceito": "A-PADRAO",
+      "fio": "algebra",
+      "exige": [
+        "EF04MA12"
+      ],
+      "libera": [
+        "EF08MA11"
+      ]
+    },
+    {
+      "id": "EF08MA11",
+      "ano": 8,
+      "conceito": "A-PADRAO",
+      "fio": "algebra",
+      "exige": [
+        "EF08MA10"
+      ],
+      "libera": [
+        "EM13MAT507"
+      ]
+    },
+    {
+      "id": "EF03MA11",
+      "ano": 3,
+      "conceito": "A-IGUAL",
+      "fio": "algebra",
+      "exige": [
+        "EF03MA06"
+      ],
+      "libera": [
+        "EF04MA14"
+      ]
+    },
+    {
+      "id": "EF04MA14",
+      "ano": 4,
+      "conceito": "A-IGUAL",
+      "fio": "algebra",
+      "exige": [
+        "EF03MA11"
+      ],
+      "libera": [
+        "EF04MA15"
+      ]
+    },
+    {
+      "id": "EF04MA15",
+      "ano": 4,
+      "conceito": "A-IGUAL",
+      "fio": "algebra",
+      "exige": [
+        "EF04MA14"
+      ],
+      "libera": [
+        "EF05MA10"
+      ]
+    },
+    {
+      "id": "EF05MA10",
+      "ano": 5,
+      "conceito": "A-IGUAL",
+      "fio": "algebra",
+      "exige": [
+        "EF04MA15"
+      ],
+      "libera": [
+        "EF05MA11"
+      ]
+    },
+    {
+      "id": "EF05MA11",
+      "ano": 5,
+      "conceito": "A-IGUAL",
+      "fio": "algebra",
+      "exige": [
+        "EF05MA10"
+      ],
+      "libera": [
+        "EF06MA14"
+      ]
+    },
+    {
+      "id": "EF06MA14",
+      "ano": 6,
+      "conceito": "A-IGUAL",
+      "fio": "algebra",
+      "exige": [
+        "EF05MA11"
+      ],
+      "libera": [
+        "EF07MA13",
+        "EF06MA04"
+      ]
+    },
+    {
+      "id": "EF05MA12",
+      "ano": 5,
+      "conceito": "A-PROP",
+      "fio": "algebra",
+      "exige": [
+        "EF04MA06",
+        "EF05MA05"
+      ],
+      "libera": [
+        "EF05MA13"
+      ]
+    },
+    {
+      "id": "EF05MA13",
+      "ano": 5,
+      "conceito": "A-PROP",
+      "fio": "algebra",
+      "exige": [
+        "EF05MA12"
+      ],
+      "libera": [
+        "EF07MA17",
+        "EF06MA15"
+      ]
+    },
+    {
+      "id": "EF07MA17",
+      "ano": 7,
+      "conceito": "A-PROP",
+      "fio": "algebra",
+      "exige": [
+        "EF05MA13"
+      ],
+      "libera": [
+        "EF08MA12"
+      ]
+    },
+    {
+      "id": "EF08MA12",
+      "ano": 8,
+      "conceito": "A-PROP",
+      "fio": "algebra",
+      "exige": [
+        "EF07MA17"
+      ],
+      "libera": [
+        "EF08MA13"
+      ]
+    },
+    {
+      "id": "EF08MA13",
+      "ano": 8,
+      "conceito": "A-PROP",
+      "fio": "algebra",
+      "exige": [
+        "EF08MA12"
+      ],
+      "libera": [
+        "EF09MA08"
+      ]
+    },
+    {
+      "id": "EF09MA08",
+      "ano": 9,
+      "conceito": "A-PROP",
+      "fio": "algebra",
+      "exige": [
+        "EF08MA13"
+      ],
+      "libera": [
+        "EF09MA06",
+        "EF09MA12",
+        "EM13MAT509"
+      ]
+    },
+    {
+      "id": "EF06MA15",
+      "ano": 6,
+      "conceito": "A-RAZAO",
+      "fio": "algebra",
+      "exige": [
+        "EF05MA13",
+        "EF06MA10"
+      ],
+      "libera": [
+        "EF07MA09"
+      ]
+    },
+    {
+      "id": "EF07MA09",
+      "ano": 7,
+      "conceito": "A-RAZAO",
+      "fio": "algebra",
+      "exige": [
+        "EF06MA15"
+      ],
+      "libera": [
+        "EF09MA07"
+      ]
+    },
+    {
+      "id": "EF09MA07",
+      "ano": 9,
+      "conceito": "A-RAZAO",
+      "fio": "algebra",
+      "exige": [
+        "EF07MA09"
+      ],
+      "libera": [
+        "EM13MAT314"
+      ]
+    },
+    {
+      "id": "EM13MAT314",
+      "ano": 10,
+      "conceito": "A-RAZAO",
+      "fio": "algebra",
+      "exige": [
+        "EF09MA07"
+      ],
+      "libera": []
+    },
+    {
+      "id": "EF07MA13",
+      "ano": 7,
+      "conceito": "A-LETRA",
+      "fio": "algebra",
+      "exige": [
+        "EF06MA14",
+        "EF04MA13"
+      ],
+      "libera": [
+        "EF07MA14"
+      ]
+    },
+    {
+      "id": "EF07MA14",
+      "ano": 7,
+      "conceito": "A-LETRA",
+      "fio": "algebra",
+      "exige": [
+        "EF07MA13"
+      ],
+      "libera": [
+        "EF07MA15"
+      ]
+    },
+    {
+      "id": "EF07MA15",
+      "ano": 7,
+      "conceito": "A-LETRA",
+      "fio": "algebra",
+      "exige": [
+        "EF07MA14"
+      ],
+      "libera": [
+        "EF07MA16"
+      ]
+    },
+    {
+      "id": "EF07MA16",
+      "ano": 7,
+      "conceito": "A-LETRA",
+      "fio": "algebra",
+      "exige": [
+        "EF07MA15"
+      ],
+      "libera": [
+        "EF08MA06",
+        "EF07MA18"
+      ]
+    },
+    {
+      "id": "EF08MA06",
+      "ano": 8,
+      "conceito": "A-LETRA",
+      "fio": "algebra",
+      "exige": [
+        "EF07MA16"
+      ],
+      "libera": []
+    },
+    {
+      "id": "EF07MA18",
+      "ano": 7,
+      "conceito": "A-EQ1",
+      "fio": "algebra",
+      "exige": [
+        "EF07MA16",
+        "EF07MA04"
+      ],
+      "libera": [
+        "EF08MA07"
+      ]
+    },
+    {
+      "id": "EF08MA07",
+      "ano": 8,
+      "conceito": "A-EQ1",
+      "fio": "algebra",
+      "exige": [
+        "EF07MA18"
+      ],
+      "libera": [
+        "EF08MA08"
+      ]
+    },
+    {
+      "id": "EF08MA08",
+      "ano": 8,
+      "conceito": "A-EQ1",
+      "fio": "algebra",
+      "exige": [
+        "EF08MA07"
+      ],
+      "libera": [
+        "EM13MAT301",
+        "EF08MA09",
+        "EF09MA06"
+      ]
+    },
+    {
+      "id": "EM13MAT301",
+      "ano": 10,
+      "conceito": "A-EQ1",
+      "fio": "algebra",
+      "exige": [
+        "EF08MA08"
+      ],
+      "libera": []
+    },
+    {
+      "id": "EF08MA09",
+      "ano": 8,
+      "conceito": "A-EQ2",
+      "fio": "algebra",
+      "exige": [
+        "EF08MA08",
+        "EF08MA02"
+      ],
+      "libera": [
+        "EF09MA09"
+      ]
+    },
+    {
+      "id": "EF09MA09",
+      "ano": 9,
+      "conceito": "A-EQ2",
+      "fio": "algebra",
+      "exige": [
+        "EF08MA09"
+      ],
+      "libera": [
+        "EM13MAT402"
+      ]
+    },
+    {
+      "id": "EF06MA04",
+      "ano": 6,
+      "conceito": "A-FLUXO",
+      "fio": "algebra",
+      "exige": [
+        "EF04MA07",
+        "EF06MA14"
+      ],
+      "libera": [
+        "EF07MA05"
+      ]
+    },
+    {
+      "id": "EF07MA05",
+      "ano": 7,
+      "conceito": "A-FLUXO",
+      "fio": "algebra",
+      "exige": [
+        "EF06MA04"
+      ],
+      "libera": [
+        "EF07MA06"
+      ]
+    },
+    {
+      "id": "EF07MA06",
+      "ano": 7,
+      "conceito": "A-FLUXO",
+      "fio": "algebra",
+      "exige": [
+        "EF07MA05"
+      ],
+      "libera": [
+        "EF07MA07"
+      ]
+    },
+    {
+      "id": "EF07MA07",
+      "ano": 7,
+      "conceito": "A-FLUXO",
+      "fio": "algebra",
+      "exige": [
+        "EF07MA06"
+      ],
+      "libera": [
+        "EM13MAT315"
+      ]
+    },
+    {
+      "id": "EM13MAT315",
+      "ano": 10,
+      "conceito": "A-FLUXO",
+      "fio": "algebra",
+      "exige": [
+        "EF07MA07"
+      ],
+      "libera": [
+        "EM13MAT405"
+      ]
+    },
+    {
+      "id": "EM13MAT405",
+      "ano": 10,
+      "conceito": "A-FLUXO",
+      "fio": "algebra",
+      "exige": [
+        "EM13MAT315"
+      ],
+      "libera": []
+    },
+    {
+      "id": "EF09MA06",
+      "ano": 9,
+      "conceito": "A-FUNCAO",
+      "fio": "algebra",
+      "exige": [
+        "EF08MA08",
+        "EF06MA16",
+        "EF09MA08"
+      ],
+      "libera": [
+        "EM13MAT101"
+      ]
+    },
+    {
+      "id": "EM13MAT101",
+      "ano": 10,
+      "conceito": "A-FUNCAO",
+      "fio": "algebra",
+      "exige": [
+        "EF09MA06"
+      ],
+      "libera": [
+        "EM13MAT302"
+      ]
+    },
+    {
+      "id": "EM13MAT302",
+      "ano": 10,
+      "conceito": "A-FUNCAO",
+      "fio": "algebra",
+      "exige": [
+        "EM13MAT101"
+      ],
+      "libera": [
+        "EM13MAT401"
+      ]
+    },
+    {
+      "id": "EM13MAT401",
+      "ano": 10,
+      "conceito": "A-FUNCAO",
+      "fio": "algebra",
+      "exige": [
+        "EM13MAT302"
+      ],
+      "libera": [
+        "EM13MAT404"
+      ]
+    },
+    {
+      "id": "EM13MAT404",
+      "ano": 10,
+      "conceito": "A-FUNCAO",
+      "fio": "algebra",
+      "exige": [
+        "EM13MAT401"
+      ],
+      "libera": [
+        "EM13MAT501"
+      ]
+    },
+    {
+      "id": "EM13MAT501",
+      "ano": 10,
+      "conceito": "A-FUNCAO",
+      "fio": "algebra",
+      "exige": [
+        "EM13MAT404"
+      ],
+      "libera": [
+        "EM13MAT506"
+      ]
+    },
+    {
+      "id": "EM13MAT506",
+      "ano": 10,
+      "conceito": "A-FUNCAO",
+      "fio": "algebra",
+      "exige": [
+        "EM13MAT501"
+      ],
+      "libera": [
+        "EM13MAT402",
+        "EM13MAT304",
+        "EM13MAT306",
+        "EM13MAT507",
+        "EM13MAT203",
+        "EM13MAT510"
+      ]
+    },
+    {
+      "id": "EM13MAT402",
+      "ano": 10,
+      "conceito": "A-QUAD",
+      "fio": "algebra",
+      "exige": [
+        "EM13MAT506",
+        "EF09MA09"
+      ],
+      "libera": [
+        "EM13MAT502"
+      ]
+    },
+    {
+      "id": "EM13MAT502",
+      "ano": 10,
+      "conceito": "A-QUAD",
+      "fio": "algebra",
+      "exige": [
+        "EM13MAT402"
+      ],
+      "libera": [
+        "EM13MAT503"
+      ]
+    },
+    {
+      "id": "EM13MAT503",
+      "ano": 10,
+      "conceito": "A-QUAD",
+      "fio": "algebra",
+      "exige": [
+        "EM13MAT502"
+      ],
+      "libera": []
+    },
+    {
+      "id": "EM13MAT304",
+      "ano": 10,
+      "conceito": "A-EXP",
+      "fio": "algebra",
+      "exige": [
+        "EM13MAT506",
+        "EF09MA03"
+      ],
+      "libera": [
+        "EM13MAT305"
+      ]
+    },
+    {
+      "id": "EM13MAT305",
+      "ano": 10,
+      "conceito": "A-EXP",
+      "fio": "algebra",
+      "exige": [
+        "EM13MAT304"
+      ],
+      "libera": [
+        "EM13MAT403"
+      ]
+    },
+    {
+      "id": "EM13MAT403",
+      "ano": 10,
+      "conceito": "A-EXP",
+      "fio": "algebra",
+      "exige": [
+        "EM13MAT305"
+      ],
+      "libera": [
+        "EM13MAT508"
+      ]
+    },
+    {
+      "id": "EM13MAT508",
+      "ano": 10,
+      "conceito": "A-EXP",
+      "fio": "algebra",
+      "exige": [
+        "EM13MAT403"
+      ],
+      "libera": [
+        "EM13MAT303"
+      ]
+    },
+    {
+      "id": "EM13MAT303",
+      "ano": 10,
+      "conceito": "A-JUROS",
+      "fio": "algebra",
+      "exige": [
+        "EF09MA05",
+        "EM13MAT508"
+      ],
+      "libera": []
+    },
+    {
+      "id": "EM13MAT306",
+      "ano": 10,
+      "conceito": "A-CICLO",
+      "fio": "algebra",
+      "exige": [
+        "EM13MAT506",
+        "EF09MA11"
+      ],
+      "libera": []
+    },
+    {
+      "id": "EM13MAT507",
+      "ano": 10,
+      "conceito": "A-PA",
+      "fio": "algebra",
+      "exige": [
+        "EM13MAT506",
+        "EF08MA11"
+      ],
+      "libera": []
+    },
+    {
+      "id": "EM13MAT203",
+      "ano": 10,
+      "conceito": "A-PLANILHA",
+      "fio": "algebra",
+      "exige": [
+        "EM13MAT506",
+        "EM13MAT406"
+      ],
+      "libera": []
+    },
+    {
+      "id": "EF01MA11",
+      "ano": 1,
+      "conceito": "G-ONDE",
+      "fio": "geometria",
+      "exige": [
+        "EI02ET06"
+      ],
+      "libera": [
+        "EF01MA12"
+      ]
+    },
+    {
+      "id": "EF01MA12",
+      "ano": 1,
+      "conceito": "G-ONDE",
+      "fio": "geometria",
+      "exige": [
+        "EF01MA11"
+      ],
+      "libera": [
+        "EF02MA12"
+      ]
+    },
+    {
+      "id": "EF02MA12",
+      "ano": 2,
+      "conceito": "G-ONDE",
+      "fio": "geometria",
+      "exige": [
+        "EF01MA12"
+      ],
+      "libera": [
+        "EF02MA13"
+      ]
+    },
+    {
+      "id": "EF02MA13",
+      "ano": 2,
+      "conceito": "G-ONDE",
+      "fio": "geometria",
+      "exige": [
+        "EF02MA12"
+      ],
+      "libera": [
+        "EF03MA12"
+      ]
+    },
+    {
+      "id": "EF03MA12",
+      "ano": 3,
+      "conceito": "G-ONDE",
+      "fio": "geometria",
+      "exige": [
+        "EF02MA13"
+      ],
+      "libera": [
+        "EF04MA16"
+      ]
+    },
+    {
+      "id": "EF04MA16",
+      "ano": 4,
+      "conceito": "G-ONDE",
+      "fio": "geometria",
+      "exige": [
+        "EF03MA12"
+      ],
+      "libera": [
+        "EF05MA14",
+        "EF06MA28"
+      ]
+    },
+    {
+      "id": "EF01MA13",
+      "ano": 1,
+      "conceito": "G-SOLIDO",
+      "fio": "geometria",
+      "exige": [
+        "EI03ET08"
+      ],
+      "libera": [
+        "EF02MA14"
+      ]
+    },
+    {
+      "id": "EF02MA14",
+      "ano": 2,
+      "conceito": "G-SOLIDO",
+      "fio": "geometria",
+      "exige": [
+        "EF01MA13"
+      ],
+      "libera": [
+        "EF03MA13"
+      ]
+    },
+    {
+      "id": "EF03MA13",
+      "ano": 3,
+      "conceito": "G-SOLIDO",
+      "fio": "geometria",
+      "exige": [
+        "EF02MA14"
+      ],
+      "libera": [
+        "EF03MA14"
+      ]
+    },
+    {
+      "id": "EF03MA14",
+      "ano": 3,
+      "conceito": "G-SOLIDO",
+      "fio": "geometria",
+      "exige": [
+        "EF03MA13"
+      ],
+      "libera": [
+        "EF04MA17"
+      ]
+    },
+    {
+      "id": "EF04MA17",
+      "ano": 4,
+      "conceito": "G-SOLIDO",
+      "fio": "geometria",
+      "exige": [
+        "EF03MA14"
+      ],
+      "libera": [
+        "EF05MA16"
+      ]
+    },
+    {
+      "id": "EF05MA16",
+      "ano": 5,
+      "conceito": "G-SOLIDO",
+      "fio": "geometria",
+      "exige": [
+        "EF04MA17"
+      ],
+      "libera": [
+        "EF06MA17",
+        "EF05MA21"
+      ]
+    },
+    {
+      "id": "EF06MA17",
+      "ano": 6,
+      "conceito": "G-SOLIDO",
+      "fio": "geometria",
+      "exige": [
+        "EF05MA16"
+      ],
+      "libera": [
+        "EF06MA28"
+      ]
+    },
+    {
+      "id": "EF01MA14",
+      "ano": 1,
+      "conceito": "G-PLANO",
+      "fio": "geometria",
+      "exige": [
+        "EI03ET08"
+      ],
+      "libera": [
+        "EF02MA15"
+      ]
+    },
+    {
+      "id": "EF02MA15",
+      "ano": 2,
+      "conceito": "G-PLANO",
+      "fio": "geometria",
+      "exige": [
+        "EF01MA14"
+      ],
+      "libera": [
+        "EF03MA15"
+      ]
+    },
+    {
+      "id": "EF03MA15",
+      "ano": 3,
+      "conceito": "G-PLANO",
+      "fio": "geometria",
+      "exige": [
+        "EF02MA15"
+      ],
+      "libera": [
+        "EF04MA09",
+        "EF05MA17",
+        "EF03MA16",
+        "EF04MA18",
+        "EF04MA19",
+        "EF03MA21"
+      ]
+    },
+    {
+      "id": "EF05MA17",
+      "ano": 5,
+      "conceito": "G-PLANO",
+      "fio": "geometria",
+      "exige": [
+        "EF03MA15"
+      ],
+      "libera": [
+        "EF06MA18",
+        "EF05MA18"
+      ]
+    },
+    {
+      "id": "EF06MA18",
+      "ano": 6,
+      "conceito": "G-PLANO",
+      "fio": "geometria",
+      "exige": [
+        "EF05MA17"
+      ],
+      "libera": [
+        "EF06MA19"
+      ]
+    },
+    {
+      "id": "EF06MA19",
+      "ano": 6,
+      "conceito": "G-PLANO",
+      "fio": "geometria",
+      "exige": [
+        "EF06MA18"
+      ],
+      "libera": [
+        "EF06MA20"
+      ]
+    },
+    {
+      "id": "EF06MA20",
+      "ano": 6,
+      "conceito": "G-PLANO",
+      "fio": "geometria",
+      "exige": [
+        "EF06MA19"
+      ],
+      "libera": []
+    },
+    {
+      "id": "EF03MA16",
+      "ano": 3,
+      "conceito": "G-CONGRU",
+      "fio": "geometria",
+      "exige": [
+        "EF03MA15"
+      ],
+      "libera": [
+        "EF08MA14"
+      ]
+    },
+    {
+      "id": "EF08MA14",
+      "ano": 8,
+      "conceito": "G-CONGRU",
+      "fio": "geometria",
+      "exige": [
+        "EF03MA16"
+      ],
+      "libera": []
+    },
+    {
+      "id": "EF04MA18",
+      "ano": 4,
+      "conceito": "G-ANGULO",
+      "fio": "geometria",
+      "exige": [
+        "EF03MA15"
+      ],
+      "libera": [
+        "EF06MA25"
+      ]
+    },
+    {
+      "id": "EF06MA25",
+      "ano": 6,
+      "conceito": "G-ANGULO",
+      "fio": "geometria",
+      "exige": [
+        "EF04MA18"
+      ],
+      "libera": [
+        "EF06MA26"
+      ]
+    },
+    {
+      "id": "EF06MA26",
+      "ano": 6,
+      "conceito": "G-ANGULO",
+      "fio": "geometria",
+      "exige": [
+        "EF06MA25"
+      ],
+      "libera": [
+        "EF06MA27"
+      ]
+    },
+    {
+      "id": "EF06MA27",
+      "ano": 6,
+      "conceito": "G-ANGULO",
+      "fio": "geometria",
+      "exige": [
+        "EF06MA26"
+      ],
+      "libera": [
+        "EF07MA23",
+        "EF06MA22"
+      ]
+    },
+    {
+      "id": "EF07MA23",
+      "ano": 7,
+      "conceito": "G-ANGULO",
+      "fio": "geometria",
+      "exige": [
+        "EF06MA27"
+      ],
+      "libera": [
+        "EF09MA10",
+        "EF07MA24"
+      ]
+    },
+    {
+      "id": "EF09MA10",
+      "ano": 9,
+      "conceito": "G-ANGULO",
+      "fio": "geometria",
+      "exige": [
+        "EF07MA23"
+      ],
+      "libera": [
+        "EF09MA12",
+        "EF09MA11",
+        "EM13MAT505"
+      ]
+    },
+    {
+      "id": "EF04MA19",
+      "ano": 4,
+      "conceito": "G-SIMETRIA",
+      "fio": "geometria",
+      "exige": [
+        "EF03MA15"
+      ],
+      "libera": [
+        "EF07MA21"
+      ]
+    },
+    {
+      "id": "EF07MA21",
+      "ano": 7,
+      "conceito": "G-SIMETRIA",
+      "fio": "geometria",
+      "exige": [
+        "EF04MA19"
+      ],
+      "libera": [
+        "EF08MA18"
+      ]
+    },
+    {
+      "id": "EF08MA18",
+      "ano": 8,
+      "conceito": "G-SIMETRIA",
+      "fio": "geometria",
+      "exige": [
+        "EF07MA21"
+      ],
+      "libera": [
+        "EM13MAT105"
+      ]
+    },
+    {
+      "id": "EM13MAT105",
+      "ano": 10,
+      "conceito": "G-SIMETRIA",
+      "fio": "geometria",
+      "exige": [
+        "EF08MA18"
+      ],
+      "libera": []
+    },
+    {
+      "id": "EF05MA14",
+      "ano": 5,
+      "conceito": "G-CARTES",
+      "fio": "geometria",
+      "exige": [
+        "EF01MA05",
+        "EF04MA16"
+      ],
+      "libera": [
+        "EF05MA15"
+      ]
+    },
+    {
+      "id": "EF05MA15",
+      "ano": 5,
+      "conceito": "G-CARTES",
+      "fio": "geometria",
+      "exige": [
+        "EF05MA14"
+      ],
+      "libera": [
+        "EF06MA16"
+      ]
+    },
+    {
+      "id": "EF06MA16",
+      "ano": 6,
+      "conceito": "G-CARTES",
+      "fio": "geometria",
+      "exige": [
+        "EF05MA15"
+      ],
+      "libera": [
+        "EF09MA06",
+        "EF07MA19",
+        "EF09MA16",
+        "EM13MAT509"
+      ]
+    },
+    {
+      "id": "EF05MA18",
+      "ano": 5,
+      "conceito": "G-ESCALA",
+      "fio": "geometria",
+      "exige": [
+        "EF05MA17",
+        "EF01MA04"
+      ],
+      "libera": [
+        "EF06MA21"
+      ]
+    },
+    {
+      "id": "EF06MA21",
+      "ano": 6,
+      "conceito": "G-ESCALA",
+      "fio": "geometria",
+      "exige": [
+        "EF05MA18"
+      ],
+      "libera": [
+        "EF07MA19"
+      ]
+    },
+    {
+      "id": "EF06MA22",
+      "ano": 6,
+      "conceito": "G-CONSTRUIR",
+      "fio": "geometria",
+      "exige": [
+        "EF06MA27"
+      ],
+      "libera": [
+        "EF06MA23"
+      ]
+    },
+    {
+      "id": "EF06MA23",
+      "ano": 6,
+      "conceito": "G-CONSTRUIR",
+      "fio": "geometria",
+      "exige": [
+        "EF06MA22"
+      ],
+      "libera": [
+        "EF07MA22"
+      ]
+    },
+    {
+      "id": "EF07MA22",
+      "ano": 7,
+      "conceito": "G-CONSTRUIR",
+      "fio": "geometria",
+      "exige": [
+        "EF06MA23"
+      ],
+      "libera": [
+        "EF07MA27"
+      ]
+    },
+    {
+      "id": "EF07MA27",
+      "ano": 7,
+      "conceito": "G-CONSTRUIR",
+      "fio": "geometria",
+      "exige": [
+        "EF07MA22"
+      ],
+      "libera": [
+        "EF07MA28"
+      ]
+    },
+    {
+      "id": "EF07MA28",
+      "ano": 7,
+      "conceito": "G-CONSTRUIR",
+      "fio": "geometria",
+      "exige": [
+        "EF07MA27"
+      ],
+      "libera": [
+        "EF08MA15",
+        "EF07MA24",
+        "EF07MA33"
+      ]
+    },
+    {
+      "id": "EF08MA15",
+      "ano": 8,
+      "conceito": "G-CONSTRUIR",
+      "fio": "geometria",
+      "exige": [
+        "EF07MA28"
+      ],
+      "libera": [
+        "EF08MA16"
+      ]
+    },
+    {
+      "id": "EF08MA16",
+      "ano": 8,
+      "conceito": "G-CONSTRUIR",
+      "fio": "geometria",
+      "exige": [
+        "EF08MA15"
+      ],
+      "libera": [
+        "EF08MA17"
+      ]
+    },
+    {
+      "id": "EF08MA17",
+      "ano": 8,
+      "conceito": "G-CONSTRUIR",
+      "fio": "geometria",
+      "exige": [
+        "EF08MA16"
+      ],
+      "libera": [
+        "EF09MA15"
+      ]
+    },
+    {
+      "id": "EF09MA15",
+      "ano": 9,
+      "conceito": "G-CONSTRUIR",
+      "fio": "geometria",
+      "exige": [
+        "EF08MA17"
+      ],
+      "libera": [
+        "EF09MA11"
+      ]
+    },
+    {
+      "id": "EF07MA24",
+      "ano": 7,
+      "conceito": "G-TRI",
+      "fio": "geometria",
+      "exige": [
+        "EF07MA23",
+        "EF07MA28"
+      ],
+      "libera": [
+        "EF07MA25"
+      ]
+    },
+    {
+      "id": "EF07MA25",
+      "ano": 7,
+      "conceito": "G-TRI",
+      "fio": "geometria",
+      "exige": [
+        "EF07MA24"
+      ],
+      "libera": [
+        "EF07MA26"
+      ]
+    },
+    {
+      "id": "EF07MA26",
+      "ano": 7,
+      "conceito": "G-TRI",
+      "fio": "geometria",
+      "exige": [
+        "EF07MA25"
+      ],
+      "libera": [
+        "EF09MA12"
+      ]
+    },
+    {
+      "id": "EF07MA19",
+      "ano": 7,
+      "conceito": "G-TRANSF",
+      "fio": "geometria",
+      "exige": [
+        "EF06MA16",
+        "EF04MA06",
+        "EF06MA21"
+      ],
+      "libera": [
+        "EF07MA20"
+      ]
+    },
+    {
+      "id": "EF07MA20",
+      "ano": 7,
+      "conceito": "G-TRANSF",
+      "fio": "geometria",
+      "exige": [
+        "EF07MA19"
+      ],
+      "libera": []
+    },
+    {
+      "id": "EF06MA28",
+      "ano": 6,
+      "conceito": "G-VISTA",
+      "fio": "geometria",
+      "exige": [
+        "EF06MA17",
+        "EF04MA16"
+      ],
+      "libera": [
+        "EF09MA17"
+      ]
+    },
+    {
+      "id": "EF09MA17",
+      "ano": 9,
+      "conceito": "G-VISTA",
+      "fio": "geometria",
+      "exige": [
+        "EF06MA28"
+      ],
+      "libera": []
+    },
+    {
+      "id": "EF09MA12",
+      "ano": 9,
+      "conceito": "G-SEMELHANCA",
+      "fio": "geometria",
+      "exige": [
+        "EF09MA10",
+        "EF09MA08",
+        "EF07MA26"
+      ],
+      "libera": [
+        "EF09MA13",
+        "EM13MAT308"
+      ]
+    },
+    {
+      "id": "EF09MA13",
+      "ano": 9,
+      "conceito": "G-PITAGORAS",
+      "fio": "geometria",
+      "exige": [
+        "EF09MA12"
+      ],
+      "libera": [
+        "EF09MA14"
+      ]
+    },
+    {
+      "id": "EF09MA14",
+      "ano": 9,
+      "conceito": "G-PITAGORAS",
+      "fio": "geometria",
+      "exige": [
+        "EF09MA13"
+      ],
+      "libera": [
+        "EF09MA01",
+        "EF09MA16",
+        "EM13MAT308"
+      ]
+    },
+    {
+      "id": "EF09MA11",
+      "ano": 9,
+      "conceito": "G-CIRC",
+      "fio": "geometria",
+      "exige": [
+        "EF09MA10",
+        "EF09MA15"
+      ],
+      "libera": [
+        "EM13MAT306"
+      ]
+    },
+    {
+      "id": "EF09MA16",
+      "ano": 9,
+      "conceito": "G-DIST",
+      "fio": "geometria",
+      "exige": [
+        "EF06MA16",
+        "EF09MA14"
+      ],
+      "libera": []
+    },
+    {
+      "id": "EM13MAT505",
+      "ano": 10,
+      "conceito": "G-LADRILHO",
+      "fio": "geometria",
+      "exige": [
+        "EF09MA10"
+      ],
+      "libera": []
+    },
+    {
+      "id": "EM13MAT308",
+      "ano": 10,
+      "conceito": "G-TRIG",
+      "fio": "geometria",
+      "exige": [
+        "EF09MA14",
+        "EF09MA12"
+      ],
+      "libera": []
+    },
+    {
+      "id": "EM13MAT509",
+      "ano": 10,
+      "conceito": "G-MAPA",
+      "fio": "geometria",
+      "exige": [
+        "EF06MA16",
+        "EF09MA08"
+      ],
+      "libera": []
+    },
+    {
+      "id": "EF01MA15",
+      "ano": 1,
+      "conceito": "M-COMPARAR",
+      "fio": "medidas",
+      "exige": [
+        "EI03ET08"
+      ],
+      "libera": [
+        "EF02MA16"
+      ]
+    },
+    {
+      "id": "EF02MA16",
+      "ano": 2,
+      "conceito": "M-COMPARAR",
+      "fio": "medidas",
+      "exige": [
+        "EF01MA15"
+      ],
+      "libera": [
+        "EF02MA17"
+      ]
+    },
+    {
+      "id": "EF02MA17",
+      "ano": 2,
+      "conceito": "M-COMPARAR",
+      "fio": "medidas",
+      "exige": [
+        "EF02MA16"
+      ],
+      "libera": [
+        "EF03MA17"
+      ]
+    },
+    {
+      "id": "EF03MA17",
+      "ano": 3,
+      "conceito": "M-UNIDADE",
+      "fio": "medidas",
+      "exige": [
+        "EF02MA17",
+        "EF01MA04"
+      ],
+      "libera": [
+        "EF03MA18"
+      ]
+    },
+    {
+      "id": "EF03MA18",
+      "ano": 3,
+      "conceito": "M-UNIDADE",
+      "fio": "medidas",
+      "exige": [
+        "EF03MA17"
+      ],
+      "libera": [
+        "EF03MA19"
+      ]
+    },
+    {
+      "id": "EF03MA19",
+      "ano": 3,
+      "conceito": "M-UNIDADE",
+      "fio": "medidas",
+      "exige": [
+        "EF03MA18"
+      ],
+      "libera": [
+        "EF03MA20"
+      ]
+    },
+    {
+      "id": "EF03MA20",
+      "ano": 3,
+      "conceito": "M-UNIDADE",
+      "fio": "medidas",
+      "exige": [
+        "EF03MA19"
+      ],
+      "libera": [
+        "EF04MA20"
+      ]
+    },
+    {
+      "id": "EF04MA20",
+      "ano": 4,
+      "conceito": "M-UNIDADE",
+      "fio": "medidas",
+      "exige": [
+        "EF03MA20"
+      ],
+      "libera": [
+        "EF05MA19"
+      ]
+    },
+    {
+      "id": "EF05MA19",
+      "ano": 5,
+      "conceito": "M-UNIDADE",
+      "fio": "medidas",
+      "exige": [
+        "EF04MA20"
+      ],
+      "libera": [
+        "EF06MA24"
+      ]
+    },
+    {
+      "id": "EF06MA24",
+      "ano": 6,
+      "conceito": "M-UNIDADE",
+      "fio": "medidas",
+      "exige": [
+        "EF05MA19"
+      ],
+      "libera": [
+        "EF07MA29"
+      ]
+    },
+    {
+      "id": "EF07MA29",
+      "ano": 7,
+      "conceito": "M-UNIDADE",
+      "fio": "medidas",
+      "exige": [
+        "EF06MA24"
+      ],
+      "libera": [
+        "EF07MA33",
+        "EF09MA18"
+      ]
+    },
+    {
+      "id": "EF01MA16",
+      "ano": 1,
+      "conceito": "M-TEMPO",
+      "fio": "medidas",
+      "exige": [
+        "EI02ET06",
+        "EF01MA01"
+      ],
+      "libera": [
+        "EF01MA17"
+      ]
+    },
+    {
+      "id": "EF01MA17",
+      "ano": 1,
+      "conceito": "M-TEMPO",
+      "fio": "medidas",
+      "exige": [
+        "EF01MA16"
+      ],
+      "libera": [
+        "EF01MA18"
+      ]
+    },
+    {
+      "id": "EF01MA18",
+      "ano": 1,
+      "conceito": "M-TEMPO",
+      "fio": "medidas",
+      "exige": [
+        "EF01MA17"
+      ],
+      "libera": [
+        "EF02MA18"
+      ]
+    },
+    {
+      "id": "EF02MA18",
+      "ano": 2,
+      "conceito": "M-TEMPO",
+      "fio": "medidas",
+      "exige": [
+        "EF01MA18"
+      ],
+      "libera": [
+        "EF02MA19"
+      ]
+    },
+    {
+      "id": "EF02MA19",
+      "ano": 2,
+      "conceito": "M-TEMPO",
+      "fio": "medidas",
+      "exige": [
+        "EF02MA18"
+      ],
+      "libera": [
+        "EF03MA22"
+      ]
+    },
+    {
+      "id": "EF03MA22",
+      "ano": 3,
+      "conceito": "M-TEMPO",
+      "fio": "medidas",
+      "exige": [
+        "EF02MA19"
+      ],
+      "libera": [
+        "EF03MA23"
+      ]
+    },
+    {
+      "id": "EF03MA23",
+      "ano": 3,
+      "conceito": "M-TEMPO",
+      "fio": "medidas",
+      "exige": [
+        "EF03MA22"
+      ],
+      "libera": [
+        "EF04MA22"
+      ]
+    },
+    {
+      "id": "EF04MA22",
+      "ano": 4,
+      "conceito": "M-TEMPO",
+      "fio": "medidas",
+      "exige": [
+        "EF03MA23"
+      ],
+      "libera": []
+    },
+    {
+      "id": "EF01MA19",
+      "ano": 1,
+      "conceito": "M-DINHEIRO",
+      "fio": "medidas",
+      "exige": [
+        "EF01MA01"
+      ],
+      "libera": [
+        "EF02MA20"
+      ]
+    },
+    {
+      "id": "EF02MA20",
+      "ano": 2,
+      "conceito": "M-DINHEIRO",
+      "fio": "medidas",
+      "exige": [
+        "EF01MA19"
+      ],
+      "libera": [
+        "EF03MA24"
+      ]
+    },
+    {
+      "id": "EF03MA24",
+      "ano": 3,
+      "conceito": "M-DINHEIRO",
+      "fio": "medidas",
+      "exige": [
+        "EF02MA20"
+      ],
+      "libera": [
+        "EF04MA25"
+      ]
+    },
+    {
+      "id": "EF04MA25",
+      "ano": 4,
+      "conceito": "M-DINHEIRO",
+      "fio": "medidas",
+      "exige": [
+        "EF03MA24"
+      ],
+      "libera": []
+    },
+    {
+      "id": "EF03MA21",
+      "ano": 3,
+      "conceito": "M-AREA",
+      "fio": "medidas",
+      "exige": [
+        "EF03MA15",
+        "EF03MA07"
+      ],
+      "libera": [
+        "EF04MA21"
+      ]
+    },
+    {
+      "id": "EF04MA21",
+      "ano": 4,
+      "conceito": "M-AREA",
+      "fio": "medidas",
+      "exige": [
+        "EF03MA21"
+      ],
+      "libera": [
+        "EF05MA20"
+      ]
+    },
+    {
+      "id": "EF05MA20",
+      "ano": 5,
+      "conceito": "M-AREA",
+      "fio": "medidas",
+      "exige": [
+        "EF04MA21"
+      ],
+      "libera": [
+        "EF06MA29",
+        "EF05MA21"
+      ]
+    },
+    {
+      "id": "EF06MA29",
+      "ano": 6,
+      "conceito": "M-AREA",
+      "fio": "medidas",
+      "exige": [
+        "EF05MA20"
+      ],
+      "libera": [
+        "EF07MA31"
+      ]
+    },
+    {
+      "id": "EF07MA31",
+      "ano": 7,
+      "conceito": "M-AREA",
+      "fio": "medidas",
+      "exige": [
+        "EF06MA29"
+      ],
+      "libera": [
+        "EF07MA32"
+      ]
+    },
+    {
+      "id": "EF07MA32",
+      "ano": 7,
+      "conceito": "M-AREA",
+      "fio": "medidas",
+      "exige": [
+        "EF07MA31"
+      ],
+      "libera": [
+        "EF08MA19"
+      ]
+    },
+    {
+      "id": "EF08MA19",
+      "ano": 8,
+      "conceito": "M-AREA",
+      "fio": "medidas",
+      "exige": [
+        "EF07MA32"
+      ],
+      "libera": [
+        "EM13MAT307"
+      ]
+    },
+    {
+      "id": "EM13MAT307",
+      "ano": 10,
+      "conceito": "M-AREA",
+      "fio": "medidas",
+      "exige": [
+        "EF08MA19"
+      ],
+      "libera": [
+        "EM13MAT201"
+      ]
+    },
+    {
+      "id": "EF05MA21",
+      "ano": 5,
+      "conceito": "M-VOLUME",
+      "fio": "medidas",
+      "exige": [
+        "EF05MA20",
+        "EF05MA16"
+      ],
+      "libera": [
+        "EF07MA30"
+      ]
+    },
+    {
+      "id": "EF07MA30",
+      "ano": 7,
+      "conceito": "M-VOLUME",
+      "fio": "medidas",
+      "exige": [
+        "EF05MA21"
+      ],
+      "libera": [
+        "EF08MA20"
+      ]
+    },
+    {
+      "id": "EF08MA20",
+      "ano": 8,
+      "conceito": "M-VOLUME",
+      "fio": "medidas",
+      "exige": [
+        "EF07MA30"
+      ],
+      "libera": [
+        "EF08MA21"
+      ]
+    },
+    {
+      "id": "EF08MA21",
+      "ano": 8,
+      "conceito": "M-VOLUME",
+      "fio": "medidas",
+      "exige": [
+        "EF08MA20"
+      ],
+      "libera": [
+        "EF09MA19"
+      ]
+    },
+    {
+      "id": "EF09MA19",
+      "ano": 9,
+      "conceito": "M-VOLUME",
+      "fio": "medidas",
+      "exige": [
+        "EF08MA21"
+      ],
+      "libera": [
+        "EM13MAT309"
+      ]
+    },
+    {
+      "id": "EM13MAT309",
+      "ano": 10,
+      "conceito": "M-VOLUME",
+      "fio": "medidas",
+      "exige": [
+        "EF09MA19"
+      ],
+      "libera": [
+        "EM13MAT504"
+      ]
+    },
+    {
+      "id": "EM13MAT504",
+      "ano": 10,
+      "conceito": "M-VOLUME",
+      "fio": "medidas",
+      "exige": [
+        "EM13MAT309"
+      ],
+      "libera": [
+        "EM13MAT201"
+      ]
+    },
+    {
+      "id": "EF04MA23",
+      "ano": 4,
+      "conceito": "M-GRAU",
+      "fio": "medidas",
+      "exige": [
+        "EF01MA05",
+        "EF04MA27"
+      ],
+      "libera": [
+        "EF04MA24"
+      ]
+    },
+    {
+      "id": "EF04MA24",
+      "ano": 4,
+      "conceito": "M-GRAU",
+      "fio": "medidas",
+      "exige": [
+        "EF04MA23"
+      ],
+      "libera": []
+    },
+    {
+      "id": "EF07MA33",
+      "ano": 7,
+      "conceito": "M-CIRCULO",
+      "fio": "medidas",
+      "exige": [
+        "EF07MA29",
+        "EF07MA28",
+        "EF06MA11"
+      ],
+      "libera": []
+    },
+    {
+      "id": "EF09MA18",
+      "ano": 9,
+      "conceito": "M-ESCALA",
+      "fio": "medidas",
+      "exige": [
+        "EF07MA29",
+        "EF09MA04"
+      ],
+      "libera": [
+        "EM13MAT103"
+      ]
+    },
+    {
+      "id": "EM13MAT103",
+      "ano": 10,
+      "conceito": "M-ESCALA",
+      "fio": "medidas",
+      "exige": [
+        "EF09MA18"
+      ],
+      "libera": []
+    },
+    {
+      "id": "EM13MAT201",
+      "ano": 10,
+      "conceito": "M-PROJETO",
+      "fio": "medidas",
+      "exige": [
+        "EM13MAT307",
+        "EM13MAT504"
+      ],
+      "libera": []
+    },
+    {
+      "id": "EF01MA20",
+      "ano": 1,
+      "conceito": "E-ACASO",
+      "fio": "estatistica",
+      "exige": [
+        "EI03ET08"
+      ],
+      "libera": [
+        "EF02MA21"
+      ]
+    },
+    {
+      "id": "EF02MA21",
+      "ano": 2,
+      "conceito": "E-ACASO",
+      "fio": "estatistica",
+      "exige": [
+        "EF01MA20"
+      ],
+      "libera": [
+        "EF03MA25"
+      ]
+    },
+    {
+      "id": "EF03MA25",
+      "ano": 3,
+      "conceito": "E-ACASO",
+      "fio": "estatistica",
+      "exige": [
+        "EF02MA21"
+      ],
+      "libera": [
+        "EF04MA26"
+      ]
+    },
+    {
+      "id": "EF04MA26",
+      "ano": 4,
+      "conceito": "E-ACASO",
+      "fio": "estatistica",
+      "exige": [
+        "EF03MA25"
+      ],
+      "libera": [
+        "EF05MA22"
+      ]
+    },
+    {
+      "id": "EF01MA21",
+      "ano": 1,
+      "conceito": "E-DADOS",
+      "fio": "estatistica",
+      "exige": [
+        "EF01MA04"
+      ],
+      "libera": [
+        "EF01MA22"
+      ]
+    },
+    {
+      "id": "EF01MA22",
+      "ano": 1,
+      "conceito": "E-DADOS",
+      "fio": "estatistica",
+      "exige": [
+        "EF01MA21"
+      ],
+      "libera": [
+        "EF02MA22"
+      ]
+    },
+    {
+      "id": "EF02MA22",
+      "ano": 2,
+      "conceito": "E-DADOS",
+      "fio": "estatistica",
+      "exige": [
+        "EF01MA22"
+      ],
+      "libera": [
+        "EF02MA23"
+      ]
+    },
+    {
+      "id": "EF02MA23",
+      "ano": 2,
+      "conceito": "E-DADOS",
+      "fio": "estatistica",
+      "exige": [
+        "EF02MA22"
+      ],
+      "libera": [
+        "EF03MA26"
+      ]
+    },
+    {
+      "id": "EF03MA26",
+      "ano": 3,
+      "conceito": "E-DADOS",
+      "fio": "estatistica",
+      "exige": [
+        "EF02MA23"
+      ],
+      "libera": [
+        "EF03MA27"
+      ]
+    },
+    {
+      "id": "EF03MA27",
+      "ano": 3,
+      "conceito": "E-DADOS",
+      "fio": "estatistica",
+      "exige": [
+        "EF03MA26"
+      ],
+      "libera": [
+        "EF03MA28"
+      ]
+    },
+    {
+      "id": "EF03MA28",
+      "ano": 3,
+      "conceito": "E-DADOS",
+      "fio": "estatistica",
+      "exige": [
+        "EF03MA27"
+      ],
+      "libera": [
+        "EF04MA27"
+      ]
+    },
+    {
+      "id": "EF04MA27",
+      "ano": 4,
+      "conceito": "E-DADOS",
+      "fio": "estatistica",
+      "exige": [
+        "EF03MA28"
+      ],
+      "libera": [
+        "EF04MA23",
+        "EF05MA24",
+        "EF04MA28"
+      ]
+    },
+    {
+      "id": "EF05MA24",
+      "ano": 5,
+      "conceito": "E-DADOS",
+      "fio": "estatistica",
+      "exige": [
+        "EF04MA27"
+      ],
+      "libera": [
+        "EF05MA25"
+      ]
+    },
+    {
+      "id": "EF05MA25",
+      "ano": 5,
+      "conceito": "E-DADOS",
+      "fio": "estatistica",
+      "exige": [
+        "EF05MA24"
+      ],
+      "libera": [
+        "EF06MA31"
+      ]
+    },
+    {
+      "id": "EF06MA31",
+      "ano": 6,
+      "conceito": "E-DADOS",
+      "fio": "estatistica",
+      "exige": [
+        "EF05MA25"
+      ],
+      "libera": [
+        "EF06MA32"
+      ]
+    },
+    {
+      "id": "EF06MA32",
+      "ano": 6,
+      "conceito": "E-DADOS",
+      "fio": "estatistica",
+      "exige": [
+        "EF06MA31"
+      ],
+      "libera": [
+        "EF06MA33"
+      ]
+    },
+    {
+      "id": "EF06MA33",
+      "ano": 6,
+      "conceito": "E-DADOS",
+      "fio": "estatistica",
+      "exige": [
+        "EF06MA32"
+      ],
+      "libera": [
+        "EF06MA34"
+      ]
+    },
+    {
+      "id": "EF06MA34",
+      "ano": 6,
+      "conceito": "E-DADOS",
+      "fio": "estatistica",
+      "exige": [
+        "EF06MA33"
+      ],
+      "libera": [
+        "EF07MA37"
+      ]
+    },
+    {
+      "id": "EF07MA37",
+      "ano": 7,
+      "conceito": "E-DADOS",
+      "fio": "estatistica",
+      "exige": [
+        "EF06MA34"
+      ],
+      "libera": [
+        "EF08MA23",
+        "EF07MA36"
+      ]
+    },
+    {
+      "id": "EF08MA23",
+      "ano": 8,
+      "conceito": "E-DADOS",
+      "fio": "estatistica",
+      "exige": [
+        "EF07MA37"
+      ],
+      "libera": [
+        "EM13MAT406",
+        "EF09MA21"
+      ]
+    },
+    {
+      "id": "EM13MAT406",
+      "ano": 10,
+      "conceito": "E-DADOS",
+      "fio": "estatistica",
+      "exige": [
+        "EF08MA23"
+      ],
+      "libera": [
+        "EM13MAT203",
+        "EM13MAT510"
+      ]
+    },
+    {
+      "id": "EF04MA28",
+      "ano": 4,
+      "conceito": "E-VAR",
+      "fio": "estatistica",
+      "exige": [
+        "EF04MA27"
+      ],
+      "libera": [
+        "EF07MA35"
+      ]
+    },
+    {
+      "id": "EF05MA22",
+      "ano": 5,
+      "conceito": "E-PROB",
+      "fio": "estatistica",
+      "exige": [
+        "EF04MA26",
+        "EF05MA05"
+      ],
+      "libera": [
+        "EF05MA23"
+      ]
+    },
+    {
+      "id": "EF05MA23",
+      "ano": 5,
+      "conceito": "E-PROB",
+      "fio": "estatistica",
+      "exige": [
+        "EF05MA22"
+      ],
+      "libera": [
+        "EF06MA30"
+      ]
+    },
+    {
+      "id": "EF06MA30",
+      "ano": 6,
+      "conceito": "E-PROB",
+      "fio": "estatistica",
+      "exige": [
+        "EF05MA23"
+      ],
+      "libera": [
+        "EF07MA34"
+      ]
+    },
+    {
+      "id": "EF07MA34",
+      "ano": 7,
+      "conceito": "E-PROB",
+      "fio": "estatistica",
+      "exige": [
+        "EF06MA30"
+      ],
+      "libera": [
+        "EF08MA22"
+      ]
+    },
+    {
+      "id": "EF08MA22",
+      "ano": 8,
+      "conceito": "E-PROB",
+      "fio": "estatistica",
+      "exige": [
+        "EF07MA34"
+      ],
+      "libera": [
+        "EF09MA20"
+      ]
+    },
+    {
+      "id": "EF09MA20",
+      "ano": 9,
+      "conceito": "E-PROB",
+      "fio": "estatistica",
+      "exige": [
+        "EF08MA22"
+      ],
+      "libera": [
+        "EM13MAT106"
+      ]
+    },
+    {
+      "id": "EM13MAT106",
+      "ano": 10,
+      "conceito": "E-PROB",
+      "fio": "estatistica",
+      "exige": [
+        "EF09MA20"
+      ],
+      "libera": [
+        "EM13MAT311"
+      ]
+    },
+    {
+      "id": "EM13MAT311",
+      "ano": 10,
+      "conceito": "E-PROB",
+      "fio": "estatistica",
+      "exige": [
+        "EM13MAT106"
+      ],
+      "libera": [
+        "EM13MAT312"
+      ]
+    },
+    {
+      "id": "EM13MAT312",
+      "ano": 10,
+      "conceito": "E-PROB",
+      "fio": "estatistica",
+      "exige": [
+        "EM13MAT311"
+      ],
+      "libera": [
+        "EM13MAT511"
+      ]
+    },
+    {
+      "id": "EM13MAT511",
+      "ano": 10,
+      "conceito": "E-PROB",
+      "fio": "estatistica",
+      "exige": [
+        "EM13MAT312"
+      ],
+      "libera": []
+    },
+    {
+      "id": "EF07MA35",
+      "ano": 7,
+      "conceito": "E-RESUMO",
+      "fio": "estatistica",
+      "exige": [
+        "EF04MA28",
+        "EF04MA07"
+      ],
+      "libera": [
+        "EF08MA24",
+        "EF07MA36"
+      ]
+    },
+    {
+      "id": "EF08MA24",
+      "ano": 8,
+      "conceito": "E-RESUMO",
+      "fio": "estatistica",
+      "exige": [
+        "EF07MA35"
+      ],
+      "libera": [
+        "EF08MA25"
+      ]
+    },
+    {
+      "id": "EF08MA25",
+      "ano": 8,
+      "conceito": "E-RESUMO",
+      "fio": "estatistica",
+      "exige": [
+        "EF08MA24"
+      ],
+      "libera": [
+        "EF09MA22"
+      ]
+    },
+    {
+      "id": "EF09MA22",
+      "ano": 9,
+      "conceito": "E-RESUMO",
+      "fio": "estatistica",
+      "exige": [
+        "EF08MA25"
+      ],
+      "libera": [
+        "EM13MAT316"
+      ]
+    },
+    {
+      "id": "EM13MAT316",
+      "ano": 10,
+      "conceito": "E-RESUMO",
+      "fio": "estatistica",
+      "exige": [
+        "EF09MA22"
+      ],
+      "libera": []
+    },
+    {
+      "id": "EF07MA36",
+      "ano": 7,
+      "conceito": "E-AMOSTRA",
+      "fio": "estatistica",
+      "exige": [
+        "EF07MA37",
+        "EF07MA35"
+      ],
+      "libera": [
+        "EF08MA26"
+      ]
+    },
+    {
+      "id": "EF08MA26",
+      "ano": 8,
+      "conceito": "E-AMOSTRA",
+      "fio": "estatistica",
+      "exige": [
+        "EF07MA36"
+      ],
+      "libera": [
+        "EF08MA27"
+      ]
+    },
+    {
+      "id": "EF08MA27",
+      "ano": 8,
+      "conceito": "E-AMOSTRA",
+      "fio": "estatistica",
+      "exige": [
+        "EF08MA26"
+      ],
+      "libera": [
+        "EF09MA23"
+      ]
+    },
+    {
+      "id": "EF09MA23",
+      "ano": 9,
+      "conceito": "E-AMOSTRA",
+      "fio": "estatistica",
+      "exige": [
+        "EF08MA27"
+      ],
+      "libera": [
+        "EM13MAT202",
+        "EF09MA21"
+      ]
+    },
+    {
+      "id": "EM13MAT202",
+      "ano": 10,
+      "conceito": "E-AMOSTRA",
+      "fio": "estatistica",
+      "exige": [
+        "EF09MA23"
+      ],
+      "libera": []
+    },
+    {
+      "id": "EF09MA21",
+      "ano": 9,
+      "conceito": "E-MIDIA",
+      "fio": "estatistica",
+      "exige": [
+        "EF08MA23",
+        "EF09MA23"
+      ],
+      "libera": [
+        "EM13MAT102"
+      ]
+    },
+    {
+      "id": "EM13MAT102",
+      "ano": 10,
+      "conceito": "E-MIDIA",
+      "fio": "estatistica",
+      "exige": [
+        "EF09MA21"
+      ],
+      "libera": [
+        "EM13MAT407"
+      ]
+    },
+    {
+      "id": "EM13MAT407",
+      "ano": 10,
+      "conceito": "E-MIDIA",
+      "fio": "estatistica",
+      "exige": [
+        "EM13MAT102"
+      ],
+      "libera": [
+        "EM13MAT104"
+      ]
+    },
+    {
+      "id": "EM13MAT510",
+      "ano": 10,
+      "conceito": "E-RELACAO",
+      "fio": "estatistica",
+      "exige": [
+        "EM13MAT406",
+        "EM13MAT506"
+      ],
+      "libera": []
+    },
+    {
+      "id": "EM13MAT104",
+      "ano": 10,
+      "conceito": "E-INDICE",
+      "fio": "estatistica",
+      "exige": [
+        "EF09MA05",
+        "EM13MAT407"
+      ],
+      "libera": []
+    }
+  ],
+  "arestas": [
+    {
+      "de": "EI02ET07",
+      "para": "EI02ET08",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EI02ET08",
+      "para": "EI03ET07",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EI02ET01",
+      "para": "EI02ET05",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EI02ET05",
+      "para": "EI03ET01",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EI03ET01",
+      "para": "EI03ET04",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EI03ET04",
+      "para": "EI03ET05",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EI03ET05",
+      "para": "EI03ET08",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EI01ET04",
+      "para": "EI02ET04",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EI02ET04",
+      "para": "EI02ET06",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EI03ET07",
+      "para": "EF01MA01",
+      "tipo": "exige",
+      "porque": "Preschool already pairs a spoken count with things. Year 1 splits that act into three social jobs: quantity, order, and a code that does not answer 'how many'."
+    },
+    {
+      "de": "EF01MA02",
+      "para": "EF01MA03",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF01MA03",
+      "para": "EF01MA04",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF01MA01",
+      "para": "EF01MA02",
+      "tipo": "exige",
+      "porque": "Exact counting is the quantity-use of a number. A child who still thinks every numeral is a bus line has nothing stable to count."
+    },
+    {
+      "de": "EF01MA04",
+      "para": "EF01MA05",
+      "tipo": "exige",
+      "porque": "You can only say that 15 is larger than 8 because 15 comes later in a count you trust, or because pairing leaves some of the 15 unmatched. The number line is that count laid on a cord."
+    },
+    {
+      "de": "EF01MA04",
+      "para": "EF01MA07",
+      "tipo": "exige",
+      "porque": "A ten is a counted group. If the count is unreliable, the group is only a pile with a hopeful label."
+    },
+    {
+      "de": "EF01MA06",
+      "para": "EF02MA05",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF01MA04",
+      "para": "EF01MA06",
+      "tipo": "exige",
+      "porque": "A fact the child cannot check by counting is a jingle. The count is the check."
+    },
+    {
+      "de": "EF01MA07",
+      "para": "EF01MA06",
+      "tipo": "exige",
+      "porque": "7 = 5 + 2 is a decomposition. The facts are the decompositions used so often they become available in the head."
+    },
+    {
+      "de": "EF01MA08",
+      "para": "EF02MA03",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF02MA03",
+      "para": "EF02MA06",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF02MA06",
+      "para": "EF03MA05",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF03MA05",
+      "para": "EF03MA06",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF03MA06",
+      "para": "EF04MA03",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF01MA06",
+      "para": "EF01MA08",
+      "tipo": "exige",
+      "porque": "The small facts are the pieces a child moves while solving. Without them every problem restarts at the count."
+    },
+    {
+      "de": "EF01MA05",
+      "para": "EF01MA08",
+      "tipo": "exige",
+      "porque": "'How many more' and 'how many to complete' are comparison questions. They are not the same as take-away, and the base holds them until the comparison idea exists."
+    },
+    {
+      "de": "EF02MA01",
+      "para": "EF02MA02",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF02MA02",
+      "para": "EF02MA04",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF01MA07",
+      "para": "EF02MA01",
+      "tipo": "exige",
+      "porque": "Hundreds are the two-order decomposition extended by the same rule: ten of these make one of those."
+    },
+    {
+      "de": "EF01MA05",
+      "para": "EF02MA01",
+      "tipo": "exige",
+      "porque": "Ordering to 999 still means deciding which is greater. Place value becomes the tool, but the question is the old comparison question."
+    },
+    {
+      "de": "EF03MA01",
+      "para": "EF03MA02",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF03MA02",
+      "para": "EF04MA01",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF04MA01",
+      "para": "EF04MA02",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF02MA04",
+      "para": "EF03MA01",
+      "tipo": "exige",
+      "porque": "A thousand is ten hundreds. A child who does not yet trust hundreds cannot see the next position as the same idea."
+    },
+    {
+      "de": "EF01MA05",
+      "para": "EF03MA04",
+      "tipo": "exige",
+      "porque": "The walked cord of year 1 is the ancestor. Year 3 needs the steps to be equal, so position means size."
+    },
+    {
+      "de": "EF02MA04",
+      "para": "EF03MA04",
+      "tipo": "exige",
+      "porque": "Equal steps only stay honest once the order of the larger numbers is known, including the jumps at 10, 100, and the empty place marked by zero."
+    },
+    {
+      "de": "EF02MA07",
+      "para": "EF03MA03",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF03MA03",
+      "para": "EF03MA07",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF03MA07",
+      "para": "EF04MA06",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF02MA06",
+      "para": "EF02MA07",
+      "tipo": "exige",
+      "porque": "The first meaning the base uses is equal groups, and equal groups are addition repeated. The array and the rate come after that meaning is available."
+    },
+    {
+      "de": "EF01MA04",
+      "para": "EF02MA08",
+      "tipo": "exige",
+      "porque": "Half of a collection can be made by pairing, before any division algorithm exists."
+    },
+    {
+      "de": "EF03MA08",
+      "para": "EF03MA09",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF03MA09",
+      "para": "EF04MA07",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF03MA07",
+      "para": "EF03MA08",
+      "tipo": "exige",
+      "porque": "Sharing and measuring undo equal groups. Without the groups, the two questions (how many in each, how many groups) have no parent operation."
+    },
+    {
+      "de": "EF04MA04",
+      "para": "EF04MA05",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF04MA05",
+      "para": "EF04MA13",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF04MA03",
+      "para": "EF04MA04",
+      "tipo": "exige",
+      "porque": "You cannot see that addition and subtraction undo each other before you have used both."
+    },
+    {
+      "de": "EF04MA06",
+      "para": "EF04MA04",
+      "tipo": "exige",
+      "porque": "Multiplication becomes invertible only after the student has built equal groups and can ask what was grouped."
+    },
+    {
+      "de": "EF04MA07",
+      "para": "EF04MA04",
+      "tipo": "exige",
+      "porque": "Division is the other half of that pair. The inverse relationship is a discovery about operations the child already performs."
+    },
+    {
+      "de": "EF04MA08",
+      "para": "EF05MA09",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF05MA09",
+      "para": "EF08MA03",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF08MA03",
+      "para": "EM13MAT310",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF04MA06",
+      "para": "EF04MA08",
+      "tipo": "exige",
+      "porque": "The combination count is the rectangular meaning of multiplication, used to count pairings rather than objects in a grid."
+    },
+    {
+      "de": "EF04MA09",
+      "para": "EF05MA03",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF05MA03",
+      "para": "EF05MA04",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF05MA04",
+      "para": "EF05MA05",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF05MA05",
+      "para": "EF06MA07",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF06MA07",
+      "para": "EF06MA09",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF06MA09",
+      "para": "EF06MA10",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF06MA10",
+      "para": "EF07MA08",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF04MA07",
+      "para": "EF04MA09",
+      "tipo": "exige",
+      "porque": "A fraction is a fair share that did not come out a whole number, and it is the quotient of a division. The share has to be a familiar question first."
+    },
+    {
+      "de": "EF03MA15",
+      "para": "EF04MA09",
+      "tipo": "exige",
+      "porque": "The other picture the base requires is a part of a shape. Without plane figures, 'part of a whole' has nothing to point at."
+    },
+    {
+      "de": "EF04MA10",
+      "para": "EF05MA02",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF05MA02",
+      "para": "EF05MA07",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF05MA07",
+      "para": "EF05MA08",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF05MA08",
+      "para": "EF06MA08",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF06MA08",
+      "para": "EF06MA11",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF04MA02",
+      "para": "EF04MA10",
+      "tipo": "exige",
+      "porque": "The positions to the right of the ones obey the same ten-for-one rule as the positions to the left. The rule has to be trusted first."
+    },
+    {
+      "de": "EF04MA09",
+      "para": "EF04MA10",
+      "tipo": "exige",
+      "porque": "A tenth is a fraction with denominator 10. Without that, 0.1 has no size, and equivalence between 1/2 and 0.5 is a trick."
+    },
+    {
+      "de": "EF05MA06",
+      "para": "EF06MA13",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF06MA13",
+      "para": "EF07MA02",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF07MA02",
+      "para": "EF08MA04",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF08MA04",
+      "para": "EF09MA05",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF05MA05",
+      "para": "EF05MA06",
+      "tipo": "exige",
+      "porque": "The first percents in the base are unit-fraction language. Percent is a fraction per hundred, not a new species of number."
+    },
+    {
+      "de": "EF05MA08",
+      "para": "EF05MA06",
+      "tipo": "exige",
+      "porque": "Money and the decimal writing of a rate are where percent gets used. The decimal has to already be a number."
+    },
+    {
+      "de": "EF05MA01",
+      "para": "EF06MA01",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF06MA01",
+      "para": "EF06MA02",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF06MA02",
+      "para": "EF06MA12",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF04MA02",
+      "para": "EF05MA01",
+      "tipo": "exige",
+      "porque": "A million is the same positions, one more time. Rounding to a power of ten is choosing which position still matters."
+    },
+    {
+      "de": "EF04MA13",
+      "para": "EF06MA03",
+      "tipo": "exige",
+      "porque": "Fluent calculation is the use of the relationships between operations, not a faster algorithm recited blind."
+    },
+    {
+      "de": "EF06MA12",
+      "para": "EF06MA03",
+      "tipo": "exige",
+      "porque": "The numbers being operated on are large enough that a strategy matters. The student has to be able to read them."
+    },
+    {
+      "de": "EF06MA05",
+      "para": "EF06MA06",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF06MA06",
+      "para": "EF07MA01",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF04MA07",
+      "para": "EF06MA05",
+      "tipo": "exige",
+      "porque": "A divisor is what division by that number leaves remainder zero. The remainder has to be a familiar object."
+    },
+    {
+      "de": "EF04MA12",
+      "para": "EF06MA05",
+      "tipo": "exige",
+      "porque": "Year 4 already built the sequences of multiples, and the families of numbers that leave the same remainder. Divisibility names that pattern."
+    },
+    {
+      "de": "EF07MA03",
+      "para": "EF07MA04",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF04MA03",
+      "para": "EF07MA03",
+      "tipo": "exige",
+      "porque": "A negative appears when take-away does not stop at zero. The operation is old. The refusal to stop is new."
+    },
+    {
+      "de": "EF03MA04",
+      "para": "EF07MA03",
+      "tipo": "exige",
+      "porque": "The integer is a position on the line in the direction opposite the count. Without the line, the sign has no geometry."
+    },
+    {
+      "de": "EF07MA10",
+      "para": "EF07MA11",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF07MA11",
+      "para": "EF07MA12",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF07MA12",
+      "para": "EF08MA05",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF06MA11",
+      "para": "EF07MA10",
+      "tipo": "exige",
+      "porque": "One of the two writings is the finite or repeating decimal."
+    },
+    {
+      "de": "EF07MA08",
+      "para": "EF07MA10",
+      "tipo": "exige",
+      "porque": "The other writing is the fraction. Equivalence between them is the content, so both writings already have to mean a size."
+    },
+    {
+      "de": "EF07MA04",
+      "para": "EF07MA10",
+      "tipo": "exige",
+      "porque": "The rationals in year 7 are no longer only the positive ones. The sign comes from the integers."
+    },
+    {
+      "de": "EF08MA02",
+      "para": "EF09MA03",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF06MA03",
+      "para": "EF08MA02",
+      "tipo": "exige",
+      "porque": "Year 6 already used a power as one operation among the others. Year 8 studies the relationship with the root."
+    },
+    {
+      "de": "EF04MA06",
+      "para": "EF08MA02",
+      "tipo": "exige",
+      "porque": "A positive integer power is multiplication repeated. That meaning has to be available before the exponent stops being a whole number."
+    },
+    {
+      "de": "EF08MA01",
+      "para": "EF09MA04",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF09MA04",
+      "para": "EM13MAT313",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF08MA02",
+      "para": "EF08MA01",
+      "tipo": "exige",
+      "porque": "The exponent on the ten is a power. Without powers, the notation is a ritual with a superscript."
+    },
+    {
+      "de": "EF06MA11",
+      "para": "EF08MA01",
+      "tipo": "exige",
+      "porque": "The coefficient is a decimal between 1 and 10. The student has to be able to read it as a number."
+    },
+    {
+      "de": "EF09MA01",
+      "para": "EF09MA02",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF08MA05",
+      "para": "EF09MA01",
+      "tipo": "exige",
+      "porque": "The claim is that some lengths are not rational. The student has to know what a rational is, in both writings, before a number can fail to be one."
+    },
+    {
+      "de": "EF09MA14",
+      "para": "EF09MA01",
+      "tipo": "exige",
+      "porque": "The base introduces the need through geometry: the diagonal of a polygon, the altitude of a triangle, when a side is the unit. Those lengths are Pythagorean. The number is the name of a length the rationals cannot reach."
+    },
+    {
+      "de": "EI03ET08",
+      "para": "EF01MA09",
+      "tipo": "exige",
+      "porque": "Sorting by one attribute is the preschool classification, now done on purpose and said aloud."
+    },
+    {
+      "de": "EF01MA10",
+      "para": "EF02MA09",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF02MA09",
+      "para": "EF02MA10",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF02MA10",
+      "para": "EF02MA11",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF02MA11",
+      "para": "EF03MA10",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF03MA10",
+      "para": "EF04MA11",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF04MA11",
+      "para": "EF04MA12",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF04MA12",
+      "para": "EF08MA10",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF08MA10",
+      "para": "EF08MA11",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF01MA09",
+      "para": "EF01MA10",
+      "tipo": "exige",
+      "porque": "A pattern is an attribute that repeats or grows. Seeing the attribute is the sorting skill, pointed along a sequence."
+    },
+    {
+      "de": "EF01MA04",
+      "para": "EF01MA10",
+      "tipo": "exige",
+      "porque": "The numeric patterns are a count that jumps. The ordinary count has to be stable before the jump is visible."
+    },
+    {
+      "de": "EF03MA11",
+      "para": "EF04MA14",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF04MA14",
+      "para": "EF04MA15",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF04MA15",
+      "para": "EF05MA10",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF05MA10",
+      "para": "EF05MA11",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF05MA11",
+      "para": "EF06MA14",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF03MA06",
+      "para": "EF03MA11",
+      "tipo": "exige",
+      "porque": "A child sees that two writings name the same value only after they have built one number in more than one way."
+    },
+    {
+      "de": "EF05MA12",
+      "para": "EF05MA13",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF05MA13",
+      "para": "EF07MA17",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF07MA17",
+      "para": "EF08MA12",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF08MA12",
+      "para": "EF08MA13",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF08MA13",
+      "para": "EF09MA08",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF04MA06",
+      "para": "EF05MA12",
+      "tipo": "exige",
+      "porque": "A constant rate is a multiplication. Doubling one quantity doubles the other. That is the equal-groups meaning, read across a situation."
+    },
+    {
+      "de": "EF05MA05",
+      "para": "EF05MA12",
+      "tipo": "exige",
+      "porque": "The rate itself is written as a fraction or a ratio. Without fractions the rate has no numeral."
+    },
+    {
+      "de": "EF06MA15",
+      "para": "EF07MA09",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF07MA09",
+      "para": "EF09MA07",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF09MA07",
+      "para": "EM13MAT314",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF05MA13",
+      "para": "EF06MA15",
+      "tipo": "exige",
+      "porque": "A ratio is a proportion read inside one situation. The constant rate has to be a familiar idea."
+    },
+    {
+      "de": "EF06MA10",
+      "para": "EF06MA15",
+      "tipo": "exige",
+      "porque": "The base writes the ratio 2 to 3 as the fraction 2/3. The fraction is the notation, so it cannot be new at the same moment."
+    },
+    {
+      "de": "EF07MA13",
+      "para": "EF07MA14",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF07MA14",
+      "para": "EF07MA15",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF07MA15",
+      "para": "EF07MA16",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF07MA16",
+      "para": "EF08MA06",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF06MA14",
+      "para": "EF07MA13",
+      "tipo": "exige",
+      "porque": "A letter inside an equality only makes sense if the equality is a statement of sameness that can be rewritten."
+    },
+    {
+      "de": "EF04MA13",
+      "para": "EF07MA13",
+      "tipo": "exige",
+      "porque": "Rewriting an expression uses the properties of the operations. Otherwise the algebra is letter-moving."
+    },
+    {
+      "de": "EF07MA18",
+      "para": "EF08MA07",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF08MA07",
+      "para": "EF08MA08",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF08MA08",
+      "para": "EM13MAT301",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF07MA16",
+      "para": "EF07MA18",
+      "tipo": "exige",
+      "porque": "The unknown is a letter that already behaves like a number."
+    },
+    {
+      "de": "EF07MA04",
+      "para": "EF07MA18",
+      "tipo": "exige",
+      "porque": "The solution of ax + b = c is not always positive. By year 7 the base has integers available, and the equation should be allowed to land on them."
+    },
+    {
+      "de": "EF08MA09",
+      "para": "EF09MA09",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF08MA08",
+      "para": "EF08MA09",
+      "tipo": "exige",
+      "porque": "Isolating a term, and keeping both sides equal, is the first-degree craft. The quadratic adds the square. It does not replace the craft."
+    },
+    {
+      "de": "EF08MA02",
+      "para": "EF08MA09",
+      "tipo": "exige",
+      "porque": "ax² = b asks for a number whose square is known. The square is a power, and the root undoes it."
+    },
+    {
+      "de": "EF06MA04",
+      "para": "EF07MA05",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF07MA05",
+      "para": "EF07MA06",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF07MA06",
+      "para": "EF07MA07",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF07MA07",
+      "para": "EM13MAT315",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EM13MAT315",
+      "para": "EM13MAT405",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF04MA07",
+      "para": "EF06MA04",
+      "tipo": "exige",
+      "porque": "The first flowchart in the base decides parity, which is division by 2 and a remainder. The decision needs a remainder."
+    },
+    {
+      "de": "EF06MA14",
+      "para": "EF06MA04",
+      "tipo": "exige",
+      "porque": "A procedure is worth writing down when a whole family of problems has the same structure and returns the same kind of answer. That is the equality-and-structure idea."
+    },
+    {
+      "de": "EF09MA06",
+      "para": "EM13MAT101",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EM13MAT101",
+      "para": "EM13MAT302",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EM13MAT302",
+      "para": "EM13MAT401",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EM13MAT401",
+      "para": "EM13MAT404",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EM13MAT404",
+      "para": "EM13MAT501",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EM13MAT501",
+      "para": "EM13MAT506",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF08MA08",
+      "para": "EF09MA06",
+      "tipo": "exige",
+      "porque": "The formula of an affine function is the expression inside the first-degree equation, now allowed to vary instead of being solved once."
+    },
+    {
+      "de": "EF06MA16",
+      "para": "EF09MA06",
+      "tipo": "exige",
+      "porque": "The graph is the set of pairs on the plane. Coordinates have to already locate a point."
+    },
+    {
+      "de": "EF09MA08",
+      "para": "EF09MA06",
+      "tipo": "exige",
+      "porque": "The line through the origin is direct proportion. The base asks students to distinguish that case. Proportion is the old idea, seen as a function."
+    },
+    {
+      "de": "EM13MAT402",
+      "para": "EM13MAT502",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EM13MAT502",
+      "para": "EM13MAT503",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EM13MAT506",
+      "para": "EM13MAT402",
+      "tipo": "exige",
+      "porque": "A quadratic is a function. The table, the formula, and the graph are already the representations. The new shape is the parabola."
+    },
+    {
+      "de": "EF09MA09",
+      "para": "EM13MAT402",
+      "tipo": "exige",
+      "porque": "The square in the formula, and the question of where it is zero, are the second-degree equation. The function is that equation set in motion."
+    },
+    {
+      "de": "EM13MAT304",
+      "para": "EM13MAT305",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EM13MAT305",
+      "para": "EM13MAT403",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EM13MAT403",
+      "para": "EM13MAT508",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EM13MAT506",
+      "para": "EM13MAT304",
+      "tipo": "exige",
+      "porque": "Exponential change is a function whose growth is the object of study. The function idea is already in place."
+    },
+    {
+      "de": "EF09MA03",
+      "para": "EM13MAT304",
+      "tipo": "exige",
+      "porque": "The variable is in the exponent of a power. Powers and roots are the arithmetic underneath."
+    },
+    {
+      "de": "EF09MA05",
+      "para": "EM13MAT303",
+      "tipo": "exige",
+      "porque": "The interest rate is a percent. Reading it as 'a tenth' or 'five per hundred' is the percent skill."
+    },
+    {
+      "de": "EM13MAT508",
+      "para": "EM13MAT303",
+      "tipo": "exige",
+      "porque": "Compound interest is exponential. The graph is how the base asks students to see the difference, so the exponential graph has to be readable."
+    },
+    {
+      "de": "EM13MAT506",
+      "para": "EM13MAT306",
+      "tipo": "exige",
+      "porque": "A repeating quantity is still a dependence between two variables, now with a period."
+    },
+    {
+      "de": "EF09MA11",
+      "para": "EM13MAT306",
+      "tipo": "exige",
+      "porque": "The circle is the reason a quantity can come back to its start: an angle that has gone all the way around."
+    },
+    {
+      "de": "EM13MAT506",
+      "para": "EM13MAT507",
+      "tipo": "exige",
+      "porque": "The base asks for the sequence to be recognized as an affine function on a discrete domain. The function comes first."
+    },
+    {
+      "de": "EF08MA11",
+      "para": "EM13MAT507",
+      "tipo": "exige",
+      "porque": "Add-the-same-amount has been a recursive pattern since year 1. The progression names it."
+    },
+    {
+      "de": "EM13MAT506",
+      "para": "EM13MAT203",
+      "tipo": "exige",
+      "porque": "A formula in a cell is a function. If a function is still a mystery, the spreadsheet hides it."
+    },
+    {
+      "de": "EM13MAT406",
+      "para": "EM13MAT203",
+      "tipo": "exige",
+      "porque": "The sheet is also a table of data. Reading a table is the old statistics skill."
+    },
+    {
+      "de": "EF01MA11",
+      "para": "EF01MA12",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF01MA12",
+      "para": "EF02MA12",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF02MA12",
+      "para": "EF02MA13",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF02MA13",
+      "para": "EF03MA12",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF03MA12",
+      "para": "EF04MA16",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EI02ET06",
+      "para": "EF01MA11",
+      "tipo": "exige",
+      "porque": "In, on, under, and beside are already lived. Year 1 adds a demand: say which body, or which object, the word is measured from."
+    },
+    {
+      "de": "EF01MA13",
+      "para": "EF02MA14",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF02MA14",
+      "para": "EF03MA13",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF03MA13",
+      "para": "EF03MA14",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF03MA14",
+      "para": "EF04MA17",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF04MA17",
+      "para": "EF05MA16",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF05MA16",
+      "para": "EF06MA17",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EI03ET08",
+      "para": "EF01MA13",
+      "tipo": "exige",
+      "porque": "Naming the shape of a can is classification by form, which preschool already practices on objects."
+    },
+    {
+      "de": "EF01MA14",
+      "para": "EF02MA15",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF02MA15",
+      "para": "EF03MA15",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF03MA15",
+      "para": "EF05MA17",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF05MA17",
+      "para": "EF06MA18",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF06MA18",
+      "para": "EF06MA19",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF06MA19",
+      "para": "EF06MA20",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EI03ET08",
+      "para": "EF01MA14",
+      "tipo": "exige",
+      "porque": "Telling a round thing from a square thing is preschool sorting, now given the standard names."
+    },
+    {
+      "de": "EF03MA16",
+      "para": "EF08MA14",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF03MA15",
+      "para": "EF03MA16",
+      "tipo": "exige",
+      "porque": "Congruence compares plane figures. There must be figures, with sides and vertices, to lay on each other."
+    },
+    {
+      "de": "EF04MA18",
+      "para": "EF06MA25",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF06MA25",
+      "para": "EF06MA26",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF06MA26",
+      "para": "EF06MA27",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF06MA27",
+      "para": "EF07MA23",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF07MA23",
+      "para": "EF09MA10",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF03MA15",
+      "para": "EF04MA18",
+      "tipo": "exige",
+      "porque": "An angle is the opening between two sides of a figure, or between two lines. The figure comes first."
+    },
+    {
+      "de": "EF04MA19",
+      "para": "EF07MA21",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF07MA21",
+      "para": "EF08MA18",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF08MA18",
+      "para": "EM13MAT105",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF03MA15",
+      "para": "EF04MA19",
+      "tipo": "exige",
+      "porque": "Symmetry is a property of a figure, or a move applied to a figure. No figure, no symmetry."
+    },
+    {
+      "de": "EF05MA14",
+      "para": "EF05MA15",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF05MA15",
+      "para": "EF06MA16",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF01MA05",
+      "para": "EF05MA14",
+      "tipo": "exige",
+      "porque": "A coordinate is a number, and the order of the numbers is the order on the line. Year 5 stays in the first quadrant, so negatives are not required yet."
+    },
+    {
+      "de": "EF04MA16",
+      "para": "EF05MA14",
+      "tipo": "exige",
+      "porque": "A pair of coordinates is a location from a stated origin. Location-from-a-reference is the old geometry skill, now numeric."
+    },
+    {
+      "de": "EF05MA18",
+      "para": "EF06MA21",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF05MA17",
+      "para": "EF05MA18",
+      "tipo": "exige",
+      "porque": "What gets enlarged is a polygon. Sides and angles have to be nameable."
+    },
+    {
+      "de": "EF01MA04",
+      "para": "EF05MA18",
+      "tipo": "exige",
+      "porque": "On a grid, the first method is counting squares. The count is enough to start."
+    },
+    {
+      "de": "EF06MA22",
+      "para": "EF06MA23",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF06MA23",
+      "para": "EF07MA22",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF07MA22",
+      "para": "EF07MA27",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF07MA27",
+      "para": "EF07MA28",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF07MA28",
+      "para": "EF08MA15",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF08MA15",
+      "para": "EF08MA16",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF08MA16",
+      "para": "EF08MA17",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF08MA17",
+      "para": "EF09MA15",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF06MA27",
+      "para": "EF06MA22",
+      "tipo": "exige",
+      "porque": "The constructions make angles and the relations between lines. An angle has to be an object before a tool can be asked to produce a 60° one."
+    },
+    {
+      "de": "EF07MA24",
+      "para": "EF07MA25",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF07MA25",
+      "para": "EF07MA26",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF07MA23",
+      "para": "EF07MA24",
+      "tipo": "exige",
+      "porque": "The angle sum is a statement about angles. It cannot precede the angle."
+    },
+    {
+      "de": "EF07MA28",
+      "para": "EF07MA24",
+      "tipo": "exige",
+      "porque": "The base asks students to construct the triangles and to meet the existence condition with a tool, not only to look at a picture."
+    },
+    {
+      "de": "EF07MA19",
+      "para": "EF07MA20",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF06MA16",
+      "para": "EF07MA19",
+      "tipo": "exige",
+      "porque": "The vertices are ordered pairs. The plane has to exist."
+    },
+    {
+      "de": "EF04MA06",
+      "para": "EF07MA19",
+      "tipo": "exige",
+      "porque": "The transformation in this skill is a multiplication of the coordinates."
+    },
+    {
+      "de": "EF06MA21",
+      "para": "EF07MA19",
+      "tipo": "exige",
+      "porque": "Enlargement on a grid, with angles preserved, is the geometric fact being arithmetized."
+    },
+    {
+      "de": "EF06MA28",
+      "para": "EF09MA17",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF06MA17",
+      "para": "EF06MA28",
+      "tipo": "exige",
+      "porque": "A view is a solid seen from one side. The solid is the object."
+    },
+    {
+      "de": "EF04MA16",
+      "para": "EF06MA28",
+      "tipo": "exige",
+      "porque": "Choosing a view is choosing a reference. Front and above are references."
+    },
+    {
+      "de": "EF09MA10",
+      "para": "EF09MA12",
+      "tipo": "exige",
+      "porque": "The conditions are statements about equal angles."
+    },
+    {
+      "de": "EF09MA08",
+      "para": "EF09MA12",
+      "tipo": "exige",
+      "porque": "The conditions are also statements about proportional sides. Proportion is the rate."
+    },
+    {
+      "de": "EF07MA26",
+      "para": "EF09MA12",
+      "tipo": "exige",
+      "porque": "The figures are triangles, including the constraint on which lengths can form one."
+    },
+    {
+      "de": "EF09MA13",
+      "para": "EF09MA14",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF09MA12",
+      "para": "EF09MA13",
+      "tipo": "exige",
+      "porque": "The base names the method: similarity of triangles. A memorized a² + b² = c² that the student cannot connect to a similar triangle is not this skill."
+    },
+    {
+      "de": "EF09MA10",
+      "para": "EF09MA11",
+      "tipo": "exige",
+      "porque": "A central angle and an inscribed angle are angles standing on the same arc. The angle has to already be an object with a measure."
+    },
+    {
+      "de": "EF09MA15",
+      "para": "EF09MA11",
+      "tipo": "exige",
+      "porque": "The circle has already been built as the set of points at a fixed distance. The arc is a piece of that circle."
+    },
+    {
+      "de": "EF06MA16",
+      "para": "EF09MA16",
+      "tipo": "exige",
+      "porque": "The points are given by coordinates. The plane is the setting."
+    },
+    {
+      "de": "EF09MA14",
+      "para": "EF09MA16",
+      "tipo": "exige",
+      "porque": "The distance is the hypotenuse of the right triangle the coordinates form. The base forbids hiding this inside a formula the student cannot see. The relation itself is the tool."
+    },
+    {
+      "de": "EF09MA10",
+      "para": "EM13MAT505",
+      "tipo": "exige",
+      "porque": "A tiling closes up when the angles around a vertex sum to a full turn. The angle is the fact being used."
+    },
+    {
+      "de": "EF09MA14",
+      "para": "EM13MAT308",
+      "tipo": "exige",
+      "porque": "The right triangle is the special case already demonstrated. Sine and cosine compare its sides."
+    },
+    {
+      "de": "EF09MA12",
+      "para": "EM13MAT308",
+      "tipo": "exige",
+      "porque": "The laws for a general triangle are similarity and proportionality extended past the right angle. The base names congruence and similarity as the route."
+    },
+    {
+      "de": "EF06MA16",
+      "para": "EM13MAT509",
+      "tipo": "exige",
+      "porque": "A projection lands on a plane with coordinates. Reading the result needs the plane."
+    },
+    {
+      "de": "EF09MA08",
+      "para": "EM13MAT509",
+      "tipo": "exige",
+      "porque": "Scale is a proportion. A projection that cannot keep one scale everywhere is a proportion that fails, and the student has to know what a kept proportion would have looked like."
+    },
+    {
+      "de": "EF01MA15",
+      "para": "EF02MA16",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF02MA16",
+      "para": "EF02MA17",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EI03ET08",
+      "para": "EF01MA15",
+      "tipo": "exige",
+      "porque": "Heavier and bigger are preschool comparisons. Year 1 makes the comparison deliberate and extends it to length and capacity."
+    },
+    {
+      "de": "EF03MA17",
+      "para": "EF03MA18",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF03MA18",
+      "para": "EF03MA19",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF03MA19",
+      "para": "EF03MA20",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF03MA20",
+      "para": "EF04MA20",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF04MA20",
+      "para": "EF05MA19",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF05MA19",
+      "para": "EF06MA24",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF06MA24",
+      "para": "EF07MA29",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF02MA17",
+      "para": "EF03MA17",
+      "tipo": "exige",
+      "porque": "Before a unit, the child can already say which is longer. The unit answers 'longer by how many of these'."
+    },
+    {
+      "de": "EF01MA04",
+      "para": "EF03MA17",
+      "tipo": "exige",
+      "porque": "A measurement is a count of copies of the unit. The count is the arithmetic."
+    },
+    {
+      "de": "EF01MA16",
+      "para": "EF01MA17",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF01MA17",
+      "para": "EF01MA18",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF01MA18",
+      "para": "EF02MA18",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF02MA18",
+      "para": "EF02MA19",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF02MA19",
+      "para": "EF03MA22",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF03MA22",
+      "para": "EF03MA23",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF03MA23",
+      "para": "EF04MA22",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EI02ET06",
+      "para": "EF01MA16",
+      "tipo": "exige",
+      "porque": "Before, during, and after are the preschool time words. The calendar is that order, written down."
+    },
+    {
+      "de": "EF01MA01",
+      "para": "EF01MA16",
+      "tipo": "exige",
+      "porque": "A date and a hour are numbers. Some of them are orders (the third day) and some are measures of duration. The child has to already know that a number can do more than one job, or the clock is a code they cannot use."
+    },
+    {
+      "de": "EF01MA19",
+      "para": "EF02MA20",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF02MA20",
+      "para": "EF03MA24",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF03MA24",
+      "para": "EF04MA25",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF01MA01",
+      "para": "EF01MA19",
+      "tipo": "exige",
+      "porque": "Year 1 only asks the child to recognize a coin or a bill and relate its value. The number on a bill is a quantity of money, which requires knowing that a number can name a quantity at all."
+    },
+    {
+      "de": "EF03MA21",
+      "para": "EF04MA21",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF04MA21",
+      "para": "EF05MA20",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF05MA20",
+      "para": "EF06MA29",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF06MA29",
+      "para": "EF07MA31",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF07MA31",
+      "para": "EF07MA32",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF07MA32",
+      "para": "EF08MA19",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF08MA19",
+      "para": "EM13MAT307",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF03MA15",
+      "para": "EF03MA21",
+      "tipo": "exige",
+      "porque": "Area is a magnitude of a plane figure. The figure comes first."
+    },
+    {
+      "de": "EF03MA07",
+      "para": "EF03MA21",
+      "tipo": "exige",
+      "porque": "The area of a rectangle is the array meaning of multiplication: rows of squares. Counting squares one by one works before this, and the base moves to the array."
+    },
+    {
+      "de": "EF05MA21",
+      "para": "EF07MA30",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF07MA30",
+      "para": "EF08MA20",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF08MA20",
+      "para": "EF08MA21",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF08MA21",
+      "para": "EF09MA19",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF09MA19",
+      "para": "EM13MAT309",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EM13MAT309",
+      "para": "EM13MAT504",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF05MA20",
+      "para": "EF05MA21",
+      "tipo": "exige",
+      "porque": "The volume of a prism is a stack of equal areas. Area is the two-dimensional count that volume extends."
+    },
+    {
+      "de": "EF05MA16",
+      "para": "EF05MA21",
+      "tipo": "exige",
+      "porque": "The solid being filled is a prism, a pyramid, a cylinder, a cone. Naming and imagining the solid comes from the geometry thread."
+    },
+    {
+      "de": "EF04MA23",
+      "para": "EF04MA24",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF01MA05",
+      "para": "EF04MA23",
+      "tipo": "exige",
+      "porque": "A temperature is a number on a scale. Comparing 18 °C and 31 °C is the number comparison, with a unit attached."
+    },
+    {
+      "de": "EF04MA27",
+      "para": "EF04MA23",
+      "tipo": "exige",
+      "porque": "The base asks for the temperatures inside a graph. Reading the graph is the statistics skill."
+    },
+    {
+      "de": "EF07MA29",
+      "para": "EF07MA33",
+      "tipo": "exige",
+      "porque": "The length is a measure in a stated unit."
+    },
+    {
+      "de": "EF07MA28",
+      "para": "EF07MA33",
+      "tipo": "exige",
+      "porque": "The circle has been constructed as a locus. The curve being measured is that circle."
+    },
+    {
+      "de": "EF06MA11",
+      "para": "EF07MA33",
+      "tipo": "exige",
+      "porque": "The ratio of circumference to diameter is not a whole number. Reporting it uses a decimal."
+    },
+    {
+      "de": "EF09MA18",
+      "para": "EM13MAT103",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF07MA29",
+      "para": "EF09MA18",
+      "tipo": "exige",
+      "porque": "Conversion is the unit idea: the number changes when the unit changes. Here the units are unfamiliar, the idea is not."
+    },
+    {
+      "de": "EF09MA04",
+      "para": "EF09MA18",
+      "tipo": "exige",
+      "porque": "These measures are written in scientific notation so the zeros do not hide the digits. The notation is the arithmetic."
+    },
+    {
+      "de": "EM13MAT307",
+      "para": "EM13MAT201",
+      "tipo": "exige",
+      "porque": "The project measures areas. The area has to be a tool, not a topic still being opened."
+    },
+    {
+      "de": "EM13MAT504",
+      "para": "EM13MAT201",
+      "tipo": "exige",
+      "porque": "The same project measures volumes of real containers and rooms. The volume formula has to already be a tool the class can use."
+    },
+    {
+      "de": "EF01MA20",
+      "para": "EF02MA21",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF02MA21",
+      "para": "EF03MA25",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF03MA25",
+      "para": "EF04MA26",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EI03ET08",
+      "para": "EF01MA20",
+      "tipo": "exige",
+      "porque": "Certain, possible, and impossible are a sorting of events. Sorting is the preschool act, applied to things that have not happened yet."
+    },
+    {
+      "de": "EF01MA21",
+      "para": "EF01MA22",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF01MA22",
+      "para": "EF02MA22",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF02MA22",
+      "para": "EF02MA23",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF02MA23",
+      "para": "EF03MA26",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF03MA26",
+      "para": "EF03MA27",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF03MA27",
+      "para": "EF03MA28",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF03MA28",
+      "para": "EF04MA27",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF04MA27",
+      "para": "EF05MA24",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF05MA24",
+      "para": "EF05MA25",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF05MA25",
+      "para": "EF06MA31",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF06MA31",
+      "para": "EF06MA32",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF06MA32",
+      "para": "EF06MA33",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF06MA33",
+      "para": "EF06MA34",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF06MA34",
+      "para": "EF07MA37",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF07MA37",
+      "para": "EF08MA23",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF08MA23",
+      "para": "EM13MAT406",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF01MA04",
+      "para": "EF01MA21",
+      "tipo": "exige",
+      "porque": "A column in a graph is a count made visible. Reading 'which has more' from a picture requires the count to already be a quantity."
+    },
+    {
+      "de": "EF04MA27",
+      "para": "EF04MA28",
+      "tipo": "exige",
+      "porque": "The child has already recorded both kinds, in surveys of favorite fruit and of age or count. Year 4 asks for the distinction that was implicit."
+    },
+    {
+      "de": "EF05MA22",
+      "para": "EF05MA23",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF05MA23",
+      "para": "EF06MA30",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF06MA30",
+      "para": "EF07MA34",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF07MA34",
+      "para": "EF08MA22",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF08MA22",
+      "para": "EF09MA20",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF09MA20",
+      "para": "EM13MAT106",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EM13MAT106",
+      "para": "EM13MAT311",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EM13MAT311",
+      "para": "EM13MAT312",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EM13MAT312",
+      "para": "EM13MAT511",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF04MA26",
+      "para": "EF05MA22",
+      "tipo": "exige",
+      "porque": "The fraction quantifies a judgment the student has been making in words since year 1: more likely, less likely."
+    },
+    {
+      "de": "EF05MA05",
+      "para": "EF05MA22",
+      "tipo": "exige",
+      "porque": "The probability is a fraction. Without fractions the answer can only stay a word, which is the earlier skill, not this one."
+    },
+    {
+      "de": "EF07MA35",
+      "para": "EF08MA24",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF08MA24",
+      "para": "EF08MA25",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF08MA25",
+      "para": "EF09MA22",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF09MA22",
+      "para": "EM13MAT316",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF04MA28",
+      "para": "EF07MA35",
+      "tipo": "exige",
+      "porque": "The mean of a categorical variable is nonsense. The distinction between kinds of variable is what makes the mean legal."
+    },
+    {
+      "de": "EF04MA07",
+      "para": "EF07MA35",
+      "tipo": "exige",
+      "porque": "The mean is a total shared equally. It is a division. A child who can only add cannot finish it."
+    },
+    {
+      "de": "EF07MA36",
+      "para": "EF08MA26",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF08MA26",
+      "para": "EF08MA27",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF08MA27",
+      "para": "EF09MA23",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF09MA23",
+      "para": "EM13MAT202",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF07MA37",
+      "para": "EF07MA36",
+      "tipo": "exige",
+      "porque": "A sample is a survey. Planning questions, tables, and graphs is the survey skill, now on people you did not all reach."
+    },
+    {
+      "de": "EF07MA35",
+      "para": "EF07MA36",
+      "tipo": "exige",
+      "porque": "The report the base asks for highlights mean, median, mode, and range. The summaries have to mean something before they are the conclusion of a study."
+    },
+    {
+      "de": "EF09MA21",
+      "para": "EM13MAT102",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EM13MAT102",
+      "para": "EM13MAT407",
+      "tipo": "mesmo-conceito",
+      "porque": "A habilidade seguinte do mesmo conceito, na ordem em que o conceito lista as suas habilidades."
+    },
+    {
+      "de": "EF08MA23",
+      "para": "EF09MA21",
+      "tipo": "exige",
+      "porque": "You can only see that a scale is dishonest if you can read an honest scale."
+    },
+    {
+      "de": "EF09MA23",
+      "para": "EF09MA21",
+      "tipo": "exige",
+      "porque": "A common trick is a sample presented as if it were everybody. Census versus sample is the distinction being abused."
+    },
+    {
+      "de": "EM13MAT406",
+      "para": "EM13MAT510",
+      "tipo": "exige",
+      "porque": "The scatter plot is a graph. Building and reading graphs is the old skill."
+    },
+    {
+      "de": "EM13MAT506",
+      "para": "EM13MAT510",
+      "tipo": "exige",
+      "porque": "Asking whether one variable depends on the other is the function question. The function gives the language of dependence. The data may refuse to be a function, and that refusal is part of the skill."
+    },
+    {
+      "de": "EF09MA05",
+      "para": "EM13MAT104",
+      "tipo": "exige",
+      "porque": "These indices are rates and percents. The arithmetic is percent."
+    },
+    {
+      "de": "EM13MAT407",
+      "para": "EM13MAT104",
+      "tipo": "exige",
+      "porque": "The critical half is the statistics half: who measured, what was left out, which picture was chosen. A correct percent can still be a misleading claim."
+    }
+  ]
+}

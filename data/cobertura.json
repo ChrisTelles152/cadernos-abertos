@@ -17,22 +17,206 @@
         {
           "codigo": "EF01MA02",
           "cobertura": "integral",
-          "nota": "Há contagem exata, estimativa antes de contar, e pareamento. O erro de apontar o mesmo objeto duas vezes está escrito como cena, não como observação de rodapé."
+          "nota": "Há contagem exata, estimativa antes de contar, e pareamento. O erro de apontar o mesmo objeto duas vezes está escrito como cena."
         },
         {
           "codigo": "EF01MA03",
           "cobertura": "integral",
-          "nota": "Dois conjuntos em torno de 20 são comparados por estimativa e por correspondência um a um, com a armadilha do espaço visual. O veredito é tem mais, tem menos ou tem o mesmo tanto, sem exigir numeral."
-        },
+          "nota": "Dois conjuntos em torno de 20 são comparados por estimativa e por correspondência um a um, com a armadilha do espaço visual."
+        }
+      ]
+    },
+    {
+      "id": "dez-e-dez",
+      "titulo": "Dez e mais dez",
+      "ano_serie": 1,
+      "aluno": "aluno/dez-e-dez.html",
+      "professor": "professor/dez-e-dez.html",
+      "habilidades": [
         {
           "codigo": "EF01MA04",
-          "cobertura": "parcial",
-          "nota": "O registro verbal e simbólico está escrito até 20, incluindo o zero. A habilidade pede coleções até 100. Esse trecho não está escrito, então a habilidade não pode constar como cumprida."
+          "cobertura": "integral",
+          "nota": "A unidade 1 registrou até 20. Esta unidade conta coleções até 100, em grupos de dez, e pede o registro verbal e o simbólico, inclusive o 100."
+        },
+        {
+          "codigo": "EF01MA07",
+          "cobertura": "integral",
+          "nota": "O mesmo número de duas ordens é armado com material em somas diferentes, como 40+3, 30+13 e 20+20+3. Dez soltas viram um pacote."
         },
         {
           "codigo": "EF01MA05",
-          "cobertura": "parcial",
-          "nota": "A comparação pela ordem da contagem e pela reta está escrita até 20, e recusa a regra dos dígitos. A habilidade pede números de até duas ordens. Além do 20, não está escrito."
+          "cobertura": "integral",
+          "nota": "A comparação até 20 ficou na unidade 1. Aqui 28 e 31, 40 e 50 e 19 e 21 são comparados pela ordem da contagem e pela reta, sem exigir valor posicional."
+        }
+      ]
+    },
+    {
+      "id": "fatos",
+      "titulo": "Fatos que a mão confere",
+      "ano_serie": 1,
+      "aluno": "aluno/fatos.html",
+      "professor": "professor/fatos.html",
+      "habilidades": [
+        {
+          "codigo": "EF01MA06",
+          "cobertura": "integral",
+          "nota": "Os fatos básicos são construídos e conferidos com material, e depois usados para calcular 8+5 sem recomeçar do um. A conta armada não entra."
+        }
+      ]
+    },
+    {
+      "id": "juntar-retirar",
+      "titulo": "Juntar e retirar",
+      "ano_serie": 1,
+      "aluno": "aluno/juntar-retirar.html",
+      "professor": "professor/juntar-retirar.html",
+      "habilidades": [
+        {
+          "codigo": "EF01MA08",
+          "cobertura": "integral",
+          "nota": "A criança resolve e elabora problemas de juntar, acrescentar, separar e retirar, até dois algarismos, com registro pessoal. Quantos a mais fica para o 3º ano."
+        }
+      ]
+    },
+    {
+      "id": "moedas",
+      "titulo": "Moedas e cédulas",
+      "ano_serie": 1,
+      "aluno": "aluno/moedas.html",
+      "professor": "professor/moedas.html",
+      "habilidades": [
+        {
+          "codigo": "EF01MA19",
+          "cobertura": "integral",
+          "nota": "Reconhece moedas de 5, 10, 25 e 50 centavos e de 1 real, e cédulas em circulação, e relaciona valores em situações simples, como duas de 50 centavos para 1 real."
+        }
+      ]
+    },
+    {
+      "id": "uma-marca",
+      "titulo": "Uma marca de cada vez",
+      "ano_serie": 1,
+      "aluno": "aluno/uma-marca.html",
+      "professor": "professor/uma-marca.html",
+      "habilidades": [
+        {
+          "codigo": "EF01MA09",
+          "cobertura": "integral",
+          "nota": "A mesma coleção é organizada por uma marca de cada vez: cor, e depois medida. A forma entra como atributo ao lado dessas, sem a nomenclatura dos sólidos."
+        },
+        {
+          "codigo": "EF01MA10",
+          "cobertura": "integral",
+          "nota": "A criança diz a regra de uma sequência recursiva de figuras ou de números e só então aponta o elemento que falta."
+        }
+      ]
+    },
+    {
+      "id": "de-que-lado",
+      "titulo": "De que lado",
+      "ano_serie": 1,
+      "aluno": "aluno/de-que-lado.html",
+      "professor": "professor/de-que-lado.html",
+      "habilidades": [
+        {
+          "codigo": "EF01MA11",
+          "cobertura": "integral",
+          "nota": "Direita, esquerda, em frente e atrás são ditas a partir do próprio corpo, e a palavra muda quando o corpo vira, sem o móvel mudar."
+        },
+        {
+          "codigo": "EF01MA12",
+          "cobertura": "integral",
+          "nota": "A mesma janela é a direita de uma criança e a esquerda de quem está de frente. A frase sem referencial não localiza."
+        }
+      ]
+    },
+    {
+      "id": "caixa-lata-bola",
+      "titulo": "Caixa, lata e bola",
+      "ano_serie": 1,
+      "aluno": "aluno/caixa-lata-bola.html",
+      "professor": "professor/caixa-lata-bola.html",
+      "habilidades": [
+        {
+          "codigo": "EF01MA13",
+          "cobertura": "integral",
+          "nota": "Esfera, cilindro, cone e bloco retangular são relacionados à bola, à lata, ao chapéu de festa e à caixa."
+        },
+        {
+          "codigo": "EF01MA14",
+          "cobertura": "integral",
+          "nota": "Círculo, quadrado, retângulo e triângulo são nomeados em outra posição e como face de sólido. Quadrado girado não vira outro nome."
+        }
+      ]
+    },
+    {
+      "id": "maior-mais-pesado",
+      "titulo": "Mais comprido, mais pesado",
+      "ano_serie": 1,
+      "aluno": "aluno/maior-mais-pesado.html",
+      "professor": "professor/maior-mais-pesado.html",
+      "habilidades": [
+        {
+          "codigo": "EF01MA15",
+          "cobertura": "integral",
+          "nota": "Comprimento com pontas alinhadas, capacidade por transvasar e massa nas mãos, com os termos da habilidade, sem centímetro e sem quilograma."
+        }
+      ]
+    },
+    {
+      "id": "o-dia-inteiro",
+      "titulo": "O dia inteiro",
+      "ano_serie": 1,
+      "aluno": "aluno/o-dia-inteiro.html",
+      "professor": "professor/o-dia-inteiro.html",
+      "habilidades": [
+        {
+          "codigo": "EF01MA16",
+          "cobertura": "integral",
+          "nota": "A criança relata a sequência de um dia e, quando a escola tem horário, usa a hora como marco, não como contagem."
+        },
+        {
+          "codigo": "EF01MA17",
+          "cobertura": "integral",
+          "nota": "Período do dia, dia da semana e mês ficam em listas separadas, com o calendário da sala como apoio."
+        },
+        {
+          "codigo": "EF01MA18",
+          "cobertura": "integral",
+          "nota": "A data é escrita com dia, mês e ano, e o dia da semana é lido no calendário, não chutado pelo tamanho do número."
+        }
+      ]
+    },
+    {
+      "id": "vai-acontecer",
+      "titulo": "Vai acontecer?",
+      "ano_serie": 1,
+      "aluno": "aluno/vai-acontecer.html",
+      "professor": "professor/vai-acontecer.html",
+      "habilidades": [
+        {
+          "codigo": "EF01MA20",
+          "cobertura": "integral",
+          "nota": "Eventos cotidianos são classificados em certeza, talvez e impossível. Frequente não é tratado como certeza, e não há fração."
+        }
+      ]
+    },
+    {
+      "id": "a-pesquisa",
+      "titulo": "A pesquisa da turma",
+      "ano_serie": 1,
+      "aluno": "aluno/a-pesquisa.html",
+      "professor": "professor/a-pesquisa.html",
+      "habilidades": [
+        {
+          "codigo": "EF01MA21",
+          "cobertura": "integral",
+          "nota": "A criança lê uma tabela e um gráfico de colunas simples com origem comum, e recusa a altura que não começa no mesmo chão."
+        },
+        {
+          "codigo": "EF01MA22",
+          "cobertura": "integral",
+          "nota": "A pesquisa tem até duas variáveis categóricas e universo de até 30, com registro pessoal cuja contagem outra pessoa consegue ler."
         }
       ]
     }
