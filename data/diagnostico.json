@@ -1,0 +1,224 @@
+{
+  "unidade": "os-numeros-do-dia",
+  "aviso": "Quem responde é a criança. Quem clica é o professor, e clica na razão que a criança deu. O número certo pela razão errada não é acerto.",
+  "regras_falsas": [
+    {
+      "id": "F-TUDO-QUANTIDADE",
+      "nome": "Todo numeral conta uma quantidade",
+      "hipotese": "A criança trata qualquer numeral como resposta a “quantos?”, inclusive um código.",
+      "nao_confundir_com": []
+    },
+    {
+      "id": "F-TUDO-ORDEM",
+      "nome": "Todo numeral marca uma posição",
+      "hipotese": "A criança trata qualquer numeral como lugar numa fila.",
+      "nao_confundir_com": []
+    },
+    {
+      "id": "F-TUDO-PRECO",
+      "nome": "Todo numeral é um preço",
+      "hipotese": "A criança lê um código como quantidade de dinheiro.",
+      "nao_confundir_com": ["M-DINHEIRO"]
+    },
+    {
+      "id": "F-ULTIMA-SEM-BIJECAO",
+      "nome": "A última palavra é o total, mesmo com repetição",
+      "hipotese": "A criança aceita a cardinalidade e ignora que o mesmo objeto entrou duas vezes na contagem.",
+      "nao_confundir_com": []
+    },
+    {
+      "id": "F-SUCESSOR",
+      "nome": "O total é o número que ainda viria",
+      "hipotese": "A criança responde com o sucessor da última palavra, não com a última palavra.",
+      "nao_confundir_com": []
+    },
+    {
+      "id": "F-EXTENSAO",
+      "nome": "O conjunto que ocupa mais espaço tem mais elementos",
+      "hipotese": "A criança compara a extensão visual, não a correspondência um a um.",
+      "nao_confundir_com": ["N-COMPARAR"]
+    },
+    {
+      "id": "F-SO-NUMERAL",
+      "nome": "Sem dizer o número, não há comparação",
+      "hipotese": "A criança recusa o pareamento como prova de quem tem mais e exige um numeral.",
+      "nao_confundir_com": ["N-COMPARAR"]
+    },
+    {
+      "id": "F-MAIS-DIGITOS",
+      "nome": "Mais dígitos quer dizer número maior",
+      "hipotese": "A criança aponta o maior porque ele é mais comprido. A regra acerta em 9 e 12 e quebra em 99 e 100.",
+      "nao_confundir_com": ["N-COMPOR"]
+    },
+    {
+      "id": "F-DIGITO-MAIOR",
+      "nome": "O maior dígito escrito é o maior número",
+      "hipotese": "A criança compara os dígitos soltos, como se o 9 vencesse o 1 e o 2 de dentro do 12.",
+      "nao_confundir_com": ["N-COMPOR"]
+    }
+  ],
+  "itens": [
+    {
+      "id": "q-sentido",
+      "alvo": "N-SENTIDO",
+      "leitura": "O ônibus da Nara é o 475. O 475 conta quantos ônibus tem, diz o lugar da Nara na fila, ou é só o nome da linha?",
+      "enunciado": "O numeral 475 no ônibus. O professor lê as três possibilidades e anota a que a criança escolheu. Se a criança falar em preço sem que isso tenha sido lido, há um botão para essa hipótese.",
+      "gloss": "475 on Nara’s bus. The teacher reads the three jobs and records the one the child picks. Price is there for the child who brings it up.",
+      "limite": "Acertar aqui é consistente com separar código e quantidade neste ônibus. Não é evidência sobre comparar 9 e 12.",
+      "opcoes": [
+        {
+          "id": "nome",
+          "texto": "É o nome da linha. Não conta ônibus.",
+          "tipo": "certa"
+        },
+        {
+          "id": "quantos",
+          "texto": "Conta quantos ônibus existem.",
+          "tipo": "regra_falsa",
+          "regra": "F-TUDO-QUANTIDADE"
+        },
+        {
+          "id": "lugar",
+          "texto": "Diz o lugar da Nara na fila. Ela seria a 475ª.",
+          "tipo": "regra_falsa",
+          "regra": "F-TUDO-ORDEM"
+        },
+        {
+          "id": "preco",
+          "texto": "Diz o preço. A passagem custa 475 reais.",
+          "tipo": "regra_falsa",
+          "regra": "F-TUDO-PRECO"
+        },
+        {
+          "id": "sem-razao",
+          "texto": "Não escolheu, ou disse outra coisa que não cabe nestas hipóteses.",
+          "tipo": "inconclusivo",
+          "explica_o_que_nao_diz": "Não há hipótese para registrar. A pergunta precisa ser refeita com as três frases, sem inventar a razão."
+        }
+      ]
+    },
+    {
+      "id": "q-contagem",
+      "alvo": "N-CONTAGEM",
+      "leitura": "Tem 8 pães na mesa. O Bento conta: um, dois, três, quatro, cinco, seis, sete, oito, nove. O dedo dele apontou o mesmo pão duas vezes. Quantos pães há?",
+      "enunciado": "Oito pães, uma contagem que chega a nove porque um pão entrou duas vezes. O professor anota a razão, não só o número que a criança disse.",
+      "gloss": "Eight rolls. The count says nine because one roll was pointed at twice. Record the reason, not only the number spoken.",
+      "limite": "Acertar é consistente com a bijeção neste montinho e com tratar “oito” como quantidade, não como nome do prato. Não prova a ordem estável até 20.",
+      "opcoes": [
+        {
+          "id": "nove",
+          "texto": "São 9. A última palavra foi nove, então são nove, mesmo com o dedo repetindo um pão.",
+          "tipo": "regra_falsa",
+          "regra": "F-ULTIMA-SEM-BIJECAO"
+        },
+        {
+          "id": "oito",
+          "texto": "São 8. Um pão entrou duas vezes na fala, então o nove não é um pão novo.",
+          "tipo": "certa"
+        },
+        {
+          "id": "dez",
+          "texto": "São 10, porque depois do nove a contagem ainda ia chegar no dez.",
+          "tipo": "regra_falsa",
+          "regra": "F-SUCESSOR"
+        },
+        {
+          "id": "nome-do-prato",
+          "texto": "O oito é o nome do prato. Não dá para dizer quantos pães são.",
+          "tipo": "lacuna",
+          "falha": "N-SENTIDO"
+        },
+        {
+          "id": "sem-razao",
+          "texto": "Disse um número e não disse por quê.",
+          "tipo": "inconclusivo",
+          "explica_o_que_nao_diz": "Um número solto não separa “a última palavra manda” de “o pão repetido não conta”. Não entra no mapa."
+        }
+      ]
+    },
+    {
+      "id": "q-pares",
+      "alvo": "N-CONTAGEM",
+      "leitura": "A cesta A está espalhada e parece grande. A cesta B está juntinha e parece pequena. A gente faz pares, uma laranja de cada cesta. A cesta A acaba e na B ainda sobram laranjas. Onde tem mais?",
+      "enunciado": "O pareamento deixa sobra na cesta que parece menor. A criança pode responder pelo olho, pelo par, ou dizendo que só o número valeria.",
+      "gloss": "Pairing leaves leftovers in the basket that looks smaller. The child may answer by eye, by the pairs, or by insisting that only a spoken number would count.",
+      "limite": "Acertar é consistente com a correspondência um a um contra a extensão visual. Não é evidência de comparação de numerais na reta.",
+      "opcoes": [
+        {
+          "id": "espalhada",
+          "texto": "Na A, porque está mais espalhada e ocupa mais mesa.",
+          "tipo": "regra_falsa",
+          "regra": "F-EXTENSAO"
+        },
+        {
+          "id": "sobra",
+          "texto": "Na B, porque sobraram laranjas sem par. O espaço da mesa não conta.",
+          "tipo": "certa"
+        },
+        {
+          "id": "so-numero",
+          "texto": "Não dá para saber. Par não mostra quem tem mais. Só o número diria.",
+          "tipo": "regra_falsa",
+          "regra": "F-SO-NUMERAL"
+        },
+        {
+          "id": "primeira",
+          "texto": "Na A, porque é a primeira cesta, a cesta número 1, e 1 vem na frente.",
+          "tipo": "lacuna",
+          "falha": "N-SENTIDO"
+        },
+        {
+          "id": "sem-razao",
+          "texto": "Apontou uma cesta e não disse por quê.",
+          "tipo": "inconclusivo",
+          "explica_o_que_nao_diz": "Apontar a cesta B pode ser o par ou pode ser chute. Sem a razão, não há crédito nem hipótese."
+        }
+      ]
+    },
+    {
+      "id": "q-comparar",
+      "alvo": "N-COMPARAR",
+      "leitura": "Qual é maior, 9 ou 12? Por quê?",
+      "enunciado": "Nove ou doze. As duas respostas numéricas aparecem mais de uma vez, cada uma com uma razão diferente. O botão certo é a razão da contagem. “12 porque tem mais dígitos” é erro, mesmo sendo o número maior.",
+      "gloss": "Nine or twelve. Both numbers appear more than once, each with a different reason. The credit is the count reason. “12 because it has more digits” is wrong even though 12 is the greater number.",
+      "limite": "Acertar é consistente com ordenar 9 e 12 pela contagem e com tratar os dois como quantidades, não como nomes. Não prova classificação de um número de ônibus. Não usa valor posicional, e uma razão errada não abre falta de valor posicional.",
+      "opcoes": [
+        {
+          "id": "depois",
+          "texto": "O 12, porque na contagem a gente fala o 9 e só depois chega no 12.",
+          "tipo": "certa"
+        },
+        {
+          "id": "mais-digitos",
+          "texto": "O 12, porque tem dois dígitos, e dois dígitos é mais do que um.",
+          "tipo": "regra_falsa",
+          "regra": "F-MAIS-DIGITOS"
+        },
+        {
+          "id": "digito-9",
+          "texto": "O 9, porque 9 é maior que 1 e maior que 2.",
+          "tipo": "regra_falsa",
+          "regra": "F-DIGITO-MAIOR"
+        },
+        {
+          "id": "nao-sei-a-ordem",
+          "texto": "Não sei qual é maior, porque eu não sei qual dos dois a gente fala primeiro.",
+          "tipo": "lacuna",
+          "falha": "N-CONTAGEM"
+        },
+        {
+          "id": "sao-nomes",
+          "texto": "Nenhum é maior. 9 e 12 são nomes, como número de camisa.",
+          "tipo": "lacuna",
+          "falha": "N-SENTIDO"
+        },
+        {
+          "id": "sem-razao",
+          "texto": "Apontou o 9 ou o 12 e não disse por quê.",
+          "tipo": "inconclusivo",
+          "explica_o_que_nao_diz": "Apontar o 12 não separa a contagem da regra dos dígitos. Não há crédito e não há hipótese."
+        }
+      ]
+    }
+  ]
+}

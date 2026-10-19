@@ -12,10 +12,13 @@ Written: 1º ano, Unidade 1, *Os números do dia*. It teaches quantity, order, a
 
 The dependency arrows are a pedagogical inference. The BNCC orders skills by year and does not publish prerequisites. `scripts/test_graph.py` pins the claims the site teaches, including that comparing numbers does not require place value, and that the irrationals wait for Pythagoras.
 
-## Check the graph
+## Check the graph, the adoption rule, and the diagnostic
 
 ```bash
 python3 scripts/test_graph.py
+python3 scripts/test_adocao.py
+python3 scripts/test_diagnostics.py
+python3 scripts/test_serve.py
 ```
 
 Rebuilding `site/data/curriculum.json` needs the raw BNCC extract in `data/raw/`, which is not in git:
@@ -26,14 +29,21 @@ python3 scripts/build_curriculum.py
 
 ## Read it in a browser
 
-The map loads the curriculum with `fetch`, which does not work from a `file://` page. Serve the `site` folder:
+The map, the adoption minute, and the mastery record are served together. A plain static server cannot log a teacher in, and a `file://` page cannot load the curriculum.
 
 ```bash
-cd site
-python3 -m http.server 8741 --bind 127.0.0.1
+python3 scripts/serve.py
 ```
 
-Then open <http://127.0.0.1:8741/>.
+Then open <http://127.0.0.1:8741/>. The process binds to this computer only. Student names are written to `data/school/`, which is not committed.
+
+## What a school may adopt
+
+`scripts/adocao.py` builds the minute a school council can paste into the pedagogical proposal. A skill is adoptable when a written book finishes it. A year may replace a textbook only when every mathematics skill of that year is finished. None is, yet. The tests fail if the minute claims more, or if it calls the work a PNLD book.
+
+## What a wrong answer means
+
+`scripts/diagnostics.py` checks that every option of an item is a different assumption, and that the correct option loads the target plus its school-age prerequisites. A false rule such as “more digits means larger” does not open a gap in place value. `scripts/test_diagnostics.py` and `scripts/test_serve.py` pin that.
 
 ## Sources
 
