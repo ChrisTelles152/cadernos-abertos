@@ -7,8 +7,6 @@ on:
 
 permissions:
   contents: read
-  pages: write
-  id-token: write
 
 concurrency:
   group: site-${{ github.ref }}
@@ -23,31 +21,4 @@ jobs:
         with:
           python-version: "3.12"
       - name: Rebuild the adoption minute and run the checks
-        run: |
-          python3 scripts/export_adocao.py
-          git diff --exit-code -- site/data/adocao.json
-          python3 scripts/test_graph.py
-          python3 scripts/test_skill_graph.py
-          python3 scripts/test_adocao.py
-          python3 scripts/test_year1.py
-          python3 scripts/test_diagnostics.py
-          python3 scripts/test_serve.py
-
-  deploy:
-    needs: test
-    if: github.event_name == 'push' && github.ref == 'refs/heads/master'
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
-        with:
-          python-version: "3.12"
-      - run: python3 scripts/export_adocao.py
-      - uses: actions/upload-pages-artifact@v3
-        with:
-          path: site
-      - id: deployment
-        uses: actions/deploy-pages@v4
+        run: sh scripts/check.sh

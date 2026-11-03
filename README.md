@@ -12,7 +12,9 @@ Written: the whole 1º ano, twelve units, from *Os números do dia* through the 
 
 The dependency arrows are a pedagogical inference. The BNCC orders skills by year and does not publish prerequisites. `scripts/test_graph.py` pins the concept claims, including that comparing numbers does not require place value. `scripts/test_skill_graph.py` pins the same idea one skill at a time: EF01MA05 depends on the count to 100, and not on composition. The picture of that graph is `site/grafo.html`.
 
-The public site is <https://christelles152.github.io/cadernos-abertos/>. GitHub Actions runs the tests on every push to `master` and publishes the `site/` directory. There is no server in that publication. `scripts/export_adocao.py` writes `site/data/adocao.json` before the tests, and the test fails if the committed file disagrees.
+The production site is <https://cadernos-abertos.vercel.app/>. Vercel has two environments. A push to `master` is production. Any other branch, including a pull request, is a preview at its own address. Neither environment stores student names, and neither has environment variables.
+
+GitHub Actions runs `scripts/check.sh` on every push and pull request. The Vercel build runs the same script, so a failed check does not replace production. `scripts/export_adocao.py` writes `site/data/adocao.json`, and the check fails if the committed file disagrees.
 
 ## Check the graph, the adoption rule, and the diagnostic
 
