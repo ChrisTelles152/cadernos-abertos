@@ -42,10 +42,20 @@ def test_the_minute_does_not_overclaim(report):
     assert "Não pode ser a razão de guardar o livro do PNLD sem uso" in ata
 
 
+def test_the_published_minute_is_the_static_file(report):
+    published = json.loads((ROOT / "site" / "data" / "adocao.json").read_text(encoding="utf-8"))
+    assert published == report
+    for name in ("adocao.js", "grafo.js"):
+        source = (ROOT / "site" / "js" / name).read_text(encoding="utf-8")
+        assert "data/adocao.json" in source, name
+        assert "/api/adocao" not in source, name
+
+
 def main():
     report = load()
     test_year1_can_replace_a_mathematics_textbook(report)
     test_the_minute_does_not_overclaim(report)
+    test_the_published_minute_is_the_static_file(report)
     print("adoption claims hold")
 
 

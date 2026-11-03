@@ -8,10 +8,10 @@
   Promise.all([
     fetch("data/curriculum.json").then((r) => r.json()),
     fetch("data/skill-graph.json").then((r) => r.json()),
-    fetch("/api/adocao").then((r) => (r.ok ? r.json() : null)).catch(() => null),
+    fetch("data/adocao.json").then((r) => (r.ok ? r.json() : null)).catch(() => null),
   ]).then(([catalog, graph, adoption]) => render(catalog, graph, adoption))
     .catch((error) => {
-      panel.textContent = "Could not load the skill graph. Serve the site with python3 scripts/serve.py.";
+      panel.textContent = "Could not load the skill graph.";
       console.error(error);
     });
 
@@ -221,7 +221,7 @@
           ? "A book has started this skill and does not finish it."
           : adoption
             ? "No finished book claims this skill yet."
-            : "Coverage loads when the page is served by python3 scripts/serve.py.";
+            : "Coverage was not published with this page.";
       panel.appendChild(status);
       if (concept.livro) {
         const link = document.createElement("p");

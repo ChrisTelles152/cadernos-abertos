@@ -12,9 +12,12 @@ Written: the whole 1º ano, twelve units, from *Os números do dia* through the 
 
 The dependency arrows are a pedagogical inference. The BNCC orders skills by year and does not publish prerequisites. `scripts/test_graph.py` pins the concept claims, including that comparing numbers does not require place value. `scripts/test_skill_graph.py` pins the same idea one skill at a time: EF01MA05 depends on the count to 100, and not on composition. The picture of that graph is `site/grafo.html`.
 
+The public site is <https://christelles152.github.io/cadernos-abertos/>. GitHub Actions runs the tests on every push to `master` and publishes the `site/` directory. There is no server in that publication. `scripts/export_adocao.py` writes `site/data/adocao.json` before the tests, and the test fails if the committed file disagrees.
+
 ## Check the graph, the adoption rule, and the diagnostic
 
 ```bash
+python3 scripts/export_adocao.py
 python3 scripts/test_graph.py
 python3 scripts/test_skill_graph.py
 python3 scripts/test_adocao.py
@@ -23,22 +26,17 @@ python3 scripts/test_diagnostics.py
 python3 scripts/test_serve.py
 ```
 
-Rebuilding `site/data/curriculum.json` needs the raw BNCC extract in `data/raw/`, which is not in git:
+Rebuilding `site/data/curriculum.json` from the BNCC extract:
 
 ```bash
 python3 scripts/build_curriculum.py
 python3 scripts/skill_graph.py
+python3 scripts/export_adocao.py
 ```
 
-## Read it in a browser
+## What is not stored on the host
 
-The map, the adoption minute, and the mastery record are served together. A plain static server cannot log a teacher in, and a `file://` page cannot load the curriculum.
-
-```bash
-python3 scripts/serve.py
-```
-
-Then open <http://127.0.0.1:8741/>. The process binds to this computer only. Student names are written to `data/school/`, which is not committed.
+The adoption minute says student data is not given to a third party. The published site therefore has no student database and does not ask for a child’s name. `scripts/diagnostics.py` still checks that every option of an item is a different assumption, and GitHub Actions runs that check. `data/school/` is ignored by git and is not part of the site.
 
 ## What a school may adopt
 

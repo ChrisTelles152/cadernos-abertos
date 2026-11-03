@@ -3,7 +3,7 @@
   const years = document.getElementById("ado-anos");
   const skills = document.getElementById("ado-skills");
   const ata = document.getElementById("ata");
-  fetch("/api/adocao")
+  fetch("data/adocao.json")
     .then((response) => {
       if (!response.ok) throw new Error(String(response.status));
       return response.json();
@@ -42,7 +42,7 @@
       ata.value = report.ata;
     })
     .catch(() => {
-      status.textContent = "The coverage rule is served by scripts/serve.py, not by opening this file from the disk and not by a plain static server. From the project folder: python3 scripts/serve.py";
+      status.textContent = "The adoption minute could not be loaded. It is published as data/adocao.json with the site.";
     });
 
   document.getElementById("copiar").addEventListener("click", async () => {

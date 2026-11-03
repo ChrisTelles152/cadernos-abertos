@@ -228,6 +228,6 @@
       }
     })
     .catch(() => {
-      senhaTexto.textContent = "O registro de domínio precisa do servidor da escola: python3 scripts/serve.py";
+      senhaTexto.textContent = "Este sítio público não recebe nome de aluno. A ata proíbe ceder dado de criança a terceiro. O cálculo continua no repositório e roda nos testes; não há base de alunos na nuvem.";
     });
 })();

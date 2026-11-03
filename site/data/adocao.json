@@ -1,0 +1,517 @@
+{
+  "licenca": "CC-BY-4.0",
+  "licenca_url": "https://creativecommons.org/licenses/by/4.0/",
+  "frase_pnld": "Esta obra não foi aprovada em edital do PNLD e não pode ser apresentada como livro do PNLD.",
+  "anos": [
+    {
+      "ano": 1,
+      "total": 22,
+      "integrais": [
+        "EF01MA01",
+        "EF01MA02",
+        "EF01MA03",
+        "EF01MA04",
+        "EF01MA05",
+        "EF01MA06",
+        "EF01MA07",
+        "EF01MA08",
+        "EF01MA09",
+        "EF01MA10",
+        "EF01MA11",
+        "EF01MA12",
+        "EF01MA13",
+        "EF01MA14",
+        "EF01MA15",
+        "EF01MA16",
+        "EF01MA17",
+        "EF01MA18",
+        "EF01MA19",
+        "EF01MA20",
+        "EF01MA21",
+        "EF01MA22"
+      ],
+      "parciais": [],
+      "faltam": [],
+      "pode_substituir_o_livro_do_ano": true,
+      "por_que_nao": []
+    },
+    {
+      "ano": 2,
+      "total": 23,
+      "integrais": [],
+      "parciais": [],
+      "faltam": [
+        "EF02MA01",
+        "EF02MA02",
+        "EF02MA03",
+        "EF02MA04",
+        "EF02MA05",
+        "EF02MA06",
+        "EF02MA07",
+        "EF02MA08",
+        "EF02MA09",
+        "EF02MA10",
+        "EF02MA11",
+        "EF02MA12",
+        "EF02MA13",
+        "EF02MA14",
+        "EF02MA15",
+        "EF02MA16",
+        "EF02MA17",
+        "EF02MA18",
+        "EF02MA19",
+        "EF02MA20",
+        "EF02MA21",
+        "EF02MA22",
+        "EF02MA23"
+      ],
+      "pode_substituir_o_livro_do_ano": false,
+      "por_que_nao": [
+        "23 habilidades de Matemática do 2º ano ainda não têm caderno."
+      ]
+    },
+    {
+      "ano": 3,
+      "total": 28,
+      "integrais": [],
+      "parciais": [],
+      "faltam": [
+        "EF03MA01",
+        "EF03MA02",
+        "EF03MA03",
+        "EF03MA04",
+        "EF03MA05",
+        "EF03MA06",
+        "EF03MA07",
+        "EF03MA08",
+        "EF03MA09",
+        "EF03MA10",
+        "EF03MA11",
+        "EF03MA12",
+        "EF03MA13",
+        "EF03MA14",
+        "EF03MA15",
+        "EF03MA16",
+        "EF03MA17",
+        "EF03MA18",
+        "EF03MA19",
+        "EF03MA20",
+        "EF03MA21",
+        "EF03MA22",
+        "EF03MA23",
+        "EF03MA24",
+        "EF03MA25",
+        "EF03MA26",
+        "EF03MA27",
+        "EF03MA28"
+      ],
+      "pode_substituir_o_livro_do_ano": false,
+      "por_que_nao": [
+        "28 habilidades de Matemática do 3º ano ainda não têm caderno."
+      ]
+    },
+    {
+      "ano": 4,
+      "total": 28,
+      "integrais": [],
+      "parciais": [],
+      "faltam": [
+        "EF04MA01",
+        "EF04MA02",
+        "EF04MA03",
+        "EF04MA04",
+        "EF04MA05",
+        "EF04MA06",
+        "EF04MA07",
+        "EF04MA08",
+        "EF04MA09",
+        "EF04MA10",
+        "EF04MA11",
+        "EF04MA12",
+        "EF04MA13",
+        "EF04MA14",
+        "EF04MA15",
+        "EF04MA16",
+        "EF04MA17",
+        "EF04MA18",
+        "EF04MA19",
+        "EF04MA20",
+        "EF04MA21",
+        "EF04MA22",
+        "EF04MA23",
+        "EF04MA24",
+        "EF04MA25",
+        "EF04MA26",
+        "EF04MA27",
+        "EF04MA28"
+      ],
+      "pode_substituir_o_livro_do_ano": false,
+      "por_que_nao": [
+        "28 habilidades de Matemática do 4º ano ainda não têm caderno."
+      ]
+    },
+    {
+      "ano": 5,
+      "total": 25,
+      "integrais": [],
+      "parciais": [],
+      "faltam": [
+        "EF05MA01",
+        "EF05MA02",
+        "EF05MA03",
+        "EF05MA04",
+        "EF05MA05",
+        "EF05MA06",
+        "EF05MA07",
+        "EF05MA08",
+        "EF05MA09",
+        "EF05MA10",
+        "EF05MA11",
+        "EF05MA12",
+        "EF05MA13",
+        "EF05MA14",
+        "EF05MA15",
+        "EF05MA16",
+        "EF05MA17",
+        "EF05MA18",
+        "EF05MA19",
+        "EF05MA20",
+        "EF05MA21",
+        "EF05MA22",
+        "EF05MA23",
+        "EF05MA24",
+        "EF05MA25"
+      ],
+      "pode_substituir_o_livro_do_ano": false,
+      "por_que_nao": [
+        "25 habilidades de Matemática do 5º ano ainda não têm caderno."
+      ]
+    },
+    {
+      "ano": 6,
+      "total": 34,
+      "integrais": [],
+      "parciais": [],
+      "faltam": [
+        "EF06MA01",
+        "EF06MA02",
+        "EF06MA03",
+        "EF06MA04",
+        "EF06MA05",
+        "EF06MA06",
+        "EF06MA07",
+        "EF06MA08",
+        "EF06MA09",
+        "EF06MA10",
+        "EF06MA11",
+        "EF06MA12",
+        "EF06MA13",
+        "EF06MA14",
+        "EF06MA15",
+        "EF06MA16",
+        "EF06MA17",
+        "EF06MA18",
+        "EF06MA19",
+        "EF06MA20",
+        "EF06MA21",
+        "EF06MA22",
+        "EF06MA23",
+        "EF06MA24",
+        "EF06MA25",
+        "EF06MA26",
+        "EF06MA27",
+        "EF06MA28",
+        "EF06MA29",
+        "EF06MA30",
+        "EF06MA31",
+        "EF06MA32",
+        "EF06MA33",
+        "EF06MA34"
+      ],
+      "pode_substituir_o_livro_do_ano": false,
+      "por_que_nao": [
+        "34 habilidades de Matemática do 6º ano ainda não têm caderno."
+      ]
+    },
+    {
+      "ano": 7,
+      "total": 37,
+      "integrais": [],
+      "parciais": [],
+      "faltam": [
+        "EF07MA01",
+        "EF07MA02",
+        "EF07MA03",
+        "EF07MA04",
+        "EF07MA05",
+        "EF07MA06",
+        "EF07MA07",
+        "EF07MA08",
+        "EF07MA09",
+        "EF07MA10",
+        "EF07MA11",
+        "EF07MA12",
+        "EF07MA13",
+        "EF07MA14",
+        "EF07MA15",
+        "EF07MA16",
+        "EF07MA17",
+        "EF07MA18",
+        "EF07MA19",
+        "EF07MA20",
+        "EF07MA21",
+        "EF07MA22",
+        "EF07MA23",
+        "EF07MA24",
+        "EF07MA25",
+        "EF07MA26",
+        "EF07MA27",
+        "EF07MA28",
+        "EF07MA29",
+        "EF07MA30",
+        "EF07MA31",
+        "EF07MA32",
+        "EF07MA33",
+        "EF07MA34",
+        "EF07MA35",
+        "EF07MA36",
+        "EF07MA37"
+      ],
+      "pode_substituir_o_livro_do_ano": false,
+      "por_que_nao": [
+        "37 habilidades de Matemática do 7º ano ainda não têm caderno."
+      ]
+    },
+    {
+      "ano": 8,
+      "total": 27,
+      "integrais": [],
+      "parciais": [],
+      "faltam": [
+        "EF08MA01",
+        "EF08MA02",
+        "EF08MA03",
+        "EF08MA04",
+        "EF08MA05",
+        "EF08MA06",
+        "EF08MA07",
+        "EF08MA08",
+        "EF08MA09",
+        "EF08MA10",
+        "EF08MA11",
+        "EF08MA12",
+        "EF08MA13",
+        "EF08MA14",
+        "EF08MA15",
+        "EF08MA16",
+        "EF08MA17",
+        "EF08MA18",
+        "EF08MA19",
+        "EF08MA20",
+        "EF08MA21",
+        "EF08MA22",
+        "EF08MA23",
+        "EF08MA24",
+        "EF08MA25",
+        "EF08MA26",
+        "EF08MA27"
+      ],
+      "pode_substituir_o_livro_do_ano": false,
+      "por_que_nao": [
+        "27 habilidades de Matemática do 8º ano ainda não têm caderno."
+      ]
+    },
+    {
+      "ano": 9,
+      "total": 23,
+      "integrais": [],
+      "parciais": [],
+      "faltam": [
+        "EF09MA01",
+        "EF09MA02",
+        "EF09MA03",
+        "EF09MA04",
+        "EF09MA05",
+        "EF09MA06",
+        "EF09MA07",
+        "EF09MA08",
+        "EF09MA09",
+        "EF09MA10",
+        "EF09MA11",
+        "EF09MA12",
+        "EF09MA13",
+        "EF09MA14",
+        "EF09MA15",
+        "EF09MA16",
+        "EF09MA17",
+        "EF09MA18",
+        "EF09MA19",
+        "EF09MA20",
+        "EF09MA21",
+        "EF09MA22",
+        "EF09MA23"
+      ],
+      "pode_substituir_o_livro_do_ano": false,
+      "por_que_nao": [
+        "23 habilidades de Matemática do 9º ano ainda não têm caderno."
+      ]
+    }
+  ],
+  "habilidades": {
+    "EF01MA01": {
+      "codigo": "EF01MA01",
+      "cobertura": "integral",
+      "nota": "A unidade inteira abre distinguindo quantidade, ordem e código, e a feira volta a separar o preço da contagem da fruta.",
+      "obra": "os-numeros-do-dia",
+      "titulo": "Os números do dia"
+    },
+    "EF01MA02": {
+      "codigo": "EF01MA02",
+      "cobertura": "integral",
+      "nota": "Há contagem exata, estimativa antes de contar, e pareamento. O erro de apontar o mesmo objeto duas vezes está escrito como cena.",
+      "obra": "os-numeros-do-dia",
+      "titulo": "Os números do dia"
+    },
+    "EF01MA03": {
+      "codigo": "EF01MA03",
+      "cobertura": "integral",
+      "nota": "Dois conjuntos em torno de 20 são comparados por estimativa e por correspondência um a um, com a armadilha do espaço visual.",
+      "obra": "os-numeros-do-dia",
+      "titulo": "Os números do dia"
+    },
+    "EF01MA04": {
+      "codigo": "EF01MA04",
+      "cobertura": "integral",
+      "nota": "A unidade 1 registrou até 20. Esta unidade conta coleções até 100, em grupos de dez, e pede o registro verbal e o simbólico, inclusive o 100.",
+      "obra": "dez-e-dez",
+      "titulo": "Dez e mais dez"
+    },
+    "EF01MA07": {
+      "codigo": "EF01MA07",
+      "cobertura": "integral",
+      "nota": "O mesmo número de duas ordens é armado com material em somas diferentes, como 40+3, 30+13 e 20+20+3. Dez soltas viram um pacote.",
+      "obra": "dez-e-dez",
+      "titulo": "Dez e mais dez"
+    },
+    "EF01MA05": {
+      "codigo": "EF01MA05",
+      "cobertura": "integral",
+      "nota": "A comparação até 20 ficou na unidade 1. Aqui 28 e 31, 40 e 50 e 19 e 21 são comparados pela ordem da contagem e pela reta, sem exigir valor posicional.",
+      "obra": "dez-e-dez",
+      "titulo": "Dez e mais dez"
+    },
+    "EF01MA06": {
+      "codigo": "EF01MA06",
+      "cobertura": "integral",
+      "nota": "Os fatos básicos são construídos e conferidos com material, e depois usados para calcular 8+5 sem recomeçar do um. A conta armada não entra.",
+      "obra": "fatos",
+      "titulo": "Fatos que a mão confere"
+    },
+    "EF01MA08": {
+      "codigo": "EF01MA08",
+      "cobertura": "integral",
+      "nota": "A criança resolve e elabora problemas de juntar, acrescentar, separar e retirar, até dois algarismos, com registro pessoal. Quantos a mais fica para o 3º ano.",
+      "obra": "juntar-retirar",
+      "titulo": "Juntar e retirar"
+    },
+    "EF01MA19": {
+      "codigo": "EF01MA19",
+      "cobertura": "integral",
+      "nota": "Reconhece moedas de 5, 10, 25 e 50 centavos e de 1 real, e cédulas em circulação, e relaciona valores em situações simples, como duas de 50 centavos para 1 real.",
+      "obra": "moedas",
+      "titulo": "Moedas e cédulas"
+    },
+    "EF01MA09": {
+      "codigo": "EF01MA09",
+      "cobertura": "integral",
+      "nota": "A mesma coleção é organizada por uma marca de cada vez: cor, e depois medida. A forma entra como atributo ao lado dessas, sem a nomenclatura dos sólidos.",
+      "obra": "uma-marca",
+      "titulo": "Uma marca de cada vez"
+    },
+    "EF01MA10": {
+      "codigo": "EF01MA10",
+      "cobertura": "integral",
+      "nota": "A criança diz a regra de uma sequência recursiva de figuras ou de números e só então aponta o elemento que falta.",
+      "obra": "uma-marca",
+      "titulo": "Uma marca de cada vez"
+    },
+    "EF01MA11": {
+      "codigo": "EF01MA11",
+      "cobertura": "integral",
+      "nota": "Direita, esquerda, em frente e atrás são ditas a partir do próprio corpo, e a palavra muda quando o corpo vira, sem o móvel mudar.",
+      "obra": "de-que-lado",
+      "titulo": "De que lado"
+    },
+    "EF01MA12": {
+      "codigo": "EF01MA12",
+      "cobertura": "integral",
+      "nota": "A mesma janela é a direita de uma criança e a esquerda de quem está de frente. A frase sem referencial não localiza.",
+      "obra": "de-que-lado",
+      "titulo": "De que lado"
+    },
+    "EF01MA13": {
+      "codigo": "EF01MA13",
+      "cobertura": "integral",
+      "nota": "Esfera, cilindro, cone e bloco retangular são relacionados à bola, à lata, ao chapéu de festa e à caixa.",
+      "obra": "caixa-lata-bola",
+      "titulo": "Caixa, lata e bola"
+    },
+    "EF01MA14": {
+      "codigo": "EF01MA14",
+      "cobertura": "integral",
+      "nota": "Círculo, quadrado, retângulo e triângulo são nomeados em outra posição e como face de sólido. Quadrado girado não vira outro nome.",
+      "obra": "caixa-lata-bola",
+      "titulo": "Caixa, lata e bola"
+    },
+    "EF01MA15": {
+      "codigo": "EF01MA15",
+      "cobertura": "integral",
+      "nota": "Comprimento com pontas alinhadas, capacidade por transvasar e massa nas mãos, com os termos da habilidade, sem centímetro e sem quilograma.",
+      "obra": "maior-mais-pesado",
+      "titulo": "Mais comprido, mais pesado"
+    },
+    "EF01MA16": {
+      "codigo": "EF01MA16",
+      "cobertura": "integral",
+      "nota": "A criança relata a sequência de um dia e, quando a escola tem horário, usa a hora como marco, não como contagem.",
+      "obra": "o-dia-inteiro",
+      "titulo": "O dia inteiro"
+    },
+    "EF01MA17": {
+      "codigo": "EF01MA17",
+      "cobertura": "integral",
+      "nota": "Período do dia, dia da semana e mês ficam em listas separadas, com o calendário da sala como apoio.",
+      "obra": "o-dia-inteiro",
+      "titulo": "O dia inteiro"
+    },
+    "EF01MA18": {
+      "codigo": "EF01MA18",
+      "cobertura": "integral",
+      "nota": "A data é escrita com dia, mês e ano, e o dia da semana é lido no calendário, não chutado pelo tamanho do número.",
+      "obra": "o-dia-inteiro",
+      "titulo": "O dia inteiro"
+    },
+    "EF01MA20": {
+      "codigo": "EF01MA20",
+      "cobertura": "integral",
+      "nota": "Eventos cotidianos são classificados em certeza, talvez e impossível. Frequente não é tratado como certeza, e não há fração.",
+      "obra": "vai-acontecer",
+      "titulo": "Vai acontecer?"
+    },
+    "EF01MA21": {
+      "codigo": "EF01MA21",
+      "cobertura": "integral",
+      "nota": "A criança lê uma tabela e um gráfico de colunas simples com origem comum, e recusa a altura que não começa no mesmo chão.",
+      "obra": "a-pesquisa",
+      "titulo": "A pesquisa da turma"
+    },
+    "EF01MA22": {
+      "codigo": "EF01MA22",
+      "cobertura": "integral",
+      "nota": "A pesquisa tem até duas variáveis categóricas e universo de até 30, com registro pessoal cuja contagem outra pessoa consegue ler.",
+      "obra": "a-pesquisa",
+      "titulo": "A pesquisa da turma"
+    }
+  },
+  "ata": "Ata de adoção de material — Matemática — Cadernos Abertos\n\nA escola registra, na proposta pedagógica, o material abaixo. O registro não pede livro comprado. Pede que cada habilidade da BNCC tenha material. Esta ata nomeia só o que o caderno ensina por inteiro.\n\nEsta obra não foi aprovada em edital do PNLD e não pode ser apresentada como livro do PNLD.\n\nLicença do texto original: Creative Commons Atribuição 4.0. A escola pode imprimir, copiar e adaptar, desde que atribua a autoria e não retire o aviso de que as frases oficiais das habilidades são da BNCC (MEC, 2018). Não há mensalidade e não há cessão de dados de aluno a terceiro.\n\nHabilidades para as quais este material passa a ser o material da escola:\n- EF01MA01. Utilizar números naturais como indicador de quantidade ou de ordem em diferentes situações cotidianas e reconhecer situações em que os números não indicam contagem nem ordem, mas sim código de identificação. Material: Os números do dia. A unidade inteira abre distinguindo quantidade, ordem e código, e a feira volta a separar o preço da contagem da fruta.\n- EF01MA02. Contar de maneira exata ou aproximada, utilizando diferentes estratégias como o pareamento e outros agrupamentos. Material: Os números do dia. Há contagem exata, estimativa antes de contar, e pareamento. O erro de apontar o mesmo objeto duas vezes está escrito como cena.\n- EF01MA03. Estimar e comparar quantidades de objetos de dois conjuntos (em torno de 20 elementos), por estimativa e/ou por correspondência (um a um, dois a dois) para indicar “tem mais”, “tem menos” ou “tem a mesma quantidade”. Material: Os números do dia. Dois conjuntos em torno de 20 são comparados por estimativa e por correspondência um a um, com a armadilha do espaço visual.\n- EF01MA04. Contar a quantidade de objetos de coleções até 100 unidades e apresentar o resultado por registros verbais e simbólicos, em situações de seu interesse, como jogos, brincadeiras, materiais da sala de aula, entre outros. Material: Dez e mais dez. A unidade 1 registrou até 20. Esta unidade conta coleções até 100, em grupos de dez, e pede o registro verbal e o simbólico, inclusive o 100.\n- EF01MA05. Comparar números naturais de até duas ordens em situações cotidianas, com e sem suporte da reta numérica. Material: Dez e mais dez. A comparação até 20 ficou na unidade 1. Aqui 28 e 31, 40 e 50 e 19 e 21 são comparados pela ordem da contagem e pela reta, sem exigir valor posicional.\n- EF01MA06. Construir fatos básicos da adição e utilizá-los em procedimentos de cálculo para resolver problemas. Material: Fatos que a mão confere. Os fatos básicos são construídos e conferidos com material, e depois usados para calcular 8+5 sem recomeçar do um. A conta armada não entra.\n- EF01MA07. Compor e decompor número de até duas ordens, por meio de diferentes adições, com o suporte de material manipulável, contribuindo para a compreensão de características do sistema de numeração decimal e o desenvolvimento de estratégias de cálculo. Material: Dez e mais dez. O mesmo número de duas ordens é armado com material em somas diferentes, como 40+3, 30+13 e 20+20+3. Dez soltas viram um pacote.\n- EF01MA08. Resolver e elaborar problemas de adição e de subtração, envolvendo números de até dois algarismos, com os significados de juntar, acrescentar, separar e retirar, com o suporte de imagens e/ou material manipulável, utilizando estratégias e formas de registro pessoais. Material: Juntar e retirar. A criança resolve e elabora problemas de juntar, acrescentar, separar e retirar, até dois algarismos, com registro pessoal. Quantos a mais fica para o 3º ano.\n- EF01MA09. Organizar e ordenar objetos familiares ou representações por figuras, por meio de atributos, tais como cor, forma e medida. Material: Uma marca de cada vez. A mesma coleção é organizada por uma marca de cada vez: cor, e depois medida. A forma entra como atributo ao lado dessas, sem a nomenclatura dos sólidos.\n- EF01MA10. Descrever, após o reconhecimento e a explicitação de um padrão (ou regularidade), os elementos ausentes em sequências recursivas de números naturais, objetos ou figuras. Material: Uma marca de cada vez. A criança diz a regra de uma sequência recursiva de figuras ou de números e só então aponta o elemento que falta.\n- EF01MA11. Descrever a localização de pessoas e de objetos no espaço em relação à sua própria posição, utilizando termos como à direita, à esquerda, em frente, atrás. Material: De que lado. Direita, esquerda, em frente e atrás são ditas a partir do próprio corpo, e a palavra muda quando o corpo vira, sem o móvel mudar.\n- EF01MA12. Descrever a localização de pessoas e de objetos no espaço segundo um dado ponto de referência, compreendendo que, para a utilização de termos que se referem à posição, como direita, esquerda, em cima, em baixo, é necessário explicitar-se o referencial. Material: De que lado. A mesma janela é a direita de uma criança e a esquerda de quem está de frente. A frase sem referencial não localiza.\n- EF01MA13. Relacionar figuras geométricas espaciais (cones, cilindros, esferas e blocos retangulares) a objetos familiares do mundo físico. Material: Caixa, lata e bola. Esfera, cilindro, cone e bloco retangular são relacionados à bola, à lata, ao chapéu de festa e à caixa.\n- EF01MA14. Identificar e nomear figuras planas (círculo, quadrado, retângulo e triângulo) em desenhos apresentados em diferentes disposições ou em contornos de faces de sólidos geométricos. Material: Caixa, lata e bola. Círculo, quadrado, retângulo e triângulo são nomeados em outra posição e como face de sólido. Quadrado girado não vira outro nome.\n- EF01MA15. Comparar comprimentos, capacidades ou massas, utilizando termos como mais alto, mais baixo, mais comprido, mais curto, mais grosso, mais fino, mais largo, mais pesado, mais leve, cabe mais, cabe menos, entre outros, para ordenar objetos de uso cotidiano. Material: Mais comprido, mais pesado. Comprimento com pontas alinhadas, capacidade por transvasar e massa nas mãos, com os termos da habilidade, sem centímetro e sem quilograma.\n- EF01MA16. Relatar em linguagem verbal ou não verbal sequência de acontecimentos relativos a um dia, utilizando, quando possível, os horários dos eventos. Material: O dia inteiro. A criança relata a sequência de um dia e, quando a escola tem horário, usa a hora como marco, não como contagem.\n- EF01MA17. Reconhecer e relacionar períodos do dia, dias da semana e meses do ano, utilizando calendário, quando necessário. Material: O dia inteiro. Período do dia, dia da semana e mês ficam em listas separadas, com o calendário da sala como apoio.\n- EF01MA18. Produzir a escrita de uma data, apresentando o dia, o mês e o ano, e indicar o dia da semana de uma data, consultando calendários. Material: O dia inteiro. A data é escrita com dia, mês e ano, e o dia da semana é lido no calendário, não chutado pelo tamanho do número.\n- EF01MA19. Reconhecer e relacionar valores de moedas e cédulas do sistema monetário brasileiro para resolver situações simples do cotidiano do estudante. Material: Moedas e cédulas. Reconhece moedas de 5, 10, 25 e 50 centavos e de 1 real, e cédulas em circulação, e relaciona valores em situações simples, como duas de 50 centavos para 1 real.\n- EF01MA20. Classificar eventos envolvendo o acaso, tais como “acontecerá com certeza”, “talvez aconteça” e “é impossível acontecer”, em situações do cotidiano. Material: Vai acontecer?. Eventos cotidianos são classificados em certeza, talvez e impossível. Frequente não é tratado como certeza, e não há fração.\n- EF01MA21. Ler dados expressos em tabelas e em gráficos de colunas simples. Material: A pesquisa da turma. A criança lê uma tabela e um gráfico de colunas simples com origem comum, e recusa a altura que não começa no mesmo chão.\n- EF01MA22. Realizar pesquisa, envolvendo até duas variáveis categóricas de seu interesse e universo de até 30 elementos, e organizar dados por meio de representações pessoais. Material: A pesquisa da turma. A pesquisa tem até duas variáveis categóricas e universo de até 30, com registro pessoal cuja contagem outra pessoa consegue ler.\n\nHabilidades começadas e não encerradas. Não entram como cumpridas, e a escola mantém outro material para o trecho que falta:\nNenhuma.\n\nLivro do ano. O ano só substitui o livro comprado quando toda habilidade de Matemática desse ano está integral:\n- 1º ano: pode substituir o livro do ano. Todas as habilidades estão integrais.\n- 2º ano: não substitui. 23 habilidades de Matemática do 2º ano ainda não têm caderno.\n- 3º ano: não substitui. 28 habilidades de Matemática do 3º ano ainda não têm caderno.\n- 4º ano: não substitui. 28 habilidades de Matemática do 4º ano ainda não têm caderno.\n- 5º ano: não substitui. 25 habilidades de Matemática do 5º ano ainda não têm caderno.\n- 6º ano: não substitui. 34 habilidades de Matemática do 6º ano ainda não têm caderno.\n- 7º ano: não substitui. 37 habilidades de Matemática do 7º ano ainda não têm caderno.\n- 8º ano: não substitui. 27 habilidades de Matemática do 8º ano ainda não têm caderno.\n- 9º ano: não substitui. 23 habilidades de Matemática do 9º ano ainda não têm caderno.\n\nEscola privada. A LDB, art. 12, inciso I, entrega à escola a proposta pedagógica. O art. 26 exige a base nacional comum e a parte diversificada. Nenhum dos dois exige editora. O conselho da escola pode aprovar esta ata para as habilidades integrais. Para o resto do ano, a proposta precisa nomear outro material. Um regulamento da própria mantenedora, ou um contrato com um sistema de ensino, pode ser mais estreito do que a lei federal. Esse documento manda na escola que o assinou.\n\nEscola pública cuja rede aderiu ao PNLD. O termo de adesão, nas orientações do FNDE, compromete a rede a utilizar os livros e materiais encaminhados e a conservá-los. Esta ata não desfaz esse dever. O caderno pode organizar as habilidades integrais junto com o livro recebido. Não pode ser a razão de guardar o livro do PNLD sem uso.\n\nRede pública que recusou o PNLD. A recusa é ato da secretaria, na janela de adesão, com a justificativa que o FNDE pedir. Não é ato de uma escola sozinha, e não é ato deste sítio. Mesmo depois da recusa, a rede só pode nomear este caderno como material das habilidades integrais. O restante da BNCC de Matemática continua obrigatório.\n\nAcessibilidade. A Lei Brasileira de Inclusão exige material acessível ao estudante. Este caderno é visual e de leitura em voz alta. Estudante surdo precisa dos mesmos princípios em Libras, com o objeto deslocado. Estudante cego precisa do par tátil. Adotar só a página impressa, sem essa adaptação, não cumpre a inclusão.\n\nDados. O registro de domínio, se a escola usar o modo local, fica no computador da escola. Conta com o primeiro nome que o professor digitou. Não pede CPF. A criança não tem senha. A escola é a controladora desses dados (LGPD e ECA). Este sítio, rodando na máquina da escola, não transmite o registro."
+}
